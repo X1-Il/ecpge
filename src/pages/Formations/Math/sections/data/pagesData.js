@@ -22,6 +22,6 @@ export default [
   {
     image: Benchama,
     name: "Mohamed Benchama",
-    route: "/pages/landing-pages/contact-us",
+    route: "/pages/Formations/Math/Benchama",
   },
 ];

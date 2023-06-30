@@ -15,11 +15,12 @@ import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
 //import Information from "pages/Formations/Math/sections/Information";
-import Pages from "pages/Formations/Math/Benchama/sections/Pages";
+//import Pages from "pages/Formations/Math/Ilham/sections/Pages";
 //import Testimonials from "pages/Formations/Math/sections/Testimonials";
 //import Download from "pages/Formations/Math/sections/Download";
+import DesignBlocks from "pages/Formations/Math/Benchama/Analyse/sections/DesignBlocks";
 
-// Presentation page components
+// Presentation page componentsss
 import BuiltByDevelopers from "pages/Formations/Math/components/BuiltByDevelopers";
 
 // Routes
@@ -29,7 +30,7 @@ import footerRoutes from "footer.routes";
 // Images
 import bgImage from "assets/images/BenchamaP.jpg";
 
-function BenchamaP() {
+function BenchamaAnalyse() {
   return (
     <>
       <DefaultNavbar
@@ -75,7 +76,7 @@ function BenchamaP() {
                   },
                 })}
               >
-                Math{" Mohamed Benchama"}
+                Math{" Mohamed Benchama "}
               </MKTypography>
               <MKTypography
                 variant="body1"
@@ -84,7 +85,7 @@ function BenchamaP() {
                 px={{ xs: 6, lg: 10 }}
                 mt={1}
               >
-                Mr. Benchama est un prof au CPGE mohamed V.
+                Mr. Abdellatif est un prof au CPGE mohamed V.
               </MKTypography>
             </Grid>
           </Container>
@@ -101,7 +102,7 @@ function BenchamaP() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <Pages />
+        <DesignBlocks />
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
@@ -171,4 +172,4 @@ function BenchamaP() {
   );
 }
 
-export default BenchamaP;
+export default BenchamaAnalyse;

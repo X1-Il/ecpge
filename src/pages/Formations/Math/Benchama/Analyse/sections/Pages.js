@@ -40,7 +40,7 @@ function Pages() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="les parts disponibles"
+            badgeContent="les profs disponibles"
             container
             sx={{ mb: 2 }}
           />
@@ -67,7 +67,7 @@ function Pages() {
               </MKTypography>
               <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
                 Les cours conviennent à toutes les filières (mp/psi/tsi/mpi) et à tous les niveaux,
-                y compris la préparation aux divers concours + le prof assiste sur les classiques
+                y compris la préparation aux divers concours.
               </MKTypography>
             </MKBox>
           </Grid>

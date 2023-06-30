@@ -1,26 +1,20 @@
-const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages";
-
+import Analyse from "assets/images/Analyse.jpg";
+import Algébre from "assets/images/Algebre.jpg";
+import Proba from "assets/images/Proba.jpg";
 export default [
   {
-    image: `${imagesPrefix}/about-us.jpg`,
-    name: "About Us Page",
-    route: "/pages/landing-pages/about-us",
+    image: Analyse,
+    name: "Analyse",
+    route: "/pages/Formations/Math/Benchama/Analyse",
   },
   {
-    image: `${imagesPrefix}/contact.jpg`,
-    name: "Contact Us Page",
-    route: "/pages/landing-pages/contact-us",
+    image: Algébre,
+    name: "Algébre",
+    route: "/pages/Formations/Math/Benchama/Algebre",
   },
   {
-    image:
-      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/signin-basic.jpg",
-    name: "Sign In Page",
-    route: "/pages/authentication/sign-in",
-  },
-  {
-    image: `${imagesPrefix}/author.jpg`,
-    name: "Author Page",
-    route: "/pages/landing-pages/author",
+    image: Proba,
+    name: "Proba",
+    route: "/pages/Formations/Math/Benchama/Proba",
   },
 ];

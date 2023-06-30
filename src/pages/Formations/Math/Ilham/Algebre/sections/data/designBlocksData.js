@@ -107,7 +107,7 @@ export default [
     ],
   },
   {
-    title: "4- Reduction d'endomorphisme",
+    title: "Reduction d'endomorphisme",
     description: "Resume + apps + extraits",
     items: [
       {

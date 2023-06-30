@@ -13,9 +13,13 @@ import MathF from "pages/Formations/Math/index";
 import ChimieF from "pages/Formations/Chimie/index";
 import PhysiqueF from "pages/Formations/Physique/index";
 import IlhamP from "pages/Formations/Math/Ilham/index";
+import BenchamaP from "pages/Formations/Math/Benchama/index";
 import IlhamAnalyse from "pages/Formations/Math/Ilham/Analyse/index";
 import IlhamAlgebre from "pages/Formations/Math/Ilham/Algebre/index";
 import IlhamProba from "pages/Formations/Math/Ilham/Proba/index";
+import BenchamaAnalyse from "pages/Formations/Math/Benchama/Analyse/index";
+import BenchamaAlgebre from "pages/Formations/Math/Benchama/Algebre/index";
+import BenchamaProba from "pages/Formations/Math/Benchama/Proba/index";
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -1822,8 +1826,34 @@ const routes = [
           },
           {
             name: "Mohamed Benchama",
-            route: "pages/Formations/Math",
-            component: <MathF />,
+            route: "/pages/Formations/Math/Benchama",
+            collapse: [
+              {
+                name: "Analyse",
+                route: "/pages/Formations/Math/Benchama/Analyse",
+                component: <BenchamaAnalyse />,
+              },
+              {
+                name: "Algebre",
+                route: "/pages/Formations/Math/Benchama/Algebre",
+                component: <BenchamaAlgebre />,
+              },
+              {
+                name: "Proba",
+                route: "/pages/Formations/Math/Benchama/Proba",
+                component: <BenchamaProba />,
+              },
+              {
+                name: "Proba",
+                route: "/pages/Formations/Math/Benchama",
+                component: <BenchamaP />,
+              },
+              {
+                name: "Mohamed Benchama",
+                route: "pages/Formations/Math",
+                component: <MathF />,
+              },
+            ],
           },
         ],
       },
