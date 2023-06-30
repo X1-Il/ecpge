@@ -10,11 +10,11 @@ export default [
   {
     image: Algébre,
     name: "Algébre",
-    route: "/pages/landing-pages/contact-us",
+    route: "/pages/Formations/Math/Ilham/Algebre",
   },
   {
     image: Proba,
     name: "Proba",
-    route: "/pages/landing-pages/contact-us",
+    route: "/pages/Formations/Math/Ilham/Proba",
   },
 ];
