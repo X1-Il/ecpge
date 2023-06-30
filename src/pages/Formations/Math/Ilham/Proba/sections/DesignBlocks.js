@@ -14,7 +14,7 @@ import MKTypography from "components/MKTypography";
 import ExampleCard from "pages/Formations/Math/Ilham/Analyse/components/ExampleCard/index";
 
 // Data
-import data from "pages/Formations/Math/Ilham/Analyse/sections/data/designBlocksData";
+import data from "pages/Formations/Math/Ilham/Proba/sections/data/designBlocksData";
 
 function DesignBlocks() {
   const renderData = data.map(({ title, description, items }) => (
@@ -55,13 +55,7 @@ function DesignBlocks() {
           alignItems="center"
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
         >
-          <MKBadge
-            variant="contained"
-            color="info"
-            badgeContent="Analyse"
-            container
-            sx={{ mb: 2 }}
-          />
+          <MKBadge variant="contained" color="info" badgeContent="Proba" container sx={{ mb: 2 }} />
           <MKTypography variant="h2" fontWeight="bold">
             Vidéos bien triées
           </MKTypography>

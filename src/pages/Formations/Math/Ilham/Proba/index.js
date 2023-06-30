@@ -18,7 +18,7 @@ import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 //import Pages from "pages/Formations/Math/Ilham/sections/Pages";
 //import Testimonials from "pages/Formations/Math/sections/Testimonials";
 //import Download from "pages/Formations/Math/sections/Download";
-import DesignBlocks from "pages/Formations/Math/Ilham/Analyse/sections/DesignBlocks";
+import DesignBlocks from "pages/Formations/Math/Ilham/Proba/sections/DesignBlocks";
 
 // Presentation page componentsss
 import BuiltByDevelopers from "pages/Formations/Math/components/BuiltByDevelopers";

@@ -39,6 +39,16 @@ import C1 from "assets/images/Formation/Ilham/C1.png";
 import C2 from "assets/images/Formation/Ilham/C2.png";
 import E1 from "assets/images/Formation/Ilham/E1.png";
 import E2 from "assets/images/Formation/Ilham/E2.png";
+import S1 from "assets/images/Formation/Ilham/S1.png";
+import S2 from "assets/images/Formation/Ilham/S2.png";
+import S3 from "assets/images/Formation/Ilham/S3.png";
+import S4 from "assets/images/Formation/Ilham/S4.png";
+import S5 from "assets/images/Formation/Ilham/S5.png";
+import S6 from "assets/images/Formation/Ilham/S6.png";
+import S7 from "assets/images/Formation/Ilham/S7.png";
+import S8 from "assets/images/Formation/Ilham/S8.png";
+import S9 from "assets/images/Formation/Ilham/S9.png";
+import S10 from "assets/images/Formation/Ilham/S10.png";
 export default [
   {
     title: "Rappel sup",
@@ -218,6 +228,62 @@ export default [
         name: "2eme Ordre",
         count: 2,
         route: "/sections/elements/avatars",
+      },
+    ],
+  },
+  {
+    title: "Séries",
+    description: "Séries entiere , de fonction, numeriques et dans un evn ",
+    items: [
+      {
+        image: S1,
+        name: "Séries de fonction",
+        count: 1,
+      },
+      {
+        image: S2,
+        name: "Séries de fonction",
+        count: 2,
+      },
+      {
+        image: S3,
+        name: "Séries de fonction",
+        count: 3,
+      },
+      {
+        image: S4,
+        name: "Devellopement en serie entiere",
+        count: 4,
+      },
+      {
+        image: S5,
+        name: "Produit de deux series",
+        count: 5,
+      },
+      {
+        image: S6,
+        name: "serie entiere(derivation)",
+        count: 6,
+      },
+      {
+        image: S7,
+        name: "series entiere (rayon de convergence)",
+        count: 7,
+      },
+      {
+        image: S8,
+        name: "Extrait sujet (DSE)",
+        count: 8,
+      },
+      {
+        image: S9,
+        name: "Series dans un evn",
+        count: 9,
+      },
+      {
+        image: S10,
+        name: "Serie-integral",
+        count: 10,
       },
     ],
   },

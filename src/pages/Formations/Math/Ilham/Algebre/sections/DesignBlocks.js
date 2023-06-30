@@ -14,7 +14,7 @@ import MKTypography from "components/MKTypography";
 import ExampleCard from "pages/Formations/Math/Ilham/Analyse/components/ExampleCard/index";
 
 // Data
-import data from "pages/Formations/Math/Ilham/Analyse/sections/data/designBlocksData";
+import data from "pages/Formations/Math/Ilham/Algebre/sections/data/designBlocksData";
 
 function DesignBlocks() {
   const renderData = data.map(({ title, description, items }) => (
@@ -58,7 +58,7 @@ function DesignBlocks() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="Analyse"
+            badgeContent="Algebre"
             container
             sx={{ mb: 2 }}
           />
