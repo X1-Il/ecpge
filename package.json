@@ -1,14 +1,11 @@
 {
-  "name": "material-kit-2-react",
-  "version": "2.1.0",
+  "name": "ecpge",
+  "version": "2.2.0",
   "private": true,
   "author": "X1-Il",
   "license": "",
   "description": "React version of e_ by X1-Il",
   "homepage": "",
-  "bugs": {
-    "url": ""
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/X1-Il/ecpge.git"
@@ -23,6 +20,7 @@
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "14.4.3",
+    "browserslist": "^4.6.3",
     "chroma-js": "2.4.2",
     "flatpickr": "4.6.13",
     "prop-types": "15.8.1",
@@ -56,8 +54,7 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
-      "not oe_mini all"
+      "not dead"
     ],
     "development": [
       "last 1 chrome version",
