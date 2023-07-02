@@ -27,7 +27,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/IlhamP.jpg";
+import bgImage from "assets/images/Formation/Hinaoui/HinaouiP.jpg";
 
 function HinaouiP() {
   return (

@@ -28,7 +28,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/IlhamP.jpg";
+import bgImage from "assets/images/Formation/Hinaoui/HinaouiP.jpg";
 
 function MecH() {
   return (
@@ -76,7 +76,7 @@ function MecH() {
                   },
                 })}
               >
-                Math{" Abdellatif Ilham"}
+                Physique{" Mohamed Hinaoui"}
               </MKTypography>
               <MKTypography
                 variant="body1"
@@ -85,7 +85,7 @@ function MecH() {
                 px={{ xs: 6, lg: 10 }}
                 mt={1}
               >
-                Mr. Abdellatif est un prof au CPGE mohamed V et ex.prof en un cpge au france.
+                Mr. Hinaoui est un prof au CPGE Moulay Youssef et Zahraoui Rabat.
               </MKTypography>
             </Grid>
           </Container>

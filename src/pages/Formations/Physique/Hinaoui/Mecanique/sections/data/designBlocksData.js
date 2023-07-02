@@ -12,76 +12,81 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-import A1 from "assets/images/Formation/Ilham/A1.png";
-import A2 from "assets/images/Formation/Ilham/A2.png";
-import A3 from "assets/images/Formation/Ilham/A3.png";
-import A4 from "assets/images/Formation/Ilham/A4.png";
-import A5 from "assets/images/Formation/Ilham/A5.png";
-import A6 from "assets/images/Formation/Ilham/A6.png";
-import I1 from "assets/images/Formation/Ilham/I1.png";
-import I2 from "assets/images/Formation/Ilham/I2.png";
-import I3 from "assets/images/Formation/Ilham/I3.png";
-import I4 from "assets/images/Formation/Ilham/I4.png";
-import I5 from "assets/images/Formation/Ilham/I5.png";
+import M1 from "assets/images/Formation/Hinaoui/M1.png";
+import M2 from "assets/images/Formation/Hinaoui/M2.png";
+import M3 from "assets/images/Formation/Hinaoui/M3.png";
+import M4 from "assets/images/Formation/Hinaoui/M4.png";
+import M5 from "assets/images/Formation/Hinaoui/M5.png";
+import M6 from "assets/images/Formation/Hinaoui/M6.png";
+import M7 from "assets/images/Formation/Hinaoui/M7.png";
+import M8 from "assets/images/Formation/Hinaoui/M8.png";
+import M9 from "assets/images/Formation/Hinaoui/M9.png";
+import M10 from "assets/images/Formation/Hinaoui/M10.png";
+import M11 from "assets/images/Formation/Hinaoui/M11.png";
+import M12 from "assets/images/Formation/Hinaoui/M12.png";
+import M13 from "assets/images/Formation/Hinaoui/M13.png";
+import M14 from "assets/images/Formation/Hinaoui/M14.png";
+import M15 from "assets/images/Formation/Hinaoui/M15.png";
+import M16 from "assets/images/Formation/Hinaoui/M16.png";
 export default [
   {
     title: "Mecanique du point",
     description: "sup",
     items: [
       {
-        image: A1,
+        image: M1,
         name: "",
         count: 1,
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: A2,
+        image: M2,
         name: "",
         count: 2,
         route: "/sections/page-sections/features",
       },
       {
-        image: A3,
+        image: M3,
         name: "",
         count: 3,
       },
       {
-        image: A4,
+        image: M4,
         name: "",
         count: 4,
       },
       {
-        image: A5,
+        image: M5,
         name: "",
         count: 5,
       },
       {
-        image: A6,
+        image: M6,
         name: "",
         count: 6,
       },
       {
-        image: A2,
+        image: M7,
         name: "",
         count: 7,
       },
       {
-        image: A3,
+        image: M8,
         name: "",
         count: 8,
       },
       {
-        image: A4,
+        image: M9,
         name: "",
         count: 9,
       },
       {
-        image: A5,
+        image: M10,
         name: "",
         count: 10,
       },
       {
-        image: A6,
+        image: M11,
         name: "",
         count: 11,
       },
@@ -92,31 +97,31 @@ export default [
     description: "Spe",
     items: [
       {
-        image: I1,
+        image: M12,
         name: "",
         count: 1,
         route: "/sections/navigation/In",
       },
       {
-        image: I2,
+        image: M13,
         name: "",
         count: 2,
         route: "/sections/navigation/ino",
       },
       {
-        image: I3,
+        image: M14,
         name: "",
         count: 3,
         route: "/sections/navigation/INS",
       },
       {
-        image: I4,
+        image: M15,
         name: "",
         count: 4,
         route: "/sections/navigation/navbars",
       },
       {
-        image: I5,
+        image: M16,
         name: "",
         count: 5,
         route: "/sections/navigation/nav-tabs",
