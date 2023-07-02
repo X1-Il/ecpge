@@ -40,7 +40,7 @@ function Pages() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="les profs disponibles"
+            badgeContent="Parts"
             container
             sx={{ mb: 2 }}
           />
