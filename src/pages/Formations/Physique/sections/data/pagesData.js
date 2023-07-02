@@ -3,7 +3,7 @@
 * e_ React - v2.1.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
+* Product Page:
 * Copyright 2023 X1-Il (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
@@ -18,7 +18,7 @@ export default [
   {
     image: Hinaoui,
     name: "Mohamed hianoui",
-    route: "/pages/landing-pages/about-us",
+    route: "/pages/formation/physique/Hinaoui",
   },
   {
     image: Bouhamza,

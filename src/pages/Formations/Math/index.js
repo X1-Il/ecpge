@@ -13,17 +13,18 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 import { useNavigate } from "react-router-dom";
-import SignIn from "layouts/pages/authentication/sign-in";
 // Presentation page sections
 //import Information from "pages/Formations/Math/sections/Information";
 import Pages from "pages/Formations/Math/sections/Pages";
 //import Testimonials from "pages/Formations/Math/sections/Testimonials";
 //import Download from "pages/Formations/Math/sections/Download";
-import React, { useState } from "react";
+import React from "react";
 // Presentation page components
 import BuiltByDevelopers from "pages/Formations/Math/components/BuiltByDevelopers";
 //import React, { useState } from "react";
-
+import SignIn from "layouts/pages/authentication/sign-in";
+//import { getIsLoggedIn } from "pages/LandingPages/SignIn/isLoggedIn";
+import { handleSignIn } from "pages/LandingPages/SignIn/index";
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
@@ -32,9 +33,8 @@ import footerRoutes from "footer.routes";
 import bgImage from "assets/images/MathF.jpg";
 
 function MathF() {
-  const [setIsLoggedIn] = useState(true); // <-- Added isLoggedIn state
   const navigate = useNavigate();
-  if (!setIsLoggedIn) {
+  if (handleSignIn === true) {
     navigate("/layouts/pages/authentication/sign-in");
     return <SignIn />; // or a loading indicator or message
   }
@@ -44,7 +44,7 @@ function MathF() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
+          route: "",
           label: "Login",
           color: "info",
         }}

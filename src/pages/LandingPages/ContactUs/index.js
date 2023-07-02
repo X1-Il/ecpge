@@ -26,7 +26,7 @@ function ContactUs() {
           routes={routes}
           action={{
             type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
+            route: "",
             label: "Contact us",
             color: "info",
           }}

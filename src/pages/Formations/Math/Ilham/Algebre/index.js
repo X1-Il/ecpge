@@ -37,7 +37,7 @@ function IlhamAlgebre() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
+          route: "",
           label: "Login",
           color: "info",
         }}

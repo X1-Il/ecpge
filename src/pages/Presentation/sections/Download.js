@@ -48,7 +48,7 @@ function Download() {
               color="info"
               size="large"
               component="a"
-              href="https://www.creative-tim.com/product/material-kit-react"
+              href=""
               sx={{ mb: 2 }}
             >
               Download Now
@@ -131,11 +131,7 @@ function Download() {
               </Grid>
               <Grid item xs={4} lg={2}>
                 <Tooltip title="Comming soon">
-                  <MKBox
-                    component="a"
-                    href="https://www.creative-tim.com/product/material-kit-react"
-                    target="_blank"
-                  >
+                  <MKBox component="a" href="" target="_blank">
                     <MKBox
                       component="img"
                       src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"

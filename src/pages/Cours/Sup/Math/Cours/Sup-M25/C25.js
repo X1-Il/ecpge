@@ -3,7 +3,7 @@
 * e_ One_ - v2.1.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
+* Product Page:
 * Copyright 2023 X1-Il (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com

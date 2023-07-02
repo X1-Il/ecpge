@@ -14,19 +14,19 @@ import MKButton from "components/MKButton";
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import SimpleFooter from "examples/Footers/SimpleFooter";
 import routes from "routes";
+//import { setIsLoggedIn } from "./isLoggedIn";
 import bgImage from "assets/images/bg-sign-in-basic.jpeg";
-import { useContext } from "react";
 function SignInBasic() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
+  const [isLoggedIn] = useState(true);
 
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
-  const [setIsLoggedIn] = useContext(false); // <-- Added isLoggedIn state
   const handleSignIn = () => {
     const users = {
-      "ibrahim.laklaa@ecpge.mp": "Ibrahim#2004",
+      "ibrahim.laklaa@ecpge.mp": "Ibrahim2004",
       "mohamed.elghachi@ecpge.mp": "Mohamed2001",
       "yassine.khalil@ecpge.mp": "Khalilxporn",
       "basma.nahiz@ecpge.mp": "Nahiz#x-ens",
@@ -38,10 +38,12 @@ function SignInBasic() {
 
     if (users[email] === password) {
       setError("");
-      setIsLoggedIn(true);
+      isLoggedIn(true);
+      return true;
       // Handle successful login or redirection logic here
     } else {
       setError("Email or mot de passe incorrect");
+      return false;
     }
   };
 
@@ -51,7 +53,7 @@ function SignInBasic() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
+          route: "",
           label: "Contact us",
           color: "info",
         }}
@@ -189,4 +191,5 @@ function SignInBasic() {
     </>
   );
 }
+export let handleSignIn;
 export default SignInBasic;

@@ -14,12 +14,17 @@ import ChimieF from "pages/Formations/Chimie/index";
 import PhysiqueF from "pages/Formations/Physique/index";
 import IlhamP from "pages/Formations/Math/Ilham/index";
 import BenchamaP from "pages/Formations/Math/Benchama/index";
+import HinaouiP from "pages/Formations/Physique/Hinaoui/index";
 import IlhamAnalyse from "pages/Formations/Math/Ilham/Analyse/index";
 import IlhamAlgebre from "pages/Formations/Math/Ilham/Algebre/index";
 import IlhamProba from "pages/Formations/Math/Ilham/Proba/index";
 import BenchamaAnalyse from "pages/Formations/Math/Benchama/Analyse/index";
 import BenchamaAlgebre from "pages/Formations/Math/Benchama/Algebre/index";
 import BenchamaProba from "pages/Formations/Math/Benchama/Proba/index";
+import MecH from "pages/Formations/Physique/Hinaoui/Mecanique/index";
+import ThermoH from "pages/Formations/Physique/Hinaoui/Thermo/index";
+import OptH from "pages/Formations/Physique/Hinaoui/Optique/index";
+import EMH from "pages/Formations/Physique/Hinaoui/Electromagnetisme/index";
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -1865,8 +1870,39 @@ const routes = [
         collapse: [
           {
             name: "M.Hinnaoui",
-            route: "/pages/formation/physique",
-            component: <PhysiqueF />,
+            route: "/pages/formation/physique/Hinaoui",
+            collapse: [
+              {
+                name: "",
+                route: "/pages/formation/physique",
+                component: <PhysiqueF />,
+              },
+              {
+                name: "",
+                route: "/pages/formation/physique/Hinaoui",
+                component: <HinaouiP />,
+              },
+              {
+                name: "",
+                route: "/pages/Formation/Physique/Hinaoui/Mecanique",
+                component: <MecH />,
+              },
+              {
+                name: "",
+                route: "/pages/Formation/Physique/Hinaoui/Thermo",
+                component: <ThermoH />,
+              },
+              {
+                name: "",
+                route: "/pages/Formations/Physique/Hinaoui/Optique",
+                component: <OptH />,
+              },
+              {
+                name: "",
+                route: "/pages/Formations/Physique/Hinaoui/EM",
+                component: <EMH />,
+              },
+            ],
           },
           {
             name: "R.Bouhamza",

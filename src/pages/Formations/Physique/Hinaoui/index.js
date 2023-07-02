@@ -15,7 +15,7 @@ import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
 //import Information from "pages/Formations/Math/sections/Information";
-import Pages from "pages/Formations/Math/Ilham/sections/Pages";
+import Pages from "pages/Formations/Physique/Hinaoui/sections/Pages";
 //import Testimonials from "pages/Formations/Math/sections/Testimonials";
 //import Download from "pages/Formations/Math/sections/Download";
 
@@ -29,14 +29,14 @@ import footerRoutes from "footer.routes";
 // Images
 import bgImage from "assets/images/IlhamP.jpg";
 
-function IlhamP() {
+function HinaouiP() {
   return (
     <>
       <DefaultNavbar
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
+          route: "",
           label: "Login",
           color: "info",
         }}
@@ -75,7 +75,7 @@ function IlhamP() {
                   },
                 })}
               >
-                Math{" Abdellatif Ilham"}
+                Physique {" Mohamed Hinaoui"}
               </MKTypography>
               <MKTypography
                 variant="body1"
@@ -171,4 +171,4 @@ function IlhamP() {
   );
 }
 
-export default IlhamP;
+export default HinaouiP;

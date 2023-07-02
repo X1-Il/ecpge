@@ -14,7 +14,7 @@ import MKTypography from "components/MKTypography";
 import ExampleCard from "pages/Presentation/components/ExampleCard";
 
 // Data
-import data from "pages/Formations/Math/Ilham/sections/data/pagesData";
+import data from "pages/Formations/Physique/Hinaoui/sections/data/pagesData";
 
 function Pages() {
   const renderData = data.map(({ image, name, route }) => (

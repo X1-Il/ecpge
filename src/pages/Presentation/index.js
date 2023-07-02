@@ -38,7 +38,7 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
+          route: "",
           label: "Login",
           color: "info",
         }}
@@ -187,7 +187,7 @@ function Presentation() {
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"
-                  href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-kit-react"
+                  href="https://www.facebook.com/sharer/sharer.php?u="
                   target="_blank"
                   color="facebook"
                   sx={{ mr: 1 }}
@@ -197,7 +197,7 @@ function Presentation() {
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"
-                  href="https://www.pinterest.com/pin/create/button/?url=https://www.creative-tim.com/product/material-kit-react"
+                  href="https://www.pinterest.com/pin/create/button/?url="
                   target="_blank"
                   color="pinterest"
                 >

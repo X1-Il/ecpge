@@ -18,7 +18,7 @@ import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 //import Pages from "pages/Formations/Math/Ilham/sections/Pages";
 //import Testimonials from "pages/Formations/Math/sections/Testimonials";
 //import Download from "pages/Formations/Math/sections/Download";
-import DesignBlocks from "pages/Formations/Math/Ilham/Analyse/sections/DesignBlocks";
+import DesignBlocks from "pages/Formations/Physique/Hinaoui/Electromagnetisme/sections/DesignBlocks";
 
 // Presentation page componentsss
 import BuiltByDevelopers from "pages/Formations/Math/components/BuiltByDevelopers";
@@ -30,14 +30,14 @@ import footerRoutes from "footer.routes";
 // Images
 import bgImage from "assets/images/IlhamP.jpg";
 
-function IlhamAnalyse() {
+function EMH() {
   return (
     <>
       <DefaultNavbar
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
+          route: "",
           label: "Login",
           color: "info",
         }}
@@ -172,4 +172,4 @@ function IlhamAnalyse() {
   );
 }
 
-export default IlhamAnalyse;
+export default EMH;

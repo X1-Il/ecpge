@@ -3,7 +3,7 @@
 * e_ React - v2.1.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
+* Product Page:
 * Copyright 2023 X1-Il (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
@@ -11,23 +11,29 @@ Coded by www.creative-tim.com
  =========================================================
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-import Analyse from "assets/images/Analyse.jpg";
-import Algébre from "assets/images/Algebre.jpg";
-import Proba from "assets/images/Proba.jpg";
+import Mec from "assets/images/Formation/Hinaoui/Mec.jpg";
+import Th from "assets/images/Formation/Hinaoui/Thermo.jpg";
+import opt from "assets/images/Formation/Hinaoui/Opt.jpg";
+import EM from "assets/images/Formation/Hinaoui/Electrom.jpg";
 export default [
   {
-    image: Analyse,
-    name: "Analyse",
-    route: "/pages/Formations/Math/Ilham/Analyse",
+    image: Mec,
+    name: "Mecanique",
+    route: "/pages/Formation/Physique/Hinaoui/Mecanique",
   },
   {
-    image: Algébre,
-    name: "Algébre",
-    route: "/pages/landing-pages/contact-us",
+    image: Th,
+    name: "Thermodynaique",
+    route: "/pages/Formation/Physique/Hinaoui/Thermo",
   },
   {
-    image: Proba,
-    name: "Proba",
-    route: "/pages/landing-pages/contact-us",
+    image: opt,
+    name: "Optique",
+    route: "/pages/Formations/Physique/Hinaoui/Optique",
+  },
+  {
+    image: EM,
+    name: "Electromagnétisme",
+    route: "/pages/Formations/Physique/Hinaoui/EM",
   },
 ];
