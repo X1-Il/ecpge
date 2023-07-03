@@ -18,7 +18,7 @@ export default [
   {
     image: Hinaoui,
     name: "Mohamed hianoui",
-    route: "/pages/landing-pages/about-us",
+    route: "/pages/formation/Chimie/Hinaoui",
   },
   {
     image: Bouhamza,

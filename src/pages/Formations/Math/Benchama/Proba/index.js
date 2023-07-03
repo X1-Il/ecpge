@@ -117,7 +117,7 @@ function BenchamaProba() {
                 description="Lire attentivement le cours pour une meilleure compréhension et assimilation des informations essentielles."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/material-kit/",
+                  route: "",
                   label: "Voir les cours",
                 }}
               />
@@ -130,7 +130,7 @@ function BenchamaProba() {
                 description="Travailler régulièrement les travaux dirigés (TD) pour renforcer la compréhension des concepts enseignés."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
+                  route: "",
                   label: "Voir les TDs",
                 }}
               />
@@ -143,7 +143,7 @@ function BenchamaProba() {
                 description="Résoudre activement les problèmes pour développer des compétences pratiques et approfondir la compréhension des concepts."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
+                  route: "",
                   label: "Voir les pbs",
                 }}
               />

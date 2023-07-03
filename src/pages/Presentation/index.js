@@ -121,7 +121,7 @@ function Presentation() {
                 description="Check the possible ways of working with our product and the necessary files for building your own project."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/material-kit/",
+                  route: "",
                   label: "Let's start",
                 }}
               />
@@ -134,7 +134,7 @@ function Presentation() {
                 description="Get inspiration and have an overview about the plugins that we used to create the Material Kit."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
+                  route: "",
                   label: "Voir les pbs",
                 }}
               />
@@ -147,7 +147,7 @@ function Presentation() {
                 description="Material Kit is giving you a lot of pre-made components, that will help you to build UI's faster."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
+                  route: "",
                   label: "Voir les pbs",
                 }}
               />

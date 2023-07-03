@@ -11,10 +11,15 @@ import SignIn from "layouts/pages/authentication/sign-in";
 import datailham from "pages/Formations/data/DataIlham";
 import MathF from "pages/Formations/Math/index";
 import ChimieF from "pages/Formations/Chimie/index";
+import CDS from "pages/Formations/Chimie/Hinaoui/CDS/index";
+import CR from "pages/Formations/Chimie/Hinaoui/CR/index";
+import CS from "pages/Formations/Chimie/Hinaoui/CS/index";
+import TC from "pages/Formations/Chimie/Hinaoui/TC/index";
 import PhysiqueF from "pages/Formations/Physique/index";
 import IlhamP from "pages/Formations/Math/Ilham/index";
 import BenchamaP from "pages/Formations/Math/Benchama/index";
 import HinaouiP from "pages/Formations/Physique/Hinaoui/index";
+import HinaouiC from "pages/Formations/Chimie/Hinaoui/index";
 import IlhamAnalyse from "pages/Formations/Math/Ilham/Analyse/index";
 import IlhamAlgebre from "pages/Formations/Math/Ilham/Algebre/index";
 import IlhamProba from "pages/Formations/Math/Ilham/Proba/index";
@@ -25,6 +30,9 @@ import MecH from "pages/Formations/Physique/Hinaoui/Mecanique/index";
 import ThermoH from "pages/Formations/Physique/Hinaoui/Thermo/index";
 import OptH from "pages/Formations/Physique/Hinaoui/Optique/index";
 import EMH from "pages/Formations/Physique/Hinaoui/Electromagnetisme/index";
+import MecSK from "pages/Formations/SI/Khalid/MecSK/index";
+import Ass from "pages/Formations/SI/Khalid/Ass/index";
+import Khalid from "pages/Formations/SI/Khalid/index";
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -1924,8 +1932,39 @@ const routes = [
         collapse: [
           {
             name: "M.Hinnaoui",
-            route: "/pages/formation/Chimie",
-            component: <ChimieF />,
+            route: "/pages/formation/Chimie/Hinaoui",
+            collapse: [
+              {
+                name: "",
+                route: "/pages/formation/Chimie/Hinaoui",
+                component: <HinaouiC />,
+              },
+              {
+                name: "",
+                route: "/pages/formation/Chimie/Hinaoui/CDS",
+                component: <CDS />,
+              },
+              {
+                name: "",
+                route: "/pages/formation/Chimie/Hinaoui/CR",
+                component: <CR />,
+              },
+              {
+                name: "",
+                route: "/pages/formation/Chimie/Hinaoui/CS",
+                component: <CS />,
+              },
+              {
+                name: "",
+                route: "/pages/formation/Chimie/Hinaoui/TC",
+                component: <TC />,
+              },
+              {
+                name: "",
+                route: "/pages/formation/Chimie",
+                component: <ChimieF />,
+              },
+            ],
           },
           {
             name: "R.Bouhamza",
@@ -1947,8 +1986,29 @@ const routes = [
         collapse: [
           {
             name: "Khalid Khouya",
-            route: "/pages/formation/SI",
-            component: <SIF />,
+            route: "/pages/formation/SI/Khalid",
+            collapse: [
+              {
+                name: "",
+                route: "/pages/formation/SI",
+                component: <SIF />,
+              },
+              {
+                name: "",
+                route: "/pages/formation/SI/Khalid",
+                component: <Khalid />,
+              },
+              {
+                name: "",
+                route: "/pages/formation/SI/Khalid/Mecanique",
+                component: <MecSK />,
+              },
+              {
+                name: "",
+                route: "/pages/formation/SI/Khalid/Asservissement",
+                component: <Ass />,
+              },
+            ],
           },
           {
             name: "Expertise",
@@ -1989,7 +2049,7 @@ const routes = [
       {
         name: "components",
         description: "Explore our collection of fully designed components",
-        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
+        href: "",
       },
       {
         name: "plugins",

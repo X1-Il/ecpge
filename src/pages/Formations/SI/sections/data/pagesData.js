@@ -17,7 +17,7 @@ export default [
   {
     image: Khalid,
     name: "Khalid Khouya",
-    route: "/pages/landing-pages/about-us",
+    route: "/pages/formation/SI/Khalid",
   },
   {
     image: Expertise,
