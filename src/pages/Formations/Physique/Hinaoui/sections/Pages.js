@@ -37,13 +37,7 @@ function Pages() {
           alignItems="center"
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
         >
-          <MKBadge
-            variant="contained"
-            color="info"
-            badgeContent="Parts"
-            container
-            sx={{ mb: 2 }}
-          />
+          <MKBadge variant="contained" color="info" badgeContent="Parts" container sx={{ mb: 2 }} />
           <MKTypography variant="h2" fontWeight="bold">
             Des videos de haut qualité
           </MKTypography>
