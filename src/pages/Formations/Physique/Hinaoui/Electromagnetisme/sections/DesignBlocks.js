@@ -58,7 +58,7 @@ function DesignBlocks() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="Analyse"
+            badgeContent="Electromagnetisme"
             container
             sx={{ mb: 2 }}
           />

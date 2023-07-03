@@ -12,37 +12,38 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-import A1 from "assets/images/Formation/Ilham/A1.png";
-import A2 from "assets/images/Formation/Ilham/A2.png";
-import A3 from "assets/images/Formation/Ilham/A3.png";
-import A4 from "assets/images/Formation/Ilham/A4.png";
-import I1 from "assets/images/Formation/Ilham/I1.png";
-import I2 from "assets/images/Formation/Ilham/I2.png";
-import I3 from "assets/images/Formation/Ilham/I3.png";
+import O1 from "assets/images/Formation/Hinaoui/O1.png";
+import O2 from "assets/images/Formation/Hinaoui/O2.png";
+import O3 from "assets/images/Formation/Hinaoui/O3.png";
+import O4 from "assets/images/Formation/Hinaoui/O4.png";
+import O5 from "assets/images/Formation/Hinaoui/O5.png";
+import O6 from "assets/images/Formation/Hinaoui/O6.png";
+import O7 from "assets/images/Formation/Hinaoui/O7.png";
+
 export default [
   {
     title: "Optique Géometrique",
     description: "sup",
     items: [
       {
-        image: A1,
+        image: O1,
         name: "",
         count: 1,
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: A2,
+        image: O2,
         name: "",
         count: 2,
         route: "/sections/page-sections/features",
       },
       {
-        image: A3,
+        image: O3,
         name: "",
         count: 3,
       },
       {
-        image: A4,
+        image: O4,
         name: "",
         count: 4,
       },
@@ -53,19 +54,19 @@ export default [
     description: "Spe",
     items: [
       {
-        image: I1,
+        image: O5,
         name: "",
         count: 1,
         route: "/sections/navigation/In",
       },
       {
-        image: I2,
+        image: O6,
         name: "",
         count: 2,
         route: "/sections/navigation/ino",
       },
       {
-        image: I3,
+        image: O7,
         name: "",
         count: 3,
         route: "/sections/navigation/INS",

@@ -12,66 +12,70 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-import A1 from "assets/images/Formation/Ilham/A1.png";
-import A2 from "assets/images/Formation/Ilham/A2.png";
-import A3 from "assets/images/Formation/Ilham/A3.png";
-import A4 from "assets/images/Formation/Ilham/A4.png";
-import A5 from "assets/images/Formation/Ilham/A5.png";
-import A6 from "assets/images/Formation/Ilham/A6.png";
+import T1 from "assets/images/Formation/Hinaoui/T1.png";
+import T2 from "assets/images/Formation/Hinaoui/T2.png";
+import T3 from "assets/images/Formation/Hinaoui/T3.png";
+import T4 from "assets/images/Formation/Hinaoui/T4.png";
+import T5 from "assets/images/Formation/Hinaoui/T5.png";
+import T6 from "assets/images/Formation/Hinaoui/T6.png";
+import T7 from "assets/images/Formation/Hinaoui/T7.png";
+import T8 from "assets/images/Formation/Hinaoui/T8.png";
+import T9 from "assets/images/Formation/Hinaoui/T9.png";
+import T10 from "assets/images/Formation/Hinaoui/T10.png";
 export default [
   {
     title: "Thermodynamique",
     description: "sup",
     items: [
       {
-        image: A1,
+        image: T1,
         name: "",
         count: 1,
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: A2,
+        image: T2,
         name: "",
         count: 2,
         route: "/sections/page-sections/features",
       },
       {
-        image: A3,
+        image: T3,
         name: "",
         count: 3,
       },
       {
-        image: A4,
+        image: T4,
         name: "",
         count: 4,
       },
       {
-        image: A5,
+        image: T5,
         name: "",
         count: 5,
       },
       {
-        image: A6,
+        image: T6,
         name: "",
         count: 6,
       },
       {
-        image: A2,
+        image: T7,
         name: "",
         count: 7,
       },
       {
-        image: A3,
+        image: T8,
         name: "",
         count: 8,
       },
       {
-        image: A4,
+        image: T9,
         name: "",
         count: 9,
       },
       {
-        image: A5,
+        image: T10,
         name: "",
         count: 10,
       },
