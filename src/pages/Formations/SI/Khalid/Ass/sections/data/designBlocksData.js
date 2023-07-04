@@ -22,7 +22,7 @@ import SK19 from "assets/images/Formation/Khalid/SK19.png";
 import SK20 from "assets/images/Formation/Khalid/SK20.png";
 export default [
   {
-    title: "Asservisement",
+    title: "Asservissement",
     description: "Rappel sup + spe",
     items: [
       {

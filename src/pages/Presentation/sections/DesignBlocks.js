@@ -58,16 +58,15 @@ function DesignBlocks() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="Infinite combinations"
+            badgeContent="Livres"
             container
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            Huge collection of sections
+            Plusieurs collections
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            We have created multiple options for you to put together and customise into pixel
-            perfect pages.
+            Nous proposons plusieurs collections de livres disponibles sous format PDF.
           </MKTypography>
         </Grid>
       </Container>

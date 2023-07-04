@@ -12,7 +12,7 @@ import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
 // Images
-import bgFront from "assets/images/rotating-card-bg-front.jpeg";
+import bgH from "assets/images/bgH.jpg";
 import bgBack from "assets/images/rotating-card-bg-back.jpeg";
 
 function Information() {
@@ -23,25 +23,25 @@ function Information() {
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
-                image={bgFront}
+                image={bgH}
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    Etudier avec
                     <br />
-                    Material Kit
+                    des meilleures ressources
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Tous les documents ont été importés des professeurs d'excellence marocains et français"
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Voir Plus"
+                description="Vous pouvez accéder à toutes les ressources pour une bonne préparation."
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "Contact",
                 }}
               />
             </RotatingCard>
@@ -51,16 +51,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  title="Documents"
+                  description="Des cours, Tds, des classiques et des concours corrigé avec des capsules videos."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="flie_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  icon="featured_play_list"
+                  title="Les PDFs sont bien listés."
+                  description="Les PDFs sont listés d'aprés le programme MP."
                 />
               </Grid>
             </Grid>
@@ -68,15 +67,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  title="Économiser temps & l'argent"
+                  description="Certaines ressources sont premium, mais nous allons les ajouter gratuitement."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  title="Dynamique"
+                  description="L'utilisation de notre siteweb est trés facile et dynamique."
                 />
               </Grid>
             </Grid>

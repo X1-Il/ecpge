@@ -17,6 +17,8 @@ import CS from "pages/Formations/Chimie/Hinaoui/CS/index";
 import TC from "pages/Formations/Chimie/Hinaoui/TC/index";
 import PhysiqueF from "pages/Formations/Physique/index";
 import IlhamP from "pages/Formations/Math/Ilham/index";
+import SISup from "pages/Cours/Sup/SI/index";
+import SISpe from "pages/Cours/Spe/SI/index";
 import BenchamaP from "pages/Formations/Math/Benchama/index";
 import HinaouiP from "pages/Formations/Physique/Hinaoui/index";
 import HinaouiC from "pages/Formations/Chimie/Hinaoui/index";
@@ -33,6 +35,154 @@ import EMH from "pages/Formations/Physique/Hinaoui/Electromagnetisme/index";
 import MecSK from "pages/Formations/SI/Khalid/MecSK/index";
 import Ass from "pages/Formations/SI/Khalid/Ass/index";
 import Khalid from "pages/Formations/SI/Khalid/index";
+//SI Pdf
+import SI1 from "pages/Cours/Sup/SI/src/Pdfs/SI1.pdf";
+import SI2 from "pages/Cours/Sup/SI/src/Pdfs/SI2.pdf";
+import SI3 from "pages/Cours/Sup/SI/src/Pdfs/SI3.pdf";
+import SI4 from "pages/Cours/Sup/SI/src/Pdfs/SI4.pdf";
+import SI5 from "pages/Cours/Sup/SI/src/Pdfs/SI5.pdf";
+import SI6 from "pages/Cours/Sup/SI/src/Pdfs/SI6.pdf";
+import SI7 from "pages/Cours/Sup/SI/src/Pdfs/SI7.pdf";
+import SI8 from "pages/Cours/Sup/SI/src/Pdfs/SI8.pdf";
+import SI9 from "pages/Cours/Sup/SI/src/Pdfs/SI9.pdf";
+import SI2R from "pages/Cours/Sup/SI/src/Pdfs/SI2R.pdf";
+import SI3R from "pages/Cours/Sup/SI/src/Pdfs/SI3R.pdf";
+import SI4R from "pages/Cours/Sup/SI/src/Pdfs/SI4R.pdf";
+import SI5R from "pages/Cours/Sup/SI/src/Pdfs/SI5R.pdf";
+import SI6R from "pages/Cours/Sup/SI/src/Pdfs/SI6R.pdf";
+import SI7R from "pages/Cours/Sup/SI/src/Pdfs/SI7R.pdf";
+import SI8R from "pages/Cours/Sup/SI/src/Pdfs/SI8R.pdf";
+//Td
+import SI1T1 from "pages/Cours/Sup/SI/src/Pdfs/SI1T1.pdf";
+import SI1T2 from "pages/Cours/Sup/SI/src/Pdfs/SI1T2.pdf";
+import SI1T1C from "pages/Cours/Sup/SI/src/Pdfs/SI1T1C.pdf";
+import SI1T2C from "pages/Cours/Sup/SI/src/Pdfs/SI1T2C.pdf";
+import SI2T1 from "pages/Cours/Sup/SI/src/Pdfs/SI2T1.pdf";
+import SI2T2 from "pages/Cours/Sup/SI/src/Pdfs/SI2T2.pdf";
+import SI2T3 from "pages/Cours/Sup/SI/src/Pdfs/SI2T3.pdf";
+import SI2T4 from "pages/Cours/Sup/SI/src/Pdfs/SI2T4.pdf";
+import SI2T5 from "pages/Cours/Sup/SI/src/Pdfs/SI2T5.pdf";
+import SI2T1C from "pages/Cours/Sup/SI/src/Pdfs/SI2T1C.pdf";
+import SI2T2C from "pages/Cours/Sup/SI/src/Pdfs/SI2T2C.pdf";
+import SI2T3C from "pages/Cours/Sup/SI/src/Pdfs/SI2T3C.pdf";
+import SI2T4C from "pages/Cours/Sup/SI/src/Pdfs/SI2T4C.pdf";
+import SI2T5C from "pages/Cours/Sup/SI/src/Pdfs/SI2T5C.pdf";
+import SI3T1 from "pages/Cours/Sup/SI/src/Pdfs/SI3T1.pdf";
+import SI3T2 from "pages/Cours/Sup/SI/src/Pdfs/SI3T2.pdf";
+import SI3T1C from "pages/Cours/Sup/SI/src/Pdfs/SI3T1C.pdf";
+import SI3T2C from "pages/Cours/Sup/SI/src/Pdfs/SI3T2C.pdf";
+import SI4T1 from "pages/Cours/Sup/SI/src/Pdfs/SI4T1.pdf";
+import SI4T2 from "pages/Cours/Sup/SI/src/Pdfs/SI4T2.pdf";
+import SI4T3 from "pages/Cours/Sup/SI/src/Pdfs/SI4T3.pdf";
+import SI4T4 from "pages/Cours/Sup/SI/src/Pdfs/SI4T4.pdf";
+import SI4T5 from "pages/Cours/Sup/SI/src/Pdfs/SI4T5.pdf";
+import SI4T1C from "pages/Cours/Sup/SI/src/Pdfs/SI4T1C.pdf";
+import SI4T2C from "pages/Cours/Sup/SI/src/Pdfs/SI4T2C.pdf";
+import SI4T3C from "pages/Cours/Sup/SI/src/Pdfs/SI4T3C.pdf";
+import SI4T4C from "pages/Cours/Sup/SI/src/Pdfs/SI4T4C.pdf";
+import SI4T5C from "pages/Cours/Sup/SI/src/Pdfs/SI4T5C.pdf";
+import SI5T1 from "pages/Cours/Sup/SI/src/Pdfs/SI5T1.pdf";
+import SI5T1C from "pages/Cours/Sup/SI/src/Pdfs/SI5T1C.pdf";
+import SI6T1 from "pages/Cours/Sup/SI/src/Pdfs/SI6T1.pdf";
+import SI6T2 from "pages/Cours/Sup/SI/src/Pdfs/SI6T2.pdf";
+import SI6T3 from "pages/Cours/Sup/SI/src/Pdfs/SI6T3.pdf";
+import SI6T4 from "pages/Cours/Sup/SI/src/Pdfs/SI6T4.pdf";
+import SI6T5 from "pages/Cours/Sup/SI/src/Pdfs/SI6T5.pdf";
+import SI6T6 from "pages/Cours/Sup/SI/src/Pdfs/SI6T6.pdf";
+import SI6T7 from "pages/Cours/Sup/SI/src/Pdfs/SI6T7.pdf";
+import SI6T8 from "pages/Cours/Sup/SI/src/Pdfs/SI6T8.pdf";
+import SI6T9 from "pages/Cours/Sup/SI/src/Pdfs/SI6T9.pdf";
+import SI6T10 from "pages/Cours/Sup/SI/src/Pdfs/SI6T10.pdf";
+import SI6T11 from "pages/Cours/Sup/SI/src/Pdfs/SI6T11.pdf";
+import SI6T12 from "pages/Cours/Sup/SI/src/Pdfs/SI6T12.pdf";
+import SI6T13 from "pages/Cours/Sup/SI/src/Pdfs/SI6T13.pdf";
+import SI6T14 from "pages/Cours/Sup/SI/src/Pdfs/SI6T14.pdf";
+import SI6T15 from "pages/Cours/Sup/SI/src/Pdfs/SI6T15.pdf";
+import SI6T1C from "pages/Cours/Sup/SI/src/Pdfs/SI6T1C.pdf";
+import SI6T2C from "pages/Cours/Sup/SI/src/Pdfs/SI6T2C.pdf";
+import SI6T3C from "pages/Cours/Sup/SI/src/Pdfs/SI6T3C.pdf";
+import SI6T4C from "pages/Cours/Sup/SI/src/Pdfs/SI6T4C.pdf";
+import SI6T5C from "pages/Cours/Sup/SI/src/Pdfs/SI6T5C.pdf";
+import SI6T6C from "pages/Cours/Sup/SI/src/Pdfs/SI6T6C.pdf";
+import SI6T7C from "pages/Cours/Sup/SI/src/Pdfs/SI6T7C.pdf";
+import SI6T8C from "pages/Cours/Sup/SI/src/Pdfs/SI6T8C.pdf";
+import SI6T9C from "pages/Cours/Sup/SI/src/Pdfs/SI6T9C.pdf";
+import SI6T10C from "pages/Cours/Sup/SI/src/Pdfs/SI6T10C.pdf";
+import SI6T11C from "pages/Cours/Sup/SI/src/Pdfs/SI6T11C.pdf";
+import SI6T12C from "pages/Cours/Sup/SI/src/Pdfs/SI6T12C.pdf";
+import SI6T13C from "pages/Cours/Sup/SI/src/Pdfs/SI6T13C.pdf";
+import SI6T14C from "pages/Cours/Sup/SI/src/Pdfs/SI6T14C.pdf";
+import SI6T15C from "pages/Cours/Sup/SI/src/Pdfs/SI6T15C.pdf";
+import SI7T1 from "pages/Cours/Sup/SI/src/Pdfs/SI7T1.pdf";
+import SI7T1C from "pages/Cours/Sup/SI/src/Pdfs/SI7T1C.pdf";
+import SI8T1 from "pages/Cours/Sup/SI/src/Pdfs/SI8T1.pdf";
+import SI8T2 from "pages/Cours/Sup/SI/src/Pdfs/SI8T2.pdf";
+import SI8T3 from "pages/Cours/Sup/SI/src/Pdfs/SI8T3.pdf";
+import SI8T4 from "pages/Cours/Sup/SI/src/Pdfs/SI8T4.pdf";
+import SI8T5 from "pages/Cours/Sup/SI/src/Pdfs/SI8T5.pdf";
+import SI8T6 from "pages/Cours/Sup/SI/src/Pdfs/SI8T6.pdf";
+import SI8T7 from "pages/Cours/Sup/SI/src/Pdfs/SI8T7.pdf";
+import SI8T1C from "pages/Cours/Sup/SI/src/Pdfs/SI8T1C.pdf";
+import SI8T2C from "pages/Cours/Sup/SI/src/Pdfs/SI8T2C.pdf";
+import SI8T3C from "pages/Cours/Sup/SI/src/Pdfs/SI8T3C.pdf";
+import SI8T4C from "pages/Cours/Sup/SI/src/Pdfs/SI8T4C.pdf";
+import SI8T5C from "pages/Cours/Sup/SI/src/Pdfs/SI8T5C.pdf";
+import SI8T6C from "pages/Cours/Sup/SI/src/Pdfs/SI8T6C.pdf";
+import SI8T7C from "pages/Cours/Sup/SI/src/Pdfs/SI8T7C.pdf";
+import SI9T1 from "pages/Cours/Sup/SI/src/Pdfs/SI9T1.pdf";
+import SI9T1C from "pages/Cours/Sup/SI/src/Pdfs/SI9T1C.pdf";
+//spe
+
+import SIS1R1 from "pages/Cours/Spe/SI/src/Pdfs/SIS1R1.pdf";
+import SIS1R2 from "pages/Cours/Spe/SI/src/Pdfs/SIS1R2.pdf";
+import SIS1R3 from "pages/Cours/Spe/SI/src/Pdfs/SIS1R3.pdf";
+import SIS1T1 from "pages/Cours/Spe/SI/src/Pdfs/SIS1T1.pdf";
+import SIS1T1C from "pages/Cours/Spe/SI/src/Pdfs/SIS1T1C.pdf";
+import SIS1T2 from "pages/Cours/Spe/SI/src/Pdfs/SIS1T2.pdf";
+import SIS1T2C from "pages/Cours/Spe/SI/src/Pdfs/SIS1T2C.pdf";
+import SIS2 from "pages/Cours/Spe/SI/src/Pdfs/SIS2.pdf";
+import SIS2R from "pages/Cours/Spe/SI/src/Pdfs/SIS2R.pdf";
+import SIS2T1 from "pages/Cours/Spe/SI/src/Pdfs/SIS2T1.pdf";
+import SIS2T1C from "pages/Cours/Spe/SI/src/Pdfs/SIS2T1C.pdf";
+import SIS3 from "pages/Cours/Spe/SI/src/Pdfs/SIS3.pdf";
+import SIS3A from "pages/Cours/Spe/SI/src/Pdfs/SIS3A.pdf";
+import SIS3R from "pages/Cours/Spe/SI/src/Pdfs/SIS3R.pdf";
+import SIS3AR from "pages/Cours/Spe/SI/src/Pdfs/SIS3AR.pdf";
+import SIS3T1 from "pages/Cours/Spe/SI/src/Pdfs/SIS3T1.pdf";
+import SIS3T1C from "pages/Cours/Spe/SI/src/Pdfs/SIS3T1C.pdf";
+import SIS4R1 from "pages/Cours/Spe/SI/src/Pdfs/SIS4R1.pdf";
+import SIS4R2 from "pages/Cours/Spe/SI/src/Pdfs/SIS4R2.pdf";
+import SIS4R3 from "pages/Cours/Spe/SI/src/Pdfs/SIS4R3.pdf";
+import SIS4R4 from "pages/Cours/Spe/SI/src/Pdfs/SIS4R4.pdf";
+import SIS4R5 from "pages/Cours/Spe/SI/src/Pdfs/SIS4R5.pdf";
+import SIS4T1 from "pages/Cours/Spe/SI/src/Pdfs/SIS4T1.pdf";
+import SIS4T1C from "pages/Cours/Spe/SI/src/Pdfs/SIS4T1C.pdf";
+import SIS4T2 from "pages/Cours/Spe/SI/src/Pdfs/SIS4T2.pdf";
+import SIS4T2C from "pages/Cours/Spe/SI/src/Pdfs/SIS4T2C.pdf";
+import SIS4T3 from "pages/Cours/Spe/SI/src/Pdfs/SIS4T3.pdf";
+import SIS4T3C from "pages/Cours/Spe/SI/src/Pdfs/SIS4T3C.pdf";
+import SIS4T4 from "pages/Cours/Spe/SI/src/Pdfs/SIS4T4.pdf";
+import SIS4T4C from "pages/Cours/Spe/SI/src/Pdfs/SIS4T4C.pdf";
+import SIS4T5 from "pages/Cours/Spe/SI/src/Pdfs/SIS4T5.pdf";
+import SIS4T5C from "pages/Cours/Spe/SI/src/Pdfs/SIS4T5C.pdf";
+import SIS5 from "pages/Cours/Spe/SI/src/Pdfs/SIS5.pdf";
+import SIS5R from "pages/Cours/Spe/SI/src/Pdfs/SIS5R.pdf";
+import SIS5T1 from "pages/Cours/Spe/SI/src/Pdfs/SIS5T1.pdf";
+import SIS5T1C from "pages/Cours/Spe/SI/src/Pdfs/SIS5T1C.pdf";
+import SIS5T2 from "pages/Cours/Spe/SI/src/Pdfs/SIS5T2.pdf";
+import SIS5T2C from "pages/Cours/Spe/SI/src/Pdfs/SIS5T2C.pdf";
+import SIS5T3 from "pages/Cours/Spe/SI/src/Pdfs/SIS5T3.pdf";
+import SIS5T3C from "pages/Cours/Spe/SI/src/Pdfs/SIS5T3C.pdf";
+import SIS5T4 from "pages/Cours/Spe/SI/src/Pdfs/SIS5T4.pdf";
+import SIS5T4C from "pages/Cours/Spe/SI/src/Pdfs/SIS5T4C.pdf";
+import SIS5T5 from "pages/Cours/Spe/SI/src/Pdfs/SIS5T5.pdf";
+import SIS5T5C from "pages/Cours/Spe/SI/src/Pdfs/SIS5T5C.pdf";
+import SIS6 from "pages/Cours/Spe/SI/src/Pdfs/SIS6.pdf";
+import SIS6R from "pages/Cours/Spe/SI/src/Pdfs/SIS6R.pdf";
+import SIS6T1 from "pages/Cours/Spe/SI/src/Pdfs/SIS6T1.pdf";
+import SIS6T1C from "pages/Cours/Spe/SI/src/Pdfs/SIS6T1C.pdf";
+import SIS6T2 from "pages/Cours/Spe/SI/src/Pdfs/SIS6T2.pdf";
+import SIS6T2C from "pages/Cours/Spe/SI/src/Pdfs/SIS6T2C.pdf";
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -1417,13 +1567,537 @@ const routes = [
         collapse: [
           {
             name: "Sup",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            route: "/pages/Cours/Sup/SI",
+            collapse: [
+              {
+                name: "Sup",
+                route: "/pages/Cours/Sup/SI",
+                component: <SISup />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S1",
+                component: <Pdf C={SI1} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S2",
+                component: <Pdf C={SI2} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S3",
+                component: <Pdf C={SI3} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S4",
+                component: <Pdf C={SI4} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S5",
+                component: <Pdf C={SI5} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6",
+                component: <Pdf C={SI6} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S7",
+                component: <Pdf C={SI7} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S8",
+                component: <Pdf C={SI8} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S9",
+                component: <Pdf C={SI9} label1="SI" label2="Mecanique" />,
+              },
+              //Td
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S1T1",
+                component: <Pdfss C={SI1T1} T={SI1T1C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S1T2",
+                component: <Pdfss C={SI1T2} T={SI1T2C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S2T1",
+                component: <Pdfss C={SI2T1} T={SI2T1C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S2T2",
+                component: <Pdfss C={SI2T2} T={SI2T2C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S2T3",
+                component: <Pdfss C={SI2T3} T={SI2T3C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S2T4",
+                component: <Pdfss C={SI2T4} T={SI2T4C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S2T5",
+                component: <Pdfss C={SI2T5} T={SI2T5C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S3T1",
+                component: <Pdfss C={SI3T1} T={SI3T1C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S3T2",
+                component: <Pdfss C={SI3T2} T={SI3T2C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S4T1",
+                component: <Pdfss C={SI4T1} T={SI4T1C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S4T2",
+                component: <Pdfss C={SI4T2} T={SI4T2C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S4T3",
+                component: <Pdfss C={SI4T3} T={SI4T3C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S4T4",
+                component: <Pdfss C={SI4T4} T={SI4T4C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S4T5",
+                component: <Pdfss C={SI4T5} T={SI4T5C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S5T1",
+                component: <Pdfss C={SI5T1} T={SI5T1C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T1",
+                component: <Pdfss C={SI6T1} T={SI6T1C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T2",
+                component: <Pdfss C={SI6T2} T={SI6T2C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T3",
+                component: <Pdfss C={SI6T3} T={SI6T3C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T4",
+                component: <Pdfss C={SI6T4} T={SI6T4C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T5",
+                component: <Pdfss C={SI6T5} T={SI6T5C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T6",
+                component: <Pdfss C={SI6T6} T={SI6T6C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T7",
+                component: <Pdfss C={SI6T7} T={SI6T7C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T8",
+                component: <Pdfss C={SI6T8} T={SI6T8C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T9",
+                component: <Pdfss C={SI6T9} T={SI6T9C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T10",
+                component: <Pdfss C={SI6T10} T={SI6T10C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T11",
+                component: <Pdfss C={SI6T11} T={SI6T11C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T12",
+                component: <Pdfss C={SI6T12} T={SI6T12C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T13",
+                component: <Pdfss C={SI6T13} T={SI6T13C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T14",
+                component: <Pdfss C={SI6T14} T={SI6T14C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S6T15",
+                component: <Pdfss C={SI6T15} T={SI6T15C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S7T1",
+                component: <Pdfss C={SI7T1} T={SI7T1C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S8T1",
+                component: <Pdfss C={SI8T1} T={SI8T1C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S8T2",
+                component: <Pdfss C={SI8T2} T={SI8T2C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S8T3",
+                component: <Pdfss C={SI8T3} T={SI8T3C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S8T4",
+                component: <Pdfss C={SI8T4} T={SI8T4C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S8T5",
+                component: <Pdfss C={SI8T5} T={SI8T5C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S8T6",
+                component: <Pdfss C={SI8T6} T={SI8T6C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S8T7",
+                component: <Pdfss C={SI8T7} T={SI8T7C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/S9T1",
+                component: <Pdfss C={SI9T1} T={SI9T1C} label1="SI" label2="Mecanique" />,
+              },
+              //Vids
+              {
+                name: "",
+                route: "/Cours/SUP/SI/SV1",
+                component: <Video Y={"PqEWjcQ7NMs"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/SV2",
+                component: <Video Y={"PeSGbVE8xno"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/SV3",
+                component: <Video Y={"v7NFrSfj1OM"} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/SV4",
+                component: <Video Y={"NUEK53sInp0"} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/V1",
+                component: <Video Y={"H2ubGTFKS8o"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/V2",
+                component: <Video Y={"s8dPB93iUP0"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/V3",
+                component: <Video Y={"KcdQyPS6r_o"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/V4",
+                component: <Video Y={"u1EH0cKk9mI"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/V5",
+                component: <Video Y={"wnZwh_04XC0"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/V6",
+                component: <Video Y={"pnu_bwgKISo"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/V7",
+                component: <Video Y={"9jZq60IBgXY"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/V8",
+                component: <Video Y={"GfbE0k3b8aM"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/SUP/SI/V9",
+                component: <Video Y={"k7Pn5UfJig8"} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/R2",
+                component: <Pdf C={SI2R} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/R3",
+                component: <Pdf C={SI3R} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/R4",
+                component: <Pdf C={SI4R} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/R5",
+                component: <Pdf C={SI5R} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/R6",
+                component: <Pdf C={SI6R} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/R7",
+                component: <Pdf C={SI7R} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/SI/R8",
+                component: <Pdf C={SI8R} label1="SI" label2="Mecanique" />,
+              },
+            ],
           },
           {
             name: "Spe",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
+            route: "/pages/Cours/Spe/SI",
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Cours/Spe/SI",
+                component: <SISpe />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS1R1",
+                component: <Pdf C={SIS1R1} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS1R2",
+                component: <Pdf C={SIS1R2} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS1R2",
+                component: <Pdf C={SIS1R3} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS1T1",
+                component: <Pdfss C={SIS1T1} T={SIS1T1C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS1T1",
+                component: <Pdfss C={SIS1T2} T={SIS1T2C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS2",
+                component: <Pdf C={SIS2} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS2R",
+                component: <Pdf C={SIS2R} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS2T1",
+                component: <Pdfss C={SIS2T1} T={SIS2T1C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS3",
+                component: <Pdf C={SIS3} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS3R",
+                component: <Pdf C={SIS3R} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS3A",
+                component: <Pdf C={SIS3A} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS3AR",
+                component: <Pdf C={SIS3AR} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS3T1",
+                component: <Pdfss C={SIS3T1} T={SIS3T1C} label1="SI" label2="Asservissement" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS4R1",
+                component: <Pdf C={SIS4R1} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS4R2",
+                component: <Pdf C={SIS4R2} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS4R3",
+                component: <Pdf C={SIS4R3} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS4R4",
+                component: <Pdf C={SIS4R4} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS4R5",
+                component: <Pdf C={SIS4R5} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS4T1",
+                component: <Pdfss C={SIS4T1} T={SIS4T1C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS4T2",
+                component: <Pdfss C={SIS4T2} T={SIS4T2C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS4T3",
+                component: <Pdfss C={SIS4T3} T={SIS4T3C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS4T4",
+                component: <Pdfss C={SIS4T4} T={SIS4T4C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS4T5",
+                component: <Pdfss C={SIS4T5} T={SIS4T5C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS5",
+                component: <Pdf C={SIS5} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS5R",
+                component: <Pdf C={SIS5R} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS5T1",
+                component: <Pdfss C={SIS5T1} T={SIS5T1C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS5T2",
+                component: <Pdfss C={SIS5T2} T={SIS5T2C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS5T3",
+                component: <Pdfss C={SIS5T3} T={SIS5T3C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS5T4",
+                component: <Pdfss C={SIS5T4} T={SIS5T4C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS5T5",
+                component: <Pdfss C={SIS5T5} T={SIS5T5C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS6",
+                component: <Pdf C={SIS6} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS6R",
+                component: <Pdf C={SIS6R} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS6T1",
+                component: <Pdfss C={SIS6T1} T={SIS6T1C} label1="SI" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/SI/SS6T2",
+                component: <Pdfss C={SIS6T2} T={SIS6T2C} label1="SI" label2="Mecanique" />,
+              },
+            ],
           },
         ],
       },

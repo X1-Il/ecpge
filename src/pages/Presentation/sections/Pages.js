@@ -37,19 +37,14 @@ function Pages() {
           alignItems="center"
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
         >
-          <MKBadge
-            variant="contained"
-            color="info"
-            badgeContent="boost creativity"
-            container
-            sx={{ mb: 2 }}
-          />
+          <MKBadge variant="contained" color="info" badgeContent="Cours" container sx={{ mb: 2 }} />
           <MKTypography variant="h2" fontWeight="bold">
-            With our coded pages
+            Cours PDF & capsules
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            The easiest way to get started is to use one of our
-            <br /> pre-built example pages.
+            Nous proposons une sélection de cours au format PDF
+            <br />
+            accompagnés de capsules vidéo pour une expérience d&apos;apprentissage complète.
           </MKTypography>
         </Grid>
       </Container>
@@ -63,11 +58,11 @@ function Pages() {
           <Grid item xs={12} lg={3}>
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                Presentation Pages for Company, Landing Pages, Blogs and Support
+                Toutes les matières sont disponibles.
               </MKTypography>
               <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
-                These is just a small selection of the multiple possibitilies you have. Focus on the
-                business, not on the design.
+                Nous offrons des ressources pour toutes les matières qui sont spécifiquement conçues
+                pour correspondre aux programmes MP/PSI/MPI.
               </MKTypography>
             </MKBox>
           </Grid>

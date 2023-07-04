@@ -1,26 +1,32 @@
-const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages";
-
+import p from "assets/images/p.jpg";
+import M from "assets/images/M.jpg";
+import SI from "assets/images/SI.jpg";
+import C from "assets/images/C.jpg";
+import I from "assets/images/I.jpg";
+import F from "assets/images/F.jpg";
 export default [
   {
-    image: `${imagesPrefix}/about-us.jpg`,
-    name: "About Us Page",
-    route: "/pages/landing-pages/about-us",
+    image: p,
+    name: "Physique",
   },
   {
-    image: `${imagesPrefix}/contact.jpg`,
-    name: "Contact Us Page",
-    route: "/pages/landing-pages/contact-us",
+    image: M,
+    name: "Math",
   },
   {
-    image:
-      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/signin-basic.jpg",
-    name: "Sign In Page",
-    route: "/pages/authentication/sign-in",
+    image: C,
+    name: "Chimie",
   },
   {
-    image: `${imagesPrefix}/author.jpg`,
-    name: "Author Page",
-    route: "/pages/landing-pages/author",
+    image: SI,
+    name: "SI",
+  },
+  {
+    image: I,
+    name: "Informatique",
+  },
+  {
+    image: F,
+    name: "Français-Philosophe",
   },
 ];

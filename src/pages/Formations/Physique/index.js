@@ -37,7 +37,7 @@ function PhysiqueF() {
         action={{
           type: "external",
           route: "",
-          label: "Login",
+          label: "Contact",
           color: "info",
         }}
         sticky

@@ -40,7 +40,7 @@ function SignInBasic() {
       setError("");
       isLoggedIn(true);
       return true;
-      // Handle successful login or redirection logic here
+      // Handle successful Contact or redirection logic here
     } else {
       setError("Email or mot de passe incorrect");
       return false;
@@ -154,7 +154,7 @@ function SignInBasic() {
                       type="submit"
                       onClick={handleSignIn}
                     >
-                      Login
+                      Contact
                     </MKButton>
                   </MKBox>
                   {error && (
