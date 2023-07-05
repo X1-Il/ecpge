@@ -13,14 +13,14 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
-// Presentation page sections
+// Home page sections
 //import Information from "pages/Formations/Math/sections/Information";
 //import Pages from "pages/Formations/Math/Ilham/sections/Pages";
 //import Testimonials from "pages/Formations/Math/sections/Testimonials";
 //import Download from "pages/Formations/Math/sections/Download";
 import DesignBlocks from "pages/Formations/Chimie/Hinaoui/CR/sections/DesignBlocks";
 
-// Presentation page componentsss
+// Home page componentsss
 import BuiltByDevelopers from "pages/Formations/Math/components/BuiltByDevelopers";
 
 // Routes
@@ -36,9 +36,9 @@ function CR() {
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
-          route: "",
-          label: "Contact",
+          type: "internal",
+          route: "/pages/Contact",
+          label: "Contact us",
           color: "info",
         }}
         sticky
@@ -116,7 +116,7 @@ function CR() {
                 title="Cours"
                 description="Lire attentivement le cours pour une meilleure compréhension et assimilation des informations essentielles."
                 action={{
-                  type: "external",
+                  type: "internal",
                   route: "",
                   label: "Voir les cours",
                 }}

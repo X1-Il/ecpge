@@ -13,13 +13,13 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
-// Presentation page sections
+// Home page sections
 //import Information from "pages/Formations/Physique/sections/Information";
 import Pages from "pages/Formations/Physique/sections/Pages";
 //import Testimonials from "pages/Formations/Physique/sections/Testimonials";
 //import Download from "pages/Formations/Physique/sections/Download";
 
-// Presentation page components
+// Home page components
 import BuiltByDevelopers from "pages/Formations/Physique/components/BuiltByDevelopers";
 
 // Routes
@@ -35,9 +35,9 @@ function PhysiqueF() {
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
-          route: "",
-          label: "Contact",
+          type: "internal",
+          route: "/pages/Contact",
+          label: "Contact us",
           color: "info",
         }}
         sticky
@@ -115,7 +115,7 @@ function PhysiqueF() {
                 title="Cours"
                 description="Lire attentivement le cours pour une meilleure compréhension et assimilation des informations essentielles."
                 action={{
-                  type: "external",
+                  type: "internal",
                   route: "",
                   label: "Voir les cours",
                 }}
@@ -128,7 +128,7 @@ function PhysiqueF() {
                 title="Travaux dirigés"
                 description="Travailler régulièrement les travaux dirigés (TD) pour renforcer la compréhension des concepts enseignés."
                 action={{
-                  type: "external",
+                  type: "internal",
                   route: "",
                   label: "Voir les TDs",
                 }}
@@ -141,7 +141,7 @@ function PhysiqueF() {
                 title="Problèmes"
                 description="Résoudre activement les problèmes pour développer des compétences pratiques et approfondir la compréhension des concepts."
                 action={{
-                  type: "external",
+                  type: "internal",
                   route: "",
                   label: "Voir les pbs",
                 }}

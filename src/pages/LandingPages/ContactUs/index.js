@@ -80,8 +80,14 @@ function ContactUs() {
             </MKBox>
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                For further questions, including partnership opportunities, please email
-                hello@creative-tim.com or contact using our contact form.
+                If you have any remark, question or document to add, send a message here or to this
+                email:
+                {
+                  <a href=" mailto:ecpge.ma@gmail.com">
+                    <b>ecpge.ma@gmail.com</b>
+                  </a>
+                }
+                , and I will answer as soon as possible.
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autoComplete="off">
                 <Grid container spacing={3}>
@@ -102,11 +108,28 @@ function ContactUs() {
                       fullWidth
                     />
                   </Grid>
+                  <Grid item xs={12} md={6}>
+                    <MKInput
+                      variant="standard"
+                      label="Branch"
+                      placeholder="MP/PSI/MPI..."
+                      InputLabelProps={{ shrink: true }}
+                      fullWidth
+                    />
+                  </Grid>
+                  <Grid item xs={12} md={6}>
+                    <MKInput
+                      variant="standard"
+                      label="Centre"
+                      InputLabelProps={{ shrink: true }}
+                      fullWidth
+                    />
+                  </Grid>
                   <Grid item xs={12}>
                     <MKInput
                       variant="standard"
-                      label="What can we help you?"
-                      placeholder="Describe your problem in at least 250 characters"
+                      label="Message"
+                      placeholder="write..."
                       InputLabelProps={{ shrink: true }}
                       multiline
                       fullWidth

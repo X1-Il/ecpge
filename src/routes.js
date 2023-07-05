@@ -3,6 +3,7 @@ import Icon from "@mui/material/Icon";
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import MathSup from "pages/Cours/Sup/Math";
+import PSup from "pages/Cours/Sup/Physique";
 import MathSpe from "pages/Cours/Spe/Math";
 import Formation from "pages/Formations/Formation";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
@@ -10,12 +11,19 @@ import Author from "layouts/pages/landing-pages/author";
 import SignIn from "layouts/pages/authentication/sign-in";
 import datailham from "pages/Formations/data/DataIlham";
 import MathF from "pages/Formations/Math/index";
+import MathC from "pages/Cours/Math/index";
+import InfoC from "pages/Cours/Info/index";
+import TrC from "pages/Cours/Tr/index";
+import PfC from "pages/Cours/Pf/index";
 import ChimieF from "pages/Formations/Chimie/index";
+import ChimieC from "pages/Cours/Chimie/index";
+import SIC from "pages/Cours/SI/index";
 import CDS from "pages/Formations/Chimie/Hinaoui/CDS/index";
 import CR from "pages/Formations/Chimie/Hinaoui/CR/index";
 import CS from "pages/Formations/Chimie/Hinaoui/CS/index";
 import TC from "pages/Formations/Chimie/Hinaoui/TC/index";
 import PhysiqueF from "pages/Formations/Physique/index";
+import PhysiqueC from "pages/Cours/Physique/index";
 import IlhamP from "pages/Formations/Math/Ilham/index";
 import SISup from "pages/Cours/Sup/SI/index";
 import SISpe from "pages/Cours/Spe/SI/index";
@@ -365,7 +373,7 @@ const routes = [
       {
         name: "Maths",
         //description: "Analyse, Algebre, Proba",
-        route: "/pages/landing-pages/about-us",
+        route: "/pages/Cours/Math",
         dropdown: true,
         collapse: [
           {
@@ -379,6 +387,12 @@ const routes = [
                 route: "/pages/Cours/Sup/Math",
                 dropdown: true,
                 component: <MathSup />,
+              },
+              {
+                name: "Sup",
+                route: "/pages/Cours/Math",
+                dropdown: true,
+                component: <MathC />,
               },
               {
                 name: "Logique",
@@ -1526,13 +1540,29 @@ const routes = [
       {
         name: "Physique",
         description: "",
-        route: "/pages/landing-pages/about-us",
+        route: "/pages/Cours/Physique",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/landing-pages/about-us",
-            component: <Formation data={datailham} />,
+            route: "/pages/Cours/Physique/Sup",
+            collapse: [
+              {
+                name: "Sup",
+                route: "/pages/landing-pages/about-us",
+                component: <Formation data={datailham} />,
+              },
+              {
+                name: "",
+                route: "/pages/Cours/Physique",
+                component: <PhysiqueC />,
+              },
+              {
+                name: "",
+                route: "/pages/Cours/Physique/Sup",
+                component: <PSup />,
+              },
+            ],
           },
           {
             name: "Spe",
@@ -1544,13 +1574,19 @@ const routes = [
       {
         name: "Chimie",
         description: "",
-        route: "/pages/landing-pages/about-us",
+        route: "/pages/Cours/Chimie",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
             route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Cours/Chimie",
+                component: <ChimieC />,
+              },
+            ],
           },
           {
             name: "Spe",
@@ -1562,7 +1598,7 @@ const routes = [
       {
         name: "SI",
         //description: "Mecanique - Asservissement",
-        route: "/pages/landing-pages/about-us",
+        route: "/pages/Cours/SI",
         dropdown: true,
         collapse: [
           {
@@ -1573,6 +1609,11 @@ const routes = [
                 name: "Sup",
                 route: "/pages/Cours/Sup/SI",
                 component: <SISup />,
+              },
+              {
+                name: "",
+                route: "/pages/Cours/SI",
+                component: <SIC />,
               },
               {
                 name: "",
@@ -2104,13 +2145,24 @@ const routes = [
       {
         name: "Informatique",
         //description: "Python",
-        route: "/pages/landing-pages/about-us",
+        route: "/pages/Cours/Info",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
             route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Cours/Info",
+                component: <InfoC />,
+              },
+              {
+                name: "Spe",
+                route: "/pages/landing-pages/about-us",
+                component: <ContactUs />,
+              },
+            ],
           },
           {
             name: "Spe",
@@ -2122,13 +2174,24 @@ const routes = [
       {
         name: "Traduction",
         //description: "Ar-Fr",
-        route: "/pages/landing-pages/about-us",
+        route: "/pages/Cours/Tr",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
             route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Cours/Tr",
+                component: <TrC />,
+              },
+              {
+                name: "Spe",
+                route: "/pages/landing-pages/about-us",
+                component: <ContactUs />,
+              },
+            ],
           },
           {
             name: "Spe",
@@ -2140,13 +2203,24 @@ const routes = [
       {
         name: "Français-philosophe",
         //description: "Resumé-Dissertation",
-        route: "/pages/landing-pages/about-us",
+        route: "/pages/Cours/Pf",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
             route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Cours/Pf",
+                component: <PfC />,
+              },
+              {
+                name: "Spe",
+                route: "/pages/landing-pages/about-us",
+                component: <ContactUs />,
+              },
+            ],
           },
           {
             name: "Spe",
@@ -2166,13 +2240,13 @@ const routes = [
             component: <AboutUs />,
           },
           {
-            name: "contact us",
-            route: "/pages/landing-pages/contact-us",
+            name: "",
+            route: "/pages/Contact",
             component: <ContactUs />,
           },
           {
             name: "author",
-            route: "/pages/landing-pages/author",
+            route: "/pages/About/Founder",
             component: <Author />,
           },
         ],

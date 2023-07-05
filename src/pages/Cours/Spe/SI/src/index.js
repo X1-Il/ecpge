@@ -28,8 +28,8 @@ function SISpe() {
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
-          route: "",
+          type: "internal",
+          route: "/pages/Contact",
           label: "Contact us",
           color: "default",
         }}

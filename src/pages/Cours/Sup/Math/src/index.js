@@ -28,8 +28,8 @@ function MathSup() {
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
-          route: "",
+          type: "internal",
+          route: "/pages/Contact",
           label: "Contact ",
           color: "default",
         }}

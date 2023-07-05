@@ -35,7 +35,7 @@ export default {
     {
       name: "Cours",
       items: [
-        { name: "Math", href: "https://www.creative-tim.com/presentation" },
+        { name: "Math", href: "https://www.creative-tim.com/Home" },
         { name: "Physique", href: "https://www.creative-tim.com/templates/free" },
         { name: "Chimie", href: "https://www.creative-tim.com/templates/premium" },
         { name: "SI", href: "https://www.creative-tim.com/blog" },
@@ -45,7 +45,7 @@ export default {
     {
       name: "Problèmes",
       items: [
-        { name: "Math", href: "https://www.creative-tim.com/presentation" },
+        { name: "Math", href: "https://www.creative-tim.com/Home" },
         { name: "Physique", href: "https://www.creative-tim.com/templates/free" },
         { name: "Chimie", href: "https://www.creative-tim.com/templates/premium" },
         { name: "SI", href: "" },
@@ -64,7 +64,7 @@ export default {
     {
       name: "About",
       items: [
-        { name: "Founder", href: "https://x1-il.netlify.app" },
+        { name: "author", href: "/pages/About/Founder", type: "internal" },
         { name: "privacy policy", href: "" },
         { name: "licenses", href: "" },
       ],
@@ -81,7 +81,7 @@ export default {
         variant="button"
         fontWeight="regular"
       >
-        X1-Il
+        <b>X1-Il</b>
       </MKTypography>
       .
     </MKTypography>

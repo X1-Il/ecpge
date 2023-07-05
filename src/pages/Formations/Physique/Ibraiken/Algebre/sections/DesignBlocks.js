@@ -10,7 +10,7 @@ import MKBox from "components/MKBox";
 import MKBadge from "components/MKBadge";
 import MKTypography from "components/MKTypography";
 
-// Presentation page components
+// Home page components
 import ExampleCard from "pages/Formations/Math/Ilham/Analyse/components/ExampleCard/index";
 
 // Data

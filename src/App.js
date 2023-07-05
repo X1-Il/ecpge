@@ -1,18 +1,3 @@
-/**
-=========================================================
-* e_ React - v2.1.0
-=========================================================
-
-* Product Page: 
-* Copyright 2023 X1-Il (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import { useEffect } from "react";
 
 // react-router components
@@ -24,7 +9,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 // e_ React themes
 import theme from "assets/theme";
-import Presentation from "layouts/pages/presentation";
+import Home from "layouts/pages/Home";
 
 // e_ React routes
 import routes from "routes";
@@ -56,8 +41,8 @@ export default function App() {
       <CssBaseline />
       <Routes>
         {getRoutes(routes)}
-        <Route path="/presentation" element={<Presentation />} />
-        <Route path="*" element={<Navigate to="/presentation" />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="*" element={<Navigate to="/Home" />} />
       </Routes>
     </ThemeProvider>
   );

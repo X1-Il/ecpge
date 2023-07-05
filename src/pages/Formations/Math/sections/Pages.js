@@ -10,8 +10,8 @@ import MKBox from "components/MKBox";
 import MKBadge from "components/MKBadge";
 import MKTypography from "components/MKTypography";
 
-// Presentation page components
-import ExampleCard from "pages/Presentation/components/ExampleCard";
+// Home page components
+import ExampleCard from "pages/Home/components/ExampleCard";
 
 // Data
 import data from "pages/Formations/Math/sections/data/pagesData";

@@ -1,30 +1,8 @@
-/**
-=========================================================
-* e_ React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-react
-* Copyright 2023 X1-Il (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // react-router components
-import { Link } from "react-router-dom";
-
-// prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
-
-// @mui material components
 import Card from "@mui/material/Card";
 import Icon from "@mui/material/Icon";
 import MuiLink from "@mui/material/Link";
-
-// e_ React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
@@ -84,21 +62,23 @@ function TransparentBlogCard({ image, title, description, action }) {
       }}
     >
       {action.type === "internal" ? (
-        <Link to={action.route}>{imageTemplate}</Link>
+        <MuiLink component="a" href={action.href}>
+          {imageTemplate}
+        </MuiLink>
       ) : (
-        <MuiLink href={action.route} target="_blank" rel="noreferrer">
+        <MuiLink href={action.href} target="_blank" rel="noreferrer">
           {imageTemplate}
         </MuiLink>
       )}
       <MKBox pt={2} pb={3}>
         {action.type === "internal" ? (
-          <Link to={action.route} sx={cardActionStyles}>
+          <MuiLink component="a" href={action.href} sx={cardActionStyles}>
             <MKTypography variant="h5" gutterBottom>
               {title}
             </MKTypography>
-          </Link>
+          </MuiLink>
         ) : (
-          <MuiLink href={action.route} target="_blank" rel="noreferrer" sx={cardActionStyles}>
+          <MuiLink href={action.href} target="_blank" rel="noreferrer" sx={cardActionStyles}>
             <MKTypography variant="h5" gutterBottom>
               {title}
             </MKTypography>
@@ -108,9 +88,9 @@ function TransparentBlogCard({ image, title, description, action }) {
           {description}
         </MKTypography>
         {action.type === "internal" ? (
-          <MKTypography
-            component={Link}
-            to={action.route}
+          <MuiLink
+            component="a"
+            href={action.href}
             variant="body2"
             fontWeight="regular"
             color={action.color}
@@ -119,11 +99,10 @@ function TransparentBlogCard({ image, title, description, action }) {
           >
             {action.label}
             <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-          </MKTypography>
+          </MuiLink>
         ) : (
-          <MKTypography
-            component={MuiLink}
-            href={action.route}
+          <MuiLink
+            href={action.href}
             target="_blank"
             rel="noreferrer"
             variant="body2"
@@ -134,7 +113,7 @@ function TransparentBlogCard({ image, title, description, action }) {
           >
             {action.label}
             <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-          </MKTypography>
+          </MuiLink>
         )}
       </MKBox>
     </Card>
@@ -148,7 +127,7 @@ TransparentBlogCard.propTypes = {
   description: PropTypes.string.isRequired,
   action: PropTypes.shape({
     type: PropTypes.oneOf(["external", "internal"]),
-    route: PropTypes.string.isRequired,
+    href: PropTypes.string.isRequired,
     label: PropTypes.string.isRequired,
     color: PropTypes.oneOf([
       "inherit",

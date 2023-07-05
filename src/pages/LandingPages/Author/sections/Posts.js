@@ -11,10 +11,10 @@ import TransparentBlogCard from "examples/Cards/BlogCards/TransparentBlogCard";
 import BackgroundBlogCard from "examples/Cards/BlogCards/BackgroundBlogCard";
 
 // Images
-import post1 from "assets/images/examples/testimonial-6-2.jpg";
-import post2 from "assets/images/examples/testimonial-6-3.jpg";
-import post3 from "assets/images/examples/blog-9-4.jpg";
-import post4 from "assets/images/examples/blog2.jpg";
+import post1 from "assets/images/examples/Todo.png";
+import post2 from "assets/images/examples/AI.jpg";
+import post3 from "assets/images/examples/P.jpg";
+import post4 from "assets/images/examples/Ma.jpg";
 
 function Places() {
   return (
@@ -22,58 +22,59 @@ function Places() {
       <Container>
         <Grid container item xs={12} lg={6}>
           <MKTypography variant="h3" mb={6}>
-            Check my latest blogposts
+            Some educational tools.
           </MKTypography>
         </Grid>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={post1}
-              title="Rover raised $65 million"
-              description="Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover ..."
+              title="Todo-App"
+              description="Efficient task manager app for seamless organization and productivity"
               action={{
-                type: "internal",
-                route: "/pages/blogs/author",
-                color: "info",
-                label: "Voir les pbs",
+                type: "external",
+                href: "https://todo-app-all.netlify.app/",
+                color: "#1A73E8",
+                label: "Voir",
               }}
             />
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={post2}
-              title="MateLabs machine learning"
-              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ..."
+              title="AI summarizer"
+              description="Condenses text using ChatGPT for quick and concise information extraction."
               action={{
-                type: "internal",
-                route: "/pages/blogs/author",
-                color: "info",
-                label: "Voir les pbs",
+                type: "external",
+                href: "https://ai-summarizer-x1.netlify.app/ ",
+                color: "#1A73E8",
+                label: "Voir ",
               }}
             />
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={post3}
-              title="MateLabs machine learning"
-              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ..."
+              title="Python online compiler"
+              description="Online Python compiler: write, run, and test Python code directly in your web browser."
               action={{
-                type: "internal",
-                route: "/pages/blogs/author",
-                color: "info",
-                label: "Voir les pbs",
+                type: "external",
+                href: "https://www.programiz.com/python-programming/online-compiler/",
+                color: "#1A73E8",
+                label: "Voir",
               }}
             />
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <BackgroundBlogCard
               image={post4}
-              title="Flexible work hours"
-              description="Rather than worrying about switching offices every couple years, you stay in the same place."
+              title="Math tools"
+              description="Tools for matrix, system solving,... in mathematics."
               action={{
-                type: "internal",
-                route: "/pages/blogs/author",
-                label: "Voir les pbs",
+                type: "external",
+                route: "https://www.dcode.fr/liste-outils",
+                label: "Voir",
+                color: "white",
               }}
             />
           </Grid>

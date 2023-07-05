@@ -1,30 +1,7 @@
-/**
-=========================================================
-* e_ React - v2.1.0
-=========================================================
-
-* Product Page:
-* Copyright 2023 X1-Il (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// react-router components
-import { Link } from "react-router-dom";
-
-// prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
-
-// @mui material components
 import Card from "@mui/material/Card";
 import MuiLink from "@mui/material/Link";
 import Icon from "@mui/material/Icon";
-
-// e_ React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
@@ -71,33 +48,32 @@ function BackgroundBlogCard({ image, title, description, action }) {
             {description}
           </MKTypography>
           {action.type === "internal" ? (
-            <MKTypography
-              component={Link}
-              to={action.route}
+            <MuiLink
+              component="a"
+              href={action.route}
               variant="body2"
               fontWeight="regular"
-              color="white"
+              color="#FFFFFF" // Change color to "inherit"
               textTransform="capitalize"
               sx={cardActionStyles}
             >
               {action.label}
               <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-            </MKTypography>
+            </MuiLink>
           ) : (
-            <MKTypography
-              component={MuiLink}
+            <MuiLink
               href={action.route}
               target="_blank"
               rel="noreferrer"
               variant="body2"
               fontWeight="regular"
-              color="white"
+              color="#FFFFFF" // Change color to "inherit"
               textTransform="capitalize"
               sx={cardActionStyles}
             >
               {action.label}
               <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-            </MKTypography>
+            </MuiLink>
           )}
         </MKBox>
       </MKBox>
