@@ -10,6 +10,7 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
+import P1 from "assets/images/icon/P1.png";
 import M1 from "assets/images/icon/M1.png";
 import M2 from "assets/images/icon/M2.png";
 import M3 from "assets/images/icon/M3.png";
@@ -48,10 +49,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
-                name="Logique"
+                image={P1}
+                name="Cinématique d'un point matériel"
                 position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                description="Étude des mouvements ponctuels dans l'espace : position, vitesse, accélération."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
@@ -74,9 +75,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M2}
-                name="Ensembles, relations, applications"
-                position={{ color: "info", label: "Algébre" }}
-                description="Ensembles, relations, applications : collections, liens, correspondances mathématiques."
+                name="Dynamique d'un pt matériel dans un référentiel galiléen"
+                position={{ color: "info", label: "Mecanique" }}
+                description="Compréhension des forces et des lois du mouvement d'un point matériel dans un référentiel galiléen."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -99,9 +100,9 @@ function Parts() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
+                name="Travail et puissance d'une force-TEC"
+                position={{ color: "info", label: "Mecanique" }}
+                description="Relation entre le travail, la puissance et le théorème de l'énergie cinétique pour une force donnée."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -124,9 +125,9 @@ function Parts() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={M4}
-                name="Sigma et Pi. Le binôme de Newton"
-                position={{ color: "info", label: "Algébre" }}
-                description="Notation pour la somme, notation pour le produit et formule pour développer une puissance de binôme."
+                name="Oscillateur linéaire à un degré de liberté"
+                position={{ color: "info", label: "Mecanique" }}
+                description="Mouvements oscillatoires d'un système unidimensionnel avec force restauratrice."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M4">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -149,9 +150,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M5}
-                name="Inégalités"
-                position={{ color: "info", label: "Analyse" }}
-                description="Relations de comparaison entre des quantités mathématiques."
+                name="TMC d'un pt matériel"
+                position={{ color: "info", label: "Mecanique" }}
+                description="Analyse du mouvement d'un point matériel en utilisant les équations de la mécanique classique."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M5">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -174,9 +175,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M6}
-                name="Petits systèmes d’équations linéaires "
-                position={{ color: "info", label: "Analyse" }}
-                description="Équations linéaires avec un petit nombre de variables inconnues."
+                name="Forces centrales "
+                position={{ color: "info", label: "Mecanique" }}
+                description="Étude des forces agissant sur un objet qui sont dirigées vers un point fixe appelé centre."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M6">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -199,9 +200,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M7}
-                name="Les nombres complexes"
-                position={{ color: "info", label: "Algébre" }}
-                description="Nombres composés de parties réelle et imaginaire, notés a + bi."
+                name="Dynamique dans un référentiel non galiléen"
+                position={{ color: "info", label: "Mecanique" }}
+                description="Mouvement dans référentiel non galiléen : forces inertielles et dynamique."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M7">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -236,9 +237,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M1}
-                name="Logique"
-                position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                name="Modèle du gaz parfait"
+                position={{ color: "info", label: "Thermo" }}
+                description="Comportement théorique des gaz idéaux : lois thermodynamiques et cinétiques."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
@@ -261,9 +262,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M2}
-                name="Ensembles, relations, applications"
-                position={{ color: "info", label: "Algébre" }}
-                description="Ensembles, relations, applications : collections, liens, correspondances mathématiques."
+                name="Systèmes thermodynamiques"
+                position={{ color: "info", label: "Thermo" }}
+                description="Analyse des systèmes physiques : énergie, entropie, équilibre thermique."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -286,9 +287,9 @@ function Parts() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
+                name="Eléments de statique de fluide"
+                position={{ color: "info", label: "Thermo" }}
+                description="Étude de l'équilibre des fluides au repos : pression, densité, forces."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -311,9 +312,9 @@ function Parts() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={M4}
-                name="Sigma et Pi. Le binôme de Newton"
-                position={{ color: "info", label: "Algébre" }}
-                description="Notation pour la somme, notation pour le produit et formule pour développer une puissance de binôme."
+                name="Premier principe de la thermo"
+                position={{ color: "info", label: "Thermo" }}
+                description="Principe fondamental de la thermodynamique : conservation de l'énergie dans un système isolé."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M4">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -336,9 +337,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M5}
-                name="Inégalités"
-                position={{ color: "info", label: "Analyse" }}
-                description="Relations de comparaison entre des quantités mathématiques."
+                name="Second principe de la thermo"
+                position={{ color: "info", label: "Thermo" }}
+                description="Principe de la thermodynamique : existence de l'entropie dans les systèmes isolés."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M5">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -361,9 +362,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M6}
-                name="Petits systèmes d’équations linéaires "
-                position={{ color: "info", label: "Analyse" }}
-                description="Équations linéaires avec un petit nombre de variables inconnues."
+                name="Les machines thermiques"
+                position={{ color: "info", label: "Thermo" }}
+                description="Étude des machines convertissant l'énergie thermique en travail mécanique."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M6">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -398,9 +399,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M1}
-                name="Logique"
-                position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                name="Lois générales dans l'ARQS"
+                position={{ color: "info", label: "Electrocinétique" }}
+                description="Lois fondamentales de l'ARQS : conservation de l'énergie et de la quantité de mouvement."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
@@ -423,9 +424,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M2}
-                name="Ensembles, relations, applications"
-                position={{ color: "info", label: "Algébre" }}
-                description="Ensembles, relations, applications : collections, liens, correspondances mathématiques."
+                name="Eléments de circuits linéaires"
+                position={{ color: "info", label: "Electrocinétique" }}
+                description="Composants et concepts des circuits linéaires : résistances, condensateurs, inductances, lois de Kirchhoff."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -448,9 +449,9 @@ function Parts() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
+                name="Théorèmes de base"
+                position={{ color: "info", label: "Electrocinétique" }}
+                description="Superposition - Thévenin "
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -473,9 +474,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M1}
-                name="Logique"
-                position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                name="Régime transitoire"
+                position={{ color: "info", label: "Electrocinétique" }}
+                description="Phase de transition d'un système après un changement de conditions, avant d'atteindre un état stable."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
@@ -498,9 +499,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M2}
-                name="Ensembles, relations, applications"
-                position={{ color: "info", label: "Algébre" }}
-                description="Ensembles, relations, applications : collections, liens, correspondances mathématiques."
+                name="Régime sinusoidal forcé d'un circuit RLC"
+                position={{ color: "info", label: "Electrocinétique" }}
+                description="Étude du comportement d'un circuit RLC soumis à une source d'alimentation sinusoidale."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -523,9 +524,9 @@ function Parts() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
+                name="Puissance en régime sinusoidal"
+                position={{ color: "info", label: "Electrocinétique" }}
+                description=" Étude de la puissance instantanée et moyenne dans un système électrique en régime sinusoidal."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -548,9 +549,9 @@ function Parts() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={M4}
-                name="Sigma et Pi. Le binôme de Newton"
-                position={{ color: "info", label: "Algébre" }}
-                description="Notation pour la somme, notation pour le produit et formule pour développer une puissance de binôme."
+                name="Diagramme de Bode"
+                position={{ color: "info", label: "Electrocinétique" }}
+                description="Réponse en fréquence des filtres du premier et second ordre."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M4">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -573,9 +574,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M5}
-                name="Inégalités"
-                position={{ color: "info", label: "Analyse" }}
-                description="Relations de comparaison entre des quantités mathématiques."
+                name="AO en régime linéaire"
+                position={{ color: "info", label: "Electrocinétique" }}
+                description="étude de ses propriétés de gain, de la linéarité et de la réponse en fréquence."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M5">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -598,9 +599,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M6}
-                name="Petits systèmes d’équations linéaires "
-                position={{ color: "info", label: "Analyse" }}
-                description="Équations linéaires avec un petit nombre de variables inconnues."
+                name="AO en régime non linéaire"
+                position={{ color: "info", label: "Electrocinétique" }}
+                description="étude de ses propriétés de saturation, de distorsion et de la réponse non linéaire."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M6">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -635,9 +636,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M1}
-                name="Logique"
-                position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                name="AOG-Rayon lumineux"
+                position={{ color: "info", label: "Optique" }}
+                description="Propagation d'un rayon lumineux dans un AOG : réfraction, réflexion, amplification optique."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
@@ -660,9 +661,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M2}
-                name="Ensembles, relations, applications"
-                position={{ color: "info", label: "Algébre" }}
-                description="Ensembles, relations, applications : collections, liens, correspondances mathématiques."
+                name="Formations des images dans les conditions de Gauss"
+                position={{ color: "info", label: "Optique" }}
+                description="Le comportement de systèmes optiques approximativement paraxiaux et stigmatiques."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -685,9 +686,9 @@ function Parts() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
+                name="Instruments optiques"
+                position={{ color: "info", label: "Optique" }}
+                description="Lentilles, miroirs, télescopes, microscopes et leurs applications."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -722,9 +723,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M1}
-                name="Logique"
-                position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                name="Champ et potentiel électrostatique"
+                position={{ color: "info", label: "Electrostatique" }}
+                description="étude des charges et des interactions électriques statiques."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
@@ -747,9 +748,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M2}
-                name="Ensembles, relations, applications"
-                position={{ color: "info", label: "Algébre" }}
-                description="Ensembles, relations, applications : collections, liens, correspondances mathématiques."
+                name="Dipole électrostatique"
+                position={{ color: "info", label: "Electrostatique" }}
+                description="Deux charges opposées, séparées par distance, avec moment dipolaire."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -772,9 +773,9 @@ function Parts() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
+                name="Aspets énergétiques"
+                position={{ color: "info", label: "Electrostatique" }}
+                description="Énergie potentielle, cinétique et transformations énergétiques des systèmes."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -797,9 +798,9 @@ function Parts() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
+                name="Conducteurs en équilibre électrostatique"
+                position={{ color: "info", label: "Electrostatique" }}
+                description="Charges uniformément réparties, champ électrique nul."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -834,9 +835,9 @@ function Parts() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={M1}
-                name="Logique"
+                name="Intro au monde quantique"
                 position={{ color: "info", label: "Quantique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                description="Principes fondamentaux et comportement des particules subatomiques."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
