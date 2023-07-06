@@ -10,13 +10,16 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import M1 from "assets/images/icon/M1.png";
-import M2 from "assets/images/icon/M2.png";
-import M3 from "assets/images/icon/M3.png";
-import M4 from "assets/images/icon/M4.png";
-import M5 from "assets/images/icon/M5.png";
-import M6 from "assets/images/icon/M6.png";
-import M7 from "assets/images/icon/M7.png";
+import C1 from "assets/images/icon/C1.jpg";
+import C10 from "assets/images/icon/C10.png";
+import C2 from "assets/images/icon/C2.png";
+import C3 from "assets/images/icon/C3.png";
+import C4 from "assets/images/icon/C4.png";
+import C5 from "assets/images/icon/C5.png";
+import C6 from "assets/images/icon/C6.png";
+import C7 from "assets/images/icon/C7.png";
+import C8 from "assets/images/icon/C8.png";
+import C9 from "assets/images/icon/C9.png";
 //import Pdfs from "pages/Tech/Pdf";
 //import C1 from "pages/Cours/Sup/Math/src/Pdfs/Math/Cours-sup/C1";
 //import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -48,10 +51,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
-                name="Logique"
-                position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                image={C1}
+                name="Eau liquide et eau solvant"
+                position={{ color: "info", label: "Chimie de Solution" }}
+                description="Étude des propriétés de l'eau en tant que liquide et solvant."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
@@ -73,10 +76,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M2}
-                name="Ensembles, relations, applications"
-                position={{ color: "info", label: "Algébre" }}
-                description="Ensembles, relations, applications : collections, liens, correspondances mathématiques."
+                image={C2}
+                name="Réactions acido-basiques"
+                position={{ color: "info", label: "Chimie de Solution" }}
+                description="Compréhension des réactions chimiques entre acides et bases."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -98,10 +101,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
+                image={C3}
+                name="Réaction de complexation"
+                position={{ color: "info", label: "Chimie de Solution" }}
+                description="Compréhension des interactions complexes entre molécules et ions métalliques."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -123,10 +126,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M4}
-                name="Sigma et Pi. Le binôme de Newton"
-                position={{ color: "info", label: "Algébre" }}
-                description="Notation pour la somme, notation pour le produit et formule pour développer une puissance de binôme."
+                image={C4}
+                name="Réactions de précipitation"
+                position={{ color: "info", label: "Chimie de Solution" }}
+                description="Formation de précipités solides lors de réactions chimiques spécifiques."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M4">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -148,10 +151,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M5}
-                name="Inégalités"
-                position={{ color: "info", label: "Analyse" }}
-                description="Relations de comparaison entre des quantités mathématiques."
+                image={C5}
+                name="Réactions de réduction"
+                position={{ color: "info", label: "Chimie de Solution" }}
+                description="Transformation chimique impliquant une diminution de l'état d'oxydation d'une substance."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M5">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -173,10 +176,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M6}
-                name="Petits systèmes d’équations linéaires "
-                position={{ color: "info", label: "Analyse" }}
-                description="Équations linéaires avec un petit nombre de variables inconnues."
+                image={C6}
+                name="Diagramme  potentiel-pH"
+                position={{ color: "info", label: "Chimie de Solution" }}
+                description="Représentation graphique du potentiel électrochimique en fonction du pH."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M6">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -189,31 +192,6 @@ function Parts() {
                 </MKButton>
               </Link>
               <Link to="/Cours/Sup/Math/Cours/Sup-V6">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
-                </MKButton>
-              </Link>
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
-              <HorizontalTeamCard
-                image={M7}
-                name="Les nombres complexes"
-                position={{ color: "info", label: "Algébre" }}
-                description="Nombres composés de parties réelle et imaginaire, notés a + bi."
-              />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M7">
-                <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
-                  Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T7">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V7">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -235,10 +213,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
-                name="Logique"
-                position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                image={C7}
+                name="Structure des molécules"
+                position={{ color: "info", label: "chimie de coordination" }}
+                description="Description de l'arrangement et de la connectivité des atomes dans une molécule."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
@@ -260,10 +238,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M2}
-                name="Ensembles, relations, applications"
-                position={{ color: "info", label: "Algébre" }}
-                description="Ensembles, relations, applications : collections, liens, correspondances mathématiques."
+                image={C8}
+                name="Classification périodique"
+                position={{ color: "info", label: "chimie de coordination" }}
+                description="Organisation des éléments chimiques en fonction de leurs propriétés périodiques communes."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -285,10 +263,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
+                image={C9}
+                name="Atomistique"
+                position={{ color: "info", label: "chimie de coordination" }}
+                description="Étude des propriétés et comportements des atomes et de leurs interactions."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -310,10 +288,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M4}
-                name="Sigma et Pi. Le binôme de Newton"
-                position={{ color: "info", label: "Algébre" }}
-                description="Notation pour la somme, notation pour le produit et formule pour développer une puissance de binôme."
+                image={C10}
+                name="Cristallographie"
+                position={{ color: "info", label: "chimie de coordination" }}
+                description="Étude de la structure cristalline des solides, basée sur leur arrangement périodique."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M4">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">

@@ -4,6 +4,8 @@ import Icon from "@mui/material/Icon";
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import MathSup from "pages/Cours/Sup/Math";
 import PSup from "pages/Cours/Sup/Physique";
+import PSpe from "pages/Cours/Spe/Physique";
+import CSup from "pages/Cours/Sup/Chimie";
 import MathSpe from "pages/Cours/Spe/Math";
 import Formation from "pages/Formations/Formation";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
@@ -1566,8 +1568,8 @@ const routes = [
           },
           {
             name: "Spe",
-            route: "/pages/Profiles",
-            component: <AboutUs />,
+            route: "/pages/Cours/Physique/Spe",
+            component: <PSpe />,
           },
         ],
       },
@@ -1579,19 +1581,29 @@ const routes = [
         collapse: [
           {
             name: "Sup",
-            route: "/pages/landing-pages/about-us",
+            route: "/pages/Cours/Chimie/Sup",
             collapse: [
               {
                 name: "",
                 route: "/pages/Cours/Chimie",
                 component: <ChimieC />,
               },
+              {
+                name: "",
+                route: "/pages/Cours/Chimie/Sup",
+                component: <CSup />,
+              },
             ],
           },
           {
             name: "Spe",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
+            route: "/pages/Cours/Chimie/Sup",
+            collapse: [
+              {
+                name: "Spe",
+                route: "/pages/Cours/Chimie/Sup",
+              },
+            ],
           },
         ],
       },
@@ -2787,12 +2799,12 @@ const routes = [
       {
         name: "getting started",
         description: "All about overview, quick start, license and contents",
-        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
+        href: "learning-lab/react/quick-start//",
       },
       {
         name: "foundation",
         description: "See our colors, icons and typography",
-        href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/",
+        href: "learning-lab/react/colors//",
       },
       {
         name: "components",
@@ -2802,7 +2814,7 @@ const routes = [
       {
         name: "plugins",
         description: "Check how you can integrate our plugins",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
+        href: "learning-lab/react/datepicker//",
       },
     ],
   },

@@ -35,19 +35,19 @@ export default {
     {
       name: "Cours",
       items: [
-        { name: "Math", href: "https://www.creative-tim.com/Home" },
-        { name: "Physique", href: "https://www.creative-tim.com/templates/free" },
-        { name: "Chimie", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "SI", href: "https://www.creative-tim.com/blog" },
-        { name: "Info", href: "https://www.creative-tim.com/blog" },
+        { name: "Math", href: "Home" },
+        { name: "Physique", href: "templates/free" },
+        { name: "Chimie", href: "templates/premium" },
+        { name: "SI", href: "blog" },
+        { name: "Info", href: "blog" },
       ],
     },
     {
       name: "Problèmes",
       items: [
-        { name: "Math", href: "https://www.creative-tim.com/Home" },
-        { name: "Physique", href: "https://www.creative-tim.com/templates/free" },
-        { name: "Chimie", href: "https://www.creative-tim.com/templates/premium" },
+        { name: "Math", href: "Home" },
+        { name: "Physique", href: "templates/free" },
+        { name: "Chimie", href: "templates/premium" },
         { name: "SI", href: "" },
         { name: "Info", href: "" },
       ],
@@ -55,10 +55,10 @@ export default {
     {
       name: "Concours",
       items: [
-        { name: "CNC ", href: "https://www.creative-tim.com/contact-us" },
-        { name: "CCINP", href: "https://www.creative-tim.com/knowledge-center" },
+        { name: "CNC ", href: "contact-us" },
+        { name: "CCINP", href: "knowledge-center" },
         { name: "CCMP", href: "https://services.creative-tim.com/" },
-        { name: "CCS", href: "https://www.creative-tim.com/sponsorships" },
+        { name: "CCS", href: "sponsorships" },
       ],
     },
     {
@@ -72,7 +72,7 @@ export default {
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Developed by{" "}
+      All rights reserved. Copyright &copy; {date}.<b>Version Juillet</b> Developed by{" "}
       <MKTypography
         component="a"
         href="https://x1-il.netlify.app/"

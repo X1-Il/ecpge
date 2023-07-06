@@ -3,7 +3,7 @@
 * e_ One_ - v2.1.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-material-ui
+* Product Page: product/soft-ui-dashboard-pro-material-ui
 * Copyright 2023 X1-Il (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com

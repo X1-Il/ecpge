@@ -22,7 +22,7 @@ import footerRoutes from "../../../../../footer.routes";
 // Images
 import bgImage from "../../../../../assets/images/PhysiqueF.jpg";
 
-function PSup() {
+function PSpe() {
   return (
     <>
       <DefaultNavbar
@@ -71,7 +71,7 @@ function PSup() {
                 },
               })}
             >
-              Physique
+              Physique Spe
             </MKTypography>
             <MKTypography
               variant="h2"
@@ -112,4 +112,4 @@ function PSup() {
     </>
   );
 }
-export default PSup;
+export default PSpe;

@@ -1,6 +1,6 @@
 // e_ React pages
-import PSup from "pages/Cours/Sup/Physique/src";
+import PSpe from "pages/Cours/Spe/Physique/src";
 
-export default function PSupPage() {
-  return <PSup />;
+export default function PSpePage() {
+  return <PSpe />;
 }
