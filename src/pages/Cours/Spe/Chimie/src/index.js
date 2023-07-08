@@ -20,9 +20,9 @@ import routes from "../../../../../routes";
 import footerRoutes from "../../../../../footer.routes";
 
 // Images
-import bgImage from "../../../../../assets/images/PhysiqueF.jpg";
+import bgImage from "../../../../../assets/images/ChimieC.jpg";
 
-function CSup() {
+function CSpe() {
   return (
     <>
       <DefaultNavbar
@@ -71,7 +71,7 @@ function CSup() {
                 },
               })}
             >
-              Chimie
+              Chimie Spe
             </MKTypography>
             <MKTypography
               variant="h2"
@@ -112,4 +112,4 @@ function CSup() {
     </>
   );
 }
-export default CSup;
+export default CSpe;

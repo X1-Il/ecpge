@@ -5,18 +5,20 @@ import AboutUs from "layouts/pages/landing-pages/about-us";
 import MathSup from "pages/Cours/Sup/Math";
 import PSup from "pages/Cours/Sup/Physique";
 import PSpe from "pages/Cours/Spe/Physique";
+import TSpe from "pages/Cours/Spe/Tr";
+import TSup from "pages/Cours/Sup/Tr";
+import ISup from "pages/Cours/Sup/Info";
+import ISpe from "pages/Cours/Spe/Info";
+import CSpe from "pages/Cours/Spe/Chimie";
 import CSup from "pages/Cours/Sup/Chimie";
 import MathSpe from "pages/Cours/Spe/Math";
 import Formation from "pages/Formations/Formation";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
-import Author from "layouts/pages/landing-pages/author";
-import SignIn from "layouts/pages/authentication/sign-in";
 import datailham from "pages/Formations/data/DataIlham";
 import MathF from "pages/Formations/Math/index";
 import MathC from "pages/Cours/Math/index";
 import InfoC from "pages/Cours/Info/index";
 import TrC from "pages/Cours/Tr/index";
-import PfC from "pages/Cours/Pf/index";
 import ChimieF from "pages/Formations/Chimie/index";
 import ChimieC from "pages/Cours/Chimie/index";
 import SIC from "pages/Cours/SI/index";
@@ -1597,11 +1599,12 @@ const routes = [
           },
           {
             name: "Spe",
-            route: "/pages/Cours/Chimie/Sup",
+            route: "/pages/Cours/Chimie/Spe",
             collapse: [
               {
                 name: "Spe",
-                route: "/pages/Cours/Chimie/Sup",
+                route: "/pages/Cours/Chimie/Spe",
+                component: <CSpe />,
               },
             ],
           },
@@ -2162,7 +2165,23 @@ const routes = [
         collapse: [
           {
             name: "Sup",
-            route: "/pages/landing-pages/about-us",
+            route: "/pages/Cours/Info/Sup",
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Cours/Info",
+                component: <InfoC />,
+              },
+              {
+                name: "Sup",
+                route: "/pages/Cours/Info/Sup",
+                component: <ISup />,
+              },
+            ],
+          },
+          {
+            name: "Spe",
+            route: "/pages/Cours/Info/Spe",
             collapse: [
               {
                 name: "",
@@ -2171,15 +2190,10 @@ const routes = [
               },
               {
                 name: "Spe",
-                route: "/pages/landing-pages/about-us",
-                component: <ContactUs />,
+                route: "/pages/Cours/Info/Spe",
+                component: <ISpe />,
               },
             ],
-          },
-          {
-            name: "Spe",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
           },
         ],
       },
@@ -2191,7 +2205,7 @@ const routes = [
         collapse: [
           {
             name: "Sup",
-            route: "/pages/landing-pages/about-us",
+            route: "/pages/Cours/Tr/Sup",
             collapse: [
               {
                 name: "",
@@ -2199,78 +2213,27 @@ const routes = [
                 component: <TrC />,
               },
               {
+                name: "",
+                route: "/pages/Cours/Tr/Sup",
+                component: <TSup />,
+              },
+              {
                 name: "Spe",
-                route: "/pages/landing-pages/about-us",
-                component: <ContactUs />,
+                route: "/pages/Cours/Tr/Spe",
+                component: <TSpe />,
               },
             ],
           },
           {
             name: "Spe",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-        ],
-      },
-      {
-        name: "Français-philosophe",
-        //description: "Resumé-Dissertation",
-        route: "/pages/Cours/Pf",
-        dropdown: true,
-        collapse: [
-          {
-            name: "Sup",
-            route: "/pages/landing-pages/about-us",
+            route: "/pages/Cours/Tr/Spe",
             collapse: [
               {
-                name: "",
-                route: "/pages/Cours/Pf",
-                component: <PfC />,
-              },
-              {
                 name: "Spe",
-                route: "/pages/landing-pages/about-us",
-                component: <ContactUs />,
+                route: "/pages/Cours/Tr/Spe",
+                component: <TSpe />,
               },
             ],
-          },
-          {
-            name: "Spe",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-        ],
-      },
-      {
-        name: "landing pages",
-        route: "/pages/landing-pages/about-us",
-        dropdown: true,
-        collapse: [
-          {
-            name: "about us",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "",
-            route: "/pages/Contact",
-            component: <ContactUs />,
-          },
-          {
-            name: "author",
-            route: "/pages/About/Founder",
-            component: <Author />,
-          },
-        ],
-      },
-      {
-        name: "account",
-        dropdown: true,
-        collapse: [
-          {
-            name: "sign in",
-            route: "/pages/authentication/sign-in",
-            component: <SignIn />,
           },
         ],
       },

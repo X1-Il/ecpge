@@ -10,13 +10,9 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import M1 from "assets/images/icon/M1.png";
-import M2 from "assets/images/icon/M2.png";
-import M3 from "assets/images/icon/M3.png";
-import M4 from "assets/images/icon/M4.png";
-import M5 from "assets/images/icon/M5.png";
-import M6 from "assets/images/icon/M6.png";
-import M7 from "assets/images/icon/M7.png";
+import CS1 from "assets/images/icon/CS1.png";
+import CS2 from "assets/images/icon/CS2.png";
+import CS3 from "assets/images/icon/CS3.png";
 //import Pdfs from "pages/Tech/Pdf";
 //import C1 from "pages/Cours/Sup/Math/src/Pdfs/Math/Cours-sup/C1";
 //import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -40,7 +36,7 @@ function Parts() {
         <Grid container>
           <Grid item xs={12} md={8} sx={{ mb: 6 }}>
             <MKTypography variant="h3" color="info">
-              Chimie de Solution
+              Thermochimie
             </MKTypography>
           </Grid>
         </Grid>
@@ -48,10 +44,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
-                name="Logique"
-                position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                image={CS1}
+                name="Aspet thermodynamique des réactions rédox"
+                position={{ color: "info", label: "Thermochimie" }}
+                description="Étude des aspects thermodynamiques des réactions d'oxydoréduction, incluant les potentiels redox et les énergies libres."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
@@ -73,10 +69,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M2}
-                name="Ensembles, relations, applications"
-                position={{ color: "info", label: "Algébre" }}
-                description="Ensembles, relations, applications : collections, liens, correspondances mathématiques."
+                image={CS2}
+                name="Déplacement des équilibres chimiques"
+                position={{ color: "info", label: "Thermochimie" }}
+                description="Changement de position de l'équilibre chimique d'une réaction suite à des modifications des conditions (température, pression, concentration)."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
@@ -89,131 +85,6 @@ function Parts() {
                 </MKButton>
               </Link>
               <Link to="/Cours/Sup/Math/Cours/Sup-V2">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
-                </MKButton>
-              </Link>
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
-              <HorizontalTeamCard
-                image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
-              />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M3">
-                <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
-                  Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T3">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V3">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
-                </MKButton>
-              </Link>
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
-              <HorizontalTeamCard
-                image={M4}
-                name="Sigma et Pi. Le binôme de Newton"
-                position={{ color: "info", label: "Algébre" }}
-                description="Notation pour la somme, notation pour le produit et formule pour développer une puissance de binôme."
-              />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M4">
-                <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
-                  Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T4">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V4">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
-                </MKButton>
-              </Link>
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
-              <HorizontalTeamCard
-                image={M5}
-                name="Inégalités"
-                position={{ color: "info", label: "Analyse" }}
-                description="Relations de comparaison entre des quantités mathématiques."
-              />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M5">
-                <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
-                  Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T5">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V5">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
-                </MKButton>
-              </Link>
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
-              <HorizontalTeamCard
-                image={M6}
-                name="Petits systèmes d’équations linéaires "
-                position={{ color: "info", label: "Analyse" }}
-                description="Équations linéaires avec un petit nombre de variables inconnues."
-              />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M6">
-                <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
-                  Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T6">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V6">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
-                </MKButton>
-              </Link>
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
-              <HorizontalTeamCard
-                image={M7}
-                name="Les nombres complexes"
-                position={{ color: "info", label: "Algébre" }}
-                description="Nombres composés de parties réelle et imaginaire, notés a + bi."
-              />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M7">
-                <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
-                  Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T7">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V7">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -227,7 +98,7 @@ function Parts() {
         <Grid container>
           <Grid item xs={12} md={8} sx={{ mb: 6 }}>
             <MKTypography variant="h3" color="info">
-              chimie de coordination
+              Electrochimie
             </MKTypography>
           </Grid>
         </Grid>
@@ -235,10 +106,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
-                name="Logique"
-                position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                image={CS3}
+                name="ElectroChimie"
+                position={{ color: "info", label: "Electrochimie" }}
+                description="Étude des réactions chimiques qui impliquent des transferts d'électrons, généralement en solution."
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
@@ -251,81 +122,6 @@ function Parts() {
                 </MKButton>
               </Link>
               <Link to="/Cours/Sup/Math/Cours/Sup-V1">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
-                </MKButton>
-              </Link>
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
-              <HorizontalTeamCard
-                image={M2}
-                name="Ensembles, relations, applications"
-                position={{ color: "info", label: "Algébre" }}
-                description="Ensembles, relations, applications : collections, liens, correspondances mathématiques."
-              />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M2">
-                <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
-                  Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T2">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V2">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
-                </MKButton>
-              </Link>
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
-              <HorizontalTeamCard
-                image={M3}
-                name="Trigonométrie"
-                position={{ color: "info", label: "Algébre" }}
-                description="Étude des relations entre les angles et les côtés triangulaires."
-              />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M3">
-                <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
-                  Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T3">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V3">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
-                </MKButton>
-              </Link>
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
-              <HorizontalTeamCard
-                image={M4}
-                name="Sigma et Pi. Le binôme de Newton"
-                position={{ color: "info", label: "Algébre" }}
-                description="Notation pour la somme, notation pour le produit et formule pour développer une puissance de binôme."
-              />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M4">
-                <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
-                  Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T4">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V4">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>

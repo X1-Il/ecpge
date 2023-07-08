@@ -10,7 +10,7 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import M1 from "assets/images/icon/M1.png";
+import Tr1 from "assets/images/icon/Tr1.png";
 //import Pdfs from "pages/Tech/Pdf";
 //import C1 from "pages/Cours/Sup/Math/src/Pdfs/Math/Cours-sup/C1";
 //import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -42,10 +42,10 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
-                name="Logique"
-                position={{ color: "info", label: "Mecanique" }}
-                description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
+                image={Tr1}
+                name="Les Texts SUP"
+                position={{ color: "info", label: "Traduction" }}
+                description="Arabe->Fr et Fr->Arabe"
               />
               <Link to="/Cours/Sup/Math/Cours/Sup-M1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">

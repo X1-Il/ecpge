@@ -10,11 +10,33 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import M1 from "assets/images/icon/M1.png";
-import M2 from "assets/images/icon/M2.png";
-import M3 from "assets/images/icon/M3.png";
-import M4 from "assets/images/icon/M4.png";
-import M5 from "assets/images/icon/M5.png";
+import PS1 from "assets/images/icon/PS1.png";
+import PS2 from "assets/images/icon/PS2.png";
+import PS3 from "assets/images/icon/PS3.png";
+import PS4 from "assets/images/icon/PS4.png";
+import PS5 from "assets/images/icon/PS5.png";
+import PS6 from "assets/images/icon/PS6.png";
+import PS7 from "assets/images/icon/PS7.png";
+import PS8 from "assets/images/icon/PS8.png";
+import PS9 from "assets/images/icon/PS9.png";
+import PS10 from "assets/images/icon/PS10.png";
+import PS11 from "assets/images/icon/PS11.png";
+import PS12 from "assets/images/icon/PS12.png";
+import PS13 from "assets/images/icon/PS13.png";
+import PS14 from "assets/images/icon/PS14.png";
+import PS15 from "assets/images/icon/PS15.png";
+import PS16 from "assets/images/icon/PS16.png";
+import PS17 from "assets/images/icon/PS17.png";
+import PS18 from "assets/images/icon/PS18.png";
+import PS19 from "assets/images/icon/PS19.png";
+import PS20 from "assets/images/icon/PS20.png";
+import PS21 from "assets/images/icon/PS21.png";
+import PS22 from "assets/images/icon/PS22.png";
+import PS23 from "assets/images/icon/PS23.png";
+import PS24 from "assets/images/icon/PS24.png";
+import PS25 from "assets/images/icon/PS25.png";
+import PS26 from "assets/images/icon/PS26.png";
+
 //import Pdfs from "pages/Tech/Pdf";
 //import C1 from "pages/Cours/Sup/Math/src/Pdfs/Math/Cours-sup/C1";
 //import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -46,7 +68,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS1}
                 name="Cinématique du solide"
                 position={{ color: "info", label: "Mecanique" }}
                 description="Étude du mouvement des objets solides en termes de position, vitesse et accélération."
@@ -71,7 +93,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M2}
+                image={PS2}
                 name="Cinétique d'un système de points matériels"
                 position={{ color: "info", label: "Mecanique" }}
                 description="Étude du mouvement des particules indépendantes dans un système."
@@ -96,7 +118,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M3}
+                image={PS3}
                 name="Dynamique d'un système de points matériels"
                 position={{ color: "info", label: "Mecanique" }}
                 description="Étude des forces et des mouvements des particules dans un système."
@@ -121,7 +143,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M4}
+                image={PS4}
                 name="Modélisation des éfforts entre solides en contact"
                 position={{ color: "info", label: "Mecanique" }}
                 description="Modélisation des interactions et des forces entre solides en contact."
@@ -146,7 +168,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M5}
+                image={PS5}
                 name="Mvt d'un solide autour d'un axe de direction fixe"
                 position={{ color: "info", label: "Mecanique" }}
                 description="Mouvement de rotation d'un solide autour d'un axe fixe donné."
@@ -183,7 +205,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS6}
                 name="Composition en fréquence d'un signal périodique"
                 position={{ color: "info", label: "Electronique" }}
                 description="Découpage d'un signal périodique en ses composantes fréquentielles constitutives."
@@ -208,8 +230,8 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M2}
-                name="Effet d'un filtre sur  un signal périodique.pdf"
+                image={PS7}
+                name="Effet d'un filtre sur  un signal périodique"
                 position={{ color: "info", label: "Electronique" }}
                 description="Atténuation des hautes fréquences et conservation des basses fréquences dans un signal périodique."
               />
@@ -245,7 +267,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS8}
                 name="Formulation locale des lois de l'électrostatique"
                 position={{ color: "info", label: "Electromagnétisme" }}
                 description="Description des lois de l'électrostatique en termes de champs électriques et de charges locales."
@@ -270,7 +292,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M2}
+                image={PS9}
                 name="Champ et potentiel magnétostatique"
                 position={{ color: "info", label: "Electromagnétisme" }}
                 description="Description du champ magnétique et du potentiel magnétostatique dans une configuration stationnaire."
@@ -295,7 +317,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M3}
+                image={PS10}
                 name="Dipole magnétique"
                 position={{ color: "info", label: "Electromagnétisme" }}
                 description="Structure magnétique composée de deux pôles de polarité opposée."
@@ -320,7 +342,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS11}
                 name="Force de Laplace"
                 position={{ color: "info", label: "Electromagnétisme" }}
                 description="Force exercée sur un conducteur parcouru par un courant dans un champ magnétique."
@@ -345,7 +367,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M2}
+                image={PS12}
                 name="Induction électromagnétique"
                 position={{ color: "info", label: "Electromagnétisme" }}
                 description="Phénomène de génération d'un courant électrique dans un conducteur en présence d'un champ magnétique variable."
@@ -370,7 +392,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M3}
+                image={PS13}
                 name="Equations de Maxwell"
                 position={{ color: "info", label: "Electromagnétisme" }}
                 description="Système d'équations qui décrivent les lois fondamentales de l'électromagnétisme."
@@ -395,7 +417,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M4}
+                image={PS14}
                 name="Energie électromagnétique"
                 position={{ color: "info", label: "Electromagnétisme" }}
                 description="L'énergie associée aux champs électrique et magnétique d'une configuration électromagnétique."
@@ -432,7 +454,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS15}
                 name="Propagation du champ électromagnétique dans le vide"
                 position={{ color: "info", label: "Ondes" }}
                 description="Propagation des ondes électromagnétiques sans présence de milieu matériel."
@@ -457,7 +479,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M2}
+                image={PS16}
                 name="Ondes électromagnétiques dans un conducteur et dans un plasma"
                 position={{ color: "info", label: "Ondes" }}
                 description="Propagation des ondes électromagnétiques à travers un conducteur et un plasma."
@@ -482,7 +504,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M3}
+                image={PS17}
                 name="Réflexion d'une onde électromagnétique sur un conducteur parfait"
                 position={{ color: "info", label: "Ondes" }}
                 description="Réflexion totale d'une onde électromagnétique sur un conducteur sans résistance."
@@ -507,7 +529,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M3}
+                image={PS18}
                 name="Guide d'onde à section rectangulaire"
                 position={{ color: "info", label: "Ondes" }}
                 description="Guide d'onde avec une section transversale de forme rectangulaire."
@@ -532,7 +554,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={M3}
+                image={PS19}
                 name="Rayonnement dipolaire"
                 position={{ color: "info", label: "Ondes" }}
                 description="Émission de rayonnement électromagnétique par un dipôle électrique ou magnétique."
@@ -569,7 +591,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS20}
                 name="Diffusion thermique"
                 position={{ color: "info", label: "Thermodynamique" }}
                 description="Raisonnement rigoureux et analyse des arguments mathématiques et logiques."
@@ -594,7 +616,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M2}
+                image={PS21}
                 name="Rayonnement thermique"
                 position={{ color: "info", label: "Thermodynamique" }}
                 description="Émission de rayonnement électromagnétique par un objet chaud en raison de sa température."
@@ -631,7 +653,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS22}
                 name="Modèle scalaire de la lumière"
                 position={{ color: "info", label: "Optique" }}
                 description="Description de la lumière en utilisant un modèle basé sur des grandeurs scalaires telles que l'intensité lumineuse et la couleur."
@@ -656,7 +678,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS23}
                 name="Interférences non localisées"
                 position={{ color: "info", label: "Optique" }}
                 description="Interférences globales de deux ondes totalement cohérentes sans localisation précise."
@@ -681,7 +703,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS24}
                 name="Cohérence de la  lumière"
                 position={{ color: "info", label: "Optique" }}
                 description="Propriété de la lumière qui permet à ses ondes de maintenir une relation de phase fixe dans le temps."
@@ -706,7 +728,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS25}
                 name="Interféromètre de Michelson"
                 position={{ color: "info", label: "Optique" }}
                 description="Dispositif optique utilisé pour mesurer des différences de chemin optique en utilisant des interférences."
@@ -731,7 +753,7 @@ function Parts() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={M1}
+                image={PS26}
                 name="Diffraction des  ondes lumineuses"
                 position={{ color: "info", label: "Optique" }}
                 description="Phénomène de propagation et d'interférence des ondes lumineuses autour des obstacles."

@@ -20,9 +20,9 @@ import routes from "../../../../../routes";
 import footerRoutes from "../../../../../footer.routes";
 
 // Images
-import bgImage from "../../../../../assets/images/PhysiqueF.jpg";
+import bgImage from "../../../../../assets/images/icon/TrC.png";
 
-function TSup() {
+function TSpe() {
   return (
     <>
       <DefaultNavbar
@@ -71,7 +71,7 @@ function TSup() {
                 },
               })}
             >
-              Traduction
+              Traduction Spe
             </MKTypography>
             <MKTypography
               variant="h2"
@@ -112,4 +112,4 @@ function TSup() {
     </>
   );
 }
-export default TSup;
+export default TSpe;

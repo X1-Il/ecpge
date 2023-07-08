@@ -1,6 +1,6 @@
 // e_ React pages
-import CSup from "pages/Cours/Sup/Chimie/src";
+import CSpe from "pages/Cours/Spe/Chimie/src";
 
-export default function CSupPage() {
-  return <CSup />;
+export default function CSpePage() {
+  return <CSpe />;
 }
