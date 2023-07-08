@@ -196,8 +196,6 @@ import SIS6T1C from "pages/Cours/Spe/SI/src/Pdfs/SIS6T1C.pdf";
 import SIS6T2 from "pages/Cours/Spe/SI/src/Pdfs/SIS6T2.pdf";
 import SIS6T2C from "pages/Cours/Spe/SI/src/Pdfs/SIS6T2C.pdf";
 // Sections
-import PageHeaders from "layouts/sections/page-sections/page-headers";
-import Features from "layouts/sections/page-sections/featuers";
 //import { BrowserRouter as Router, Route } from "react-router-dom";
 import Pdfss from "./pages/Tech/Td";
 import Pdf from "./pages/Tech/Pdf";
@@ -2243,23 +2241,6 @@ const routes = [
     name: "Problémes",
     icon: <Icon>view_day</Icon>,
     collapse: [
-      {
-        name: "page sections",
-        description: "See all sections",
-        dropdown: true,
-        collapse: [
-          {
-            name: "page headers",
-            route: "/sections/page-sections/page-headers",
-            component: <PageHeaders />,
-          },
-          {
-            name: "features",
-            route: "/sections/page-sections/features",
-            component: <Features />,
-          },
-        ],
-      },
       {
         name: "Pbs Maths",
         //description: "Analyse, Algebre, Proba",
