@@ -1872,23 +1872,23 @@ const routes = [
               //Vids
               {
                 name: "",
-                route: "/Cours/SUP/SI/SV1",
+                route: "/Cours/Spe/SI/SV1",
                 component: <Video Y={"PqEWjcQ7NMs"} label1="SI" label2="Asservissement" />,
               },
               {
                 name: "",
-                route: "/Cours/SUP/SI/SV2",
+                route: "/Cours/Spe/SI/SV2",
                 component: <Video Y={"PeSGbVE8xno"} label1="SI" label2="Asservissement" />,
               },
               {
                 name: "",
-                route: "/Cours/SUP/SI/SV3",
-                component: <Video Y={"v7NFrSfj1OM"} label1="SI" label2="Mecanique" />,
+                route: "/Cours/Spe/SI/SV3",
+                component: <Video Y={"5ALl9EYmdcY"} label1="SI" label2="Mecanique" />,
               },
               {
                 name: "",
-                route: "/Cours/SUP/SI/SV4",
-                component: <Video Y={"NUEK53sInp0"} label1="SI" label2="Mecanique" />,
+                route: "/Cours/Spe/SI/SV4",
+                component: <Video Y={"m-mNfC0YY0I"} label1="SI" label2="Mecanique" />,
               },
               {
                 name: "",
@@ -1993,7 +1993,7 @@ const routes = [
               },
               {
                 name: "",
-                route: "/Cours/Spe/SI/SS1R2",
+                route: "/Cours/Spe/SI/SS1R3",
                 component: <Pdf C={SIS1R3} label1="SI" label2="Asservissement" />,
               },
               {

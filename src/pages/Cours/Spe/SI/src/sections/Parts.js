@@ -82,22 +82,22 @@ function Parts() {
                 position={{ color: "info", label: "Asservissement" }}
                 description="Étude de la régulation et du contrôle des systèmes pour l'ingénierie."
               />
-              <Link to="/Cours/Sup/SI/SS2">
+              <Link to="/Cours/Spe/SI/SS2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS2R">
+              <Link to="/Cours/Spe/SI/SS2R">
                 <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
                   R
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS2T1">
+              <Link to="/Cours/Spe/SI/SS2T1">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T1
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SV1">
+              <Link to="/Cours/Spe/SI/SV1">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -112,32 +112,32 @@ function Parts() {
                 position={{ color: "info", label: "Asservissement" }}
                 description="Méthodes de linéarisation et de réduction de modèles dans l'ingénierie."
               />
-              <Link to="/Cours/Sup/SI/SS3">
+              <Link to="/Cours/Spe/SI/SS3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS3A">
+              <Link to="/Cours/Spe/SI/SS3A">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours A
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS3R">
+              <Link to="/Cours/Spe/SI/SS3R">
                 <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
                   R
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS3AR">
+              <Link to="/Cours/Spe/SI/SS3AR">
                 <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
                   AR
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS3T1">
+              <Link to="/Cours/Spe/SI/SS3T1">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T1
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SV2">
+              <Link to="/Cours/Spe/SI/SV2">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -167,52 +167,52 @@ function Parts() {
                 position={{ color: "info", label: "Mecanique" }}
                 description="Rappel proj, cinematique, statique, ..."
               />
-              <Link to="/Cours/Sup/SI/SS4R1">
+              <Link to="/Cours/Spe/SI/SS4R1">
                 <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
                   R1
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS4R2">
+              <Link to="/Cours/Spe/SI/SS4R2">
                 <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
                   R2
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS4R3">
+              <Link to="/Cours/Spe/SI/SS4R3">
                 <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
                   R3
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS4R4">
+              <Link to="/Cours/Spe/SI/SS4R4">
                 <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
                   R4
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS4R5">
+              <Link to="/Cours/Spe/SI/SS4R5">
                 <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
                   R5
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS4T1">
+              <Link to="/Cours/Spe/SI/SS4T1">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T1
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS4T2">
+              <Link to="/Cours/Spe/SI/SS4T2">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T2
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS4T3">
+              <Link to="/Cours/Spe/SI/SS4T3">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T3
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS4T4">
+              <Link to="/Cours/Spe/SI/SS4T4">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T4
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS4T5">
+              <Link to="/Cours/Spe/SI/SS4T5">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T5
                 </MKButton>
@@ -227,42 +227,42 @@ function Parts() {
                 position={{ color: "info", label: "Mecanique" }}
                 description="Étude des mouvements et des forces dans les systèmes d'ingénierie."
               />
-              <Link to="/Cours/Sup/SI/SS5">
+              <Link to="/Cours/Spe/SI/SS5">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS5R">
+              <Link to="/Cours/Spe/SI/SS5R">
                 <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
                   R
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS5T1">
+              <Link to="/Cours/Spe/SI/SS5T1">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T1
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS5T2">
+              <Link to="/Cours/Spe/SI/SS5T2">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T2
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS5T3">
+              <Link to="/Cours/Spe/SI/SS5T3">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T3
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS5T4">
+              <Link to="/Cours/Spe/SI/SS5T4">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T4
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS5T5">
+              <Link to="/Cours/Spe/SI/SS5T5">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T5
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SV3">
+              <Link to="/Cours/Spe/SI/SV3">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -277,27 +277,27 @@ function Parts() {
                 position={{ color: "info", label: "Mecanique" }}
                 description="Étude des éléments de liaison et des mouvements dans les systèmes mécaniques."
               />
-              <Link to="/Cours/Sup/SI/SS6">
+              <Link to="/Cours/Spe/SI/SS6">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS6R">
+              <Link to="/Cours/Spe/SI/SS6R">
                 <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
                   R
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS6T1">
+              <Link to="/Cours/Spe/SI/SS6T1">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T1
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SS6T2">
+              <Link to="/Cours/Spe/SI/SS6T2">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T2
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/SI/SV4">
+              <Link to="/Cours/Spe/SI/SV4">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
