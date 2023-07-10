@@ -64,7 +64,7 @@ export default {
     {
       name: "About",
       items: [
-        { name: "author", href: "/pages/about/founder", type: "internal" },
+        { name: "author", href: "/pages/about/founder" },
         { name: "privacy policy", href: "" },
         { name: "licenses", href: "" },
       ],
