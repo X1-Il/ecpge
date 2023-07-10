@@ -47,6 +47,7 @@ import EMH from "pages/Formations/Physique/Hinaoui/Electromagnetisme/index";
 import MecSK from "pages/Formations/SI/Khalid/MecSK/index";
 import Ass from "pages/Formations/SI/Khalid/Ass/index";
 import Khalid from "pages/Formations/SI/Khalid/index";
+import Author from "pages/LandingPages/Author/index";
 //SI Pdf
 import SI1 from "pages/Cours/Sup/SI/src/Pdfs/SI1.pdf";
 import SI2 from "pages/Cours/Sup/SI/src/Pdfs/SI2.pdf";
@@ -395,6 +396,12 @@ const routes = [
                 route: "/pages/Cours/Math",
                 dropdown: true,
                 component: <MathC />,
+              },
+              {
+                name: "",
+                route: "/pages/about/founder",
+                dropdown: true,
+                component: <Author />,
               },
               {
                 name: "Logique",

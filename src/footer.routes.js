@@ -36,10 +36,10 @@ export default {
       name: "Cours",
       items: [
         { name: "Math", href: "Home" },
-        { name: "Physique", href: "templates/free" },
-        { name: "Chimie", href: "templates/premium" },
-        { name: "SI", href: "blog" },
-        { name: "Info", href: "blog" },
+        { name: "Physique", href: "" },
+        { name: "Chimie", href: "m" },
+        { name: "SI", href: "" },
+        { name: "Info", href: "" },
       ],
     },
     {
@@ -55,16 +55,16 @@ export default {
     {
       name: "Concours",
       items: [
-        { name: "CNC ", href: "contact-us" },
-        { name: "CCINP", href: "knowledge-center" },
-        { name: "CCMP", href: "https://services.creative-tim.com/" },
-        { name: "CCS", href: "sponsorships" },
+        { name: "CNC ", href: "" },
+        { name: "CCINP", href: "" },
+        { name: "CCMP", href: "" },
+        { name: "CCS", href: "" },
       ],
     },
     {
       name: "About",
       items: [
-        { name: "author", href: "/pages/About/Founder", type: "internal" },
+        { name: "author", href: "/pages/about/founder", type: "internal" },
         { name: "privacy policy", href: "" },
         { name: "licenses", href: "" },
       ],
