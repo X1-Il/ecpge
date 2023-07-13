@@ -6,6 +6,7 @@ import Card from "@mui/material/Card";
 // e_ React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+import MKButton from "components/MKButton";
 
 // e_ React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
@@ -86,6 +87,13 @@ function Home() {
               >
                 Votre premiére platforme pour préparé votre concours : CNC, CCINP, CCMP et CCS.
               </MKTypography>
+              <MKButton
+                variant="outlined"
+                color="info"
+                href="https://chat.whatsapp.com/JdqZ1PMhlXaGd53LVIKxIp"
+              >
+                Click to join our community on whatsapp
+              </MKButton>
             </Grid>
           </Container>
         </MKBox>

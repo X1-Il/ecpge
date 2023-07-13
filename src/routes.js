@@ -2,6 +2,7 @@
 import Icon from "@mui/material/Icon";
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
+import PbM from "pages/Pbs/Math/Sup/index";
 import MathSup from "pages/Cours/Sup/Math";
 import PSup from "pages/Cours/Sup/Physique";
 import PSpe from "pages/Cours/Spe/Physique";
@@ -48,6 +49,12 @@ import MecSK from "pages/Formations/SI/Khalid/MecSK/index";
 import Ass from "pages/Formations/SI/Khalid/Ass/index";
 import Khalid from "pages/Formations/SI/Khalid/index";
 import Author from "pages/LandingPages/Author/index";
+import MPBS from "pages/Pbs/Math/index.js";
+import PbMS from "pages/Pbs/Math/Spe/index.js";
+import PbMAl from "pages/Pbs/Math/Sup/Algebre/index.js";
+import PbMSAl from "pages/Pbs/Math/Spe/Algebre/index.js";
+import PbMSA from "pages/Pbs/Math/Spe/Analyse/index.js";
+import PbMSP from "pages/Pbs/Math/Spe/Proba/index.js";
 //SI Pdf
 import SI1 from "pages/Cours/Sup/SI/src/Pdfs/SI1.pdf";
 import SI2 from "pages/Cours/Sup/SI/src/Pdfs/SI2.pdf";
@@ -2251,18 +2258,55 @@ const routes = [
       {
         name: "Pbs Maths",
         //description: "Analyse, Algebre, Proba",
-        route: "/pages/landing-pages/about-us",
+        route: "/pages/Pbs/Math",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            route: "/pages/Pbs/Sup/Math",
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Pbs/Sup/Math",
+                component: <PbM />,
+              },
+              {
+                name: "",
+                route: "/pages/Pbs/Math",
+                component: <MPBS />,
+              },
+              {
+                name: "",
+                route: "/pages/Pbs/Sup/Math/Algebre",
+                component: <PbMAl />,
+              },
+            ],
           },
           {
             name: "Spe",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
+            route: "/pages/Pbs/Spe/Math",
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Pbs/Spe/Math",
+                component: <PbMS />,
+              },
+              {
+                name: "",
+                route: "/pages/Pbs/Spe/Math/Algebre",
+                component: <PbMSAl />,
+              },
+              {
+                name: "",
+                route: "/pages/Pbs/Spe/Math/Analyse",
+                component: <PbMSA />,
+              },
+              {
+                name: "",
+                route: "/pages/Pbs/Spe/Math/Proba",
+                component: <PbMSP />,
+              },
+            ],
           },
         ],
       },
@@ -2287,42 +2331,6 @@ const routes = [
       {
         name: "Pbs Chimie",
         description: "",
-        route: "/pages/landing-pages/about-us",
-        dropdown: true,
-        collapse: [
-          {
-            name: "Sup",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "Spe",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-        ],
-      },
-      {
-        name: "Pbs SI",
-        //description: "Mecanique - Asservissement",
-        route: "/pages/landing-pages/about-us",
-        dropdown: true,
-        collapse: [
-          {
-            name: "Sup",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "Spe",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-        ],
-      },
-      {
-        name: "Pbs Informatique",
-        //description: "Python",
         route: "/pages/landing-pages/about-us",
         dropdown: true,
         collapse: [
