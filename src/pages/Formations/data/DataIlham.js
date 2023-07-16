@@ -1,5 +1,5 @@
 const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/Home/sections";
+  "https://raw.githubusercontent.com/official/public-assets/master/material-design-system/Home/sections";
 export default [
   {
     title: "Rappel sup (Analyse)",

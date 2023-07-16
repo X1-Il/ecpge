@@ -13,8 +13,7 @@ import R2 from "assets/images/Formation/Ilham/R2.png";
 import R3 from "assets/images/Formation/Ilham/R3.png";
 import R4 from "assets/images/Formation/Ilham/R4.png";
 import R5 from "assets/images/Formation/Ilham/R5.png";
-import EP1 from "assets/images/Formation/Ilham/EP1.png";
-import EP2 from "assets/images/Formation/Ilham/EP2.png";
+
 export default [
   {
     title: "Mecanique Solide",
@@ -367,57 +366,57 @@ export default [
     ],
   },
   {
-    title: "thermique/ondes",
+    title: "Thermique",
     description: "",
     items: [
       {
         image: R1,
-        name: "Levitation Magnetique Moteur Lineaire Ressort",
+        name: "Thermique en regime stationnaire avec cylindre",
         count: 1,
       },
       {
         image: R2,
-        name: "Indice Distillation",
+        name: "Bifurcation Mecanique Chauffe Eau Solaire Depot Laiton",
         count: 2,
       },
       {
         image: R3,
-        name: "Effet Hall et magnetoresistance",
+        name: "Temperature Terre Rail Laplace Michelson Planeite",
         count: 3,
       },
       {
         image: R4,
-        name: "Ecrantage B Levitation Sphere Supraconductrice Pollution Mercure",
+        name: "Lampe a incandescence",
         count: 4,
       },
       {
         image: R5,
-        name: "Sphere supraconductrice",
+        name: "Cartes Electroniques",
         count: 5,
       },
       {
         image: R5,
-        name: "Champ Magnetique Terrestre",
+        name: "Chute Tartine Reduction NiO Diffusion Barre",
         count: 6,
       },
       {
         image: R1,
-        name: "Biprisme Effet Hall Pression Electromagnetisme",
+        name: "Formation couche de glace sur lac",
         count: 7,
       },
       {
         image: R2,
-        name: "Compresseur Adiabatique Elihu Thomson",
+        name: "Avancement Gaz Accelerometre Temperature Lune",
         count: 8,
       },
       {
         image: R3,
-        name: "Moteur Electrostatique Variometre Laiton",
+        name: "Micro Ondes Sulfite Sulfate",
         count: 9,
       },
       {
         image: R4,
-        name: "Fibre optique saut et gradient",
+        name: "Isolation thermique d un tube vaporisateur",
         count: 10,
       },
       {
@@ -427,8 +426,169 @@ export default [
       },
       {
         image: R5,
-        name: "Biprisme Effet Hall Pression Electromagnetisme",
+        name: "Thermoregulation Cycliste Etoile Double Modulation",
         count: 12,
+      },
+      {
+        image: R4,
+        name: "Cryostat Regime Non Stationnaire",
+        count: 13,
+      },
+      {
+        image: R5,
+        name: "Thermique appliquee au corps humain",
+        count: 14,
+      },
+      {
+        image: R5,
+        name: "Experience Fourier Effet Peau",
+        count: 15,
+      },
+      {
+        image: R1,
+        name: "Chauffage Plaque Foucault Thermometre Cristaux Liquides",
+        count: 16,
+      },
+      {
+        image: R2,
+        name: "Onde thermique",
+        count: 17,
+      },
+      {
+        image: R3,
+        name: "Thermique dans un fil electrique",
+        count: 18,
+      },
+      {
+        image: R4,
+        name: "Reacteur Brayton Laser Effet Thermique",
+        count: 19,
+      },
+    ],
+  },
+  {
+    title: "Ondes",
+    description: "",
+    items: [
+      {
+        image: R1,
+        name: "Ondes sur une corde",
+        count: 1,
+      },
+      {
+        image: R2,
+        name: "Disque Rotation Initiale Passe Bande Triangle CaviteLaser Gravitation",
+        count: 2,
+      },
+      {
+        image: R3,
+        name: "Onde Reflexion Dielectrique Solenoide",
+        count: 3,
+      },
+      {
+        image: R4,
+        name: "Fibre Optique Aluminium",
+        count: 4,
+      },
+      {
+        image: R5,
+        name: "Effet Faraday dans un plasma",
+        count: 5,
+      },
+      {
+        image: R5,
+        name: "Coefficients de reflexion et de transmission",
+        count: 6,
+      },
+      {
+        image: R1,
+        name: "Biprisme EffetHall Pression Electromagnetisme",
+        count: 7,
+      },
+      {
+        image: R2,
+        name: "Ligne a rubans impedance caracteristique",
+        count: 8,
+      },
+      {
+        image: R3,
+        name: "Tension Rotation Stick Slip Condensateur HF",
+        count: 9,
+      },
+      {
+        image: R4,
+        name: "Bon conducteur et guide TE",
+        count: 10,
+      },
+      {
+        image: R5,
+        name: "Indice Distillation",
+        count: 11,
+      },
+      {
+        image: R5,
+        name: "Plasma Guide Ondes Cycle Trois Transformations",
+        count: 12,
+      },
+      {
+        image: R4,
+        name: "Absorption OPPM par un gaz",
+        count: 13,
+      },
+      {
+        image: R5,
+        name: "Terebenthine Retro Antireflet",
+        count: 14,
+      },
+      {
+        image: R5,
+        name: "Modele Thomson Effet Zeeman Chrome Ellingham Binaire Eau HF",
+        count: 15,
+      },
+      {
+        image: R1,
+        name: "Guide Avalanche Cadmium",
+        count: 16,
+      },
+      {
+        image: R2,
+        name: "Coaxial Guide Rectangulaire Doppler Potentiel Ph Chrome",
+        count: 17,
+      },
+      {
+        image: R3,
+        name: "Chauffage Plaque Foucault Thermometre Cristaux Liquides",
+        count: 18,
+      },
+      {
+        image: R4,
+        name: "Experience Fourier Effet Peau",
+        count: 19,
+      },
+      {
+        image: R4,
+        name: "Metal non parfait",
+        count: 20,
+      },
+      {
+        image: R4,
+        name: "Onde quasimonochr Resonateur Guide Plasma",
+        count: 21,
+      },
+      {
+        image: R4,
+        name: "Guide TM Rayonnement Reception EpHChrome",
+        count: 22,
+      },
+      {
+        image: R4,
+        name: "Skeleton Onde Metal Preparation Titane",
+        count: 23,
+      },
+      {
+        image: R4,
+        name: "Flux et circulations pour un coaxial",
+        count: 24,
       },
     ],
   },

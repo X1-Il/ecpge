@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import MKButton from "components/MKButton";
 import Container from "@mui/material/Container";
 import MKTypography from "../../../../components/MKTypography";
-
+//
 function Places() {
   return (
     <MKBox component="section" py={2}>

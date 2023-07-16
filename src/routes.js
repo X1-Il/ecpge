@@ -58,6 +58,7 @@ import Khalid from "pages/Formations/SI/Khalid/index";
 import Author from "pages/LandingPages/Author/index";
 import MPBS from "pages/Pbs/Math/index.js";
 import PbPS from "pages/Pbs/Physique/Psup/index.js";
+import CbPS from "pages/Pbs/Chimie/Csup/index.js";
 import CPBS from "pages/Pbs/Chimie/index.js";
 import PPBS from "pages/Pbs/Physique/index.js";
 import PbMS from "pages/Pbs/Math/Spe/index.js";
@@ -384,6 +385,8 @@ import TS16C from "./pages/Cours/Spe/Math/src/Pdfs/TS16C.pdf";
 import TS17C from "./pages/Cours/Spe/Math/src/Pdfs/TS17C.pdf";
 import SIF from "./pages/Formations/SI";
 import InfoF from "./pages/Formations/Info";
+import PbPSP from "./pages/Pbs/Physique/Pspe";
+import CbPSP from "./pages/Pbs/Chimie/Cspe";
 //import C01 from "pages/Cours/Sup/Math/src/Pdfs/Math/Cours/C01.pdf";
 const routes = [
   {
@@ -2354,8 +2357,19 @@ const routes = [
           },
           {
             name: "Spe",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            route: "/pages/Pbs/Spe/Physique",
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Pbs/Spe/Physique",
+                component: <PbPSP />,
+              },
+              {
+                name: "",
+                route: "/pages/Pbs/Physique",
+                component: <PPBS />,
+              },
+            ],
           },
         ],
       },
@@ -2367,13 +2381,30 @@ const routes = [
         collapse: [
           {
             name: "Sup",
-            route: "/pages/Pbs/Chimie",
-            component: <CPBS />,
+            route: "/pages/Pbs/Sup/Chimie",
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Pbs/Sup/Chimie",
+                component: <CbPS />,
+              },
+              {
+                name: "",
+                route: "/pages/Pbs/Chimie",
+                component: <CPBS />,
+              },
+            ],
           },
           {
             name: "Spe",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            route: "/pages/Pbs/Spe/Chimie",
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Pbs/Spe/Chimie",
+                component: <CbPSP />,
+              },
+            ],
           },
         ],
       },

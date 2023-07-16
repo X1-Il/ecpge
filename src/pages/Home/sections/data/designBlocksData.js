@@ -1,5 +1,5 @@
 const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/Home/sections";
+  "https://raw.githubusercontent.com/public-assets/master/material-design-system/Home/sections";
 
 export default [
   {
