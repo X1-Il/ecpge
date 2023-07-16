@@ -15,7 +15,7 @@ import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Home page sections
 //import Information from "pages/Formations/SI/sections/Information";
-import Pages from "pages/Formations/SI/sections/Pages";
+import Pages from "pages/Pbs/Chimie/sections/Pages";
 //import Testimonials from "pages/Formations/SI/sections/Testimonials";
 //import Download from "pages/Formations/SI/sections/Download";
 
@@ -27,9 +27,9 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/MathP.jpg";
+import bgImage from "assets/images/ChimieF.jpg";
 
-function MPBS() {
+function CPBS() {
   return (
     <>
       <DefaultNavbar
@@ -75,7 +75,7 @@ function MPBS() {
                   },
                 })}
               >
-                SI{" "}
+                Chimie{" "}
               </MKTypography>
               <MKTypography
                 variant="body1"
@@ -84,7 +84,7 @@ function MPBS() {
                 px={{ xs: 6, lg: 10 }}
                 mt={1}
               >
-                Les formations sont disponibles sous forme d&apos;enregistrements vidéo.
+                Les problémes sont disponibles sous forme PDF.
               </MKTypography>
             </Grid>
           </Container>
@@ -171,4 +171,4 @@ function MPBS() {
   );
 }
 
-export default MPBS;
+export default CPBS;

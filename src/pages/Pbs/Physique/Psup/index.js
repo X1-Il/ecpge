@@ -14,22 +14,23 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Home page sections
-//import Information from "pages/Formations/SI/sections/Information";
-import Pages from "pages/Pbs/Math/sections/Pages";
-//import Testimonials from "pages/Formations/SI/sections/Testimonials";
-//import Download from "pages/Formations/SI/sections/Download";
+//import Information from "pages/Formations/Math/sections/Information";
+//import Pages from "pages/Formations/Math/Ilham/sections/Pages";
+//import Testimonials from "pages/Formations/Math/sections/Testimonials";
+//import Download from "pages/Formations/Math/sections/Download";
+import DesignBlocks from "pages/Pbs/Physique/Psup/sections/DesignBlocks.js";
 
-// Home page components
-import BuiltByDevelopers from "pages/Formations/SI/components/BuiltByDevelopers";
+// Home page componentsss
+import BuiltByDevelopers from "pages/Formations/Math/components/BuiltByDevelopers";
 
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/MathP.jpg";
+import bgImage from "assets/images/PhysiqueF.jpg";
 
-function MPBS() {
+function PbPS() {
   return (
     <>
       <DefaultNavbar
@@ -75,7 +76,7 @@ function MPBS() {
                   },
                 })}
               >
-                Math{" "}
+                Problèmes{" Physique"}
               </MKTypography>
               <MKTypography
                 variant="body1"
@@ -84,7 +85,7 @@ function MPBS() {
                 px={{ xs: 6, lg: 10 }}
                 mt={1}
               >
-                Les problémes sont disponibles sous forme PDF.
+                Depuis le prof Gerald Philippe.
               </MKTypography>
             </Grid>
           </Container>
@@ -101,7 +102,7 @@ function MPBS() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <Pages />
+        <DesignBlocks />
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
@@ -171,4 +172,4 @@ function MPBS() {
   );
 }
 
-export default MPBS;
+export default PbPS;

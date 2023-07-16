@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Card from "@mui/material/Card";
 import Switch from "@mui/material/Switch";
@@ -14,38 +14,50 @@ import MKButton from "components/MKButton";
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import SimpleFooter from "examples/Footers/SimpleFooter";
 import routes from "routes";
-//import { setIsLoggedIn } from "./isLoggedIn";
 import bgImage from "assets/images/bg-sign-in-basic.jpeg";
+
 function SignInBasic() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
-  const [isLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
-  const handleSignIn = () => {
-    const users = {
-      "ibrahim.laklaa@ecpge.mp": "Ibrahim2004",
-      "mohamed.elghachi@ecpge.mp": "Mohamed2001",
-      "yassine.khalil@ecpge.mp": "Khalilxporn",
-      "basma.nahiz@ecpge.mp": "Nahiz#x-ens",
-      "youssef.cherrabi@ecpge.mp": "Youssef#kh24",
-      "user@ecpge.mp": "admin@1234",
-      "othmane.fatih@ecpge.mp": "OthmaneX2004",
-      // Add more users here if needed
-    };
 
+  const users = {
+    "ibrahim.laklaa@ecpge.mp": "Ibrahim2004",
+    "mohamed.elghachi@ecpge.mp": "Mohamed2001",
+    "yassine.khalil@ecpge.mp": "Khalilxporn",
+    "basma.nahiz@ecpge.mp": "Nahiz#x-ens",
+    "youssef.cherrabi@ecpge.mp": "Youssef#kh24",
+    "user@ecpge.mp": "admin@1234",
+    "othmane.fatih@ecpge.mp": "OthmaneX2004",
+  };
+
+  const handleSignIn = () => {
     if (users[email] === password) {
-      setError("");
-      isLoggedIn(true);
-      return true;
-      // Handle successful Contact or redirection logic here
+      setIsLoggedIn(true);
+      localStorage.setItem("isLoggedIn", true);
+      // Redirect or perform necessary actions on successful login
     } else {
-      setError("Email or mot de passe incorrect");
-      return false;
+      setError("Invalid credentials");
     }
   };
+
+  useEffect(() => {
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+
+    if (isLoggedIn) {
+      setIsLoggedIn(true);
+    }
+  }, []);
+
+  if (isLoggedIn) {
+    // User is already logged in, handle accordingly
+    // Redirect or perform necessary actions
+    return null;
+  }
 
   return (
     <>
@@ -147,14 +159,8 @@ function SignInBasic() {
                     </MKTypography>
                   </MKBox>
                   <MKBox mt={4} mb={1}>
-                    <MKButton
-                      variant="gradient"
-                      color="info"
-                      fullWidth
-                      type="submit"
-                      onClick={handleSignIn}
-                    >
-                      Contact
+                    <MKButton variant="gradient" color="info" fullWidth type="submit">
+                      Login
                     </MKButton>
                   </MKBox>
                   {error && (
@@ -191,5 +197,7 @@ function SignInBasic() {
     </>
   );
 }
-export let handleSignIn;
+
+export let isLoggedIn;
+export let setIsLoggedIn;
 export default SignInBasic;

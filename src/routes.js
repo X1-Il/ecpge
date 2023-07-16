@@ -2,6 +2,13 @@
 import Icon from "@mui/material/Icon";
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
+import CNC from "pages/Concours/CNC/index.js";
+import CCINP from "pages/Concours/CCINP/index.js";
+import CCMP from "pages/Concours/CCMP/index.js";
+import CCS from "pages/Concours/CCS/index.js";
+import TIPE from "TIPE/index.js";
+import TIPEIG from "TIPE/IG/index.js";
+import SignIn from "layouts/pages/authentication/sign-in/index.js";
 import PbM from "pages/Pbs/Math/Sup/index";
 import MathSup from "pages/Cours/Sup/Math";
 import PSup from "pages/Cours/Sup/Physique";
@@ -50,6 +57,9 @@ import Ass from "pages/Formations/SI/Khalid/Ass/index";
 import Khalid from "pages/Formations/SI/Khalid/index";
 import Author from "pages/LandingPages/Author/index";
 import MPBS from "pages/Pbs/Math/index.js";
+import PbPS from "pages/Pbs/Physique/Psup/index.js";
+import CPBS from "pages/Pbs/Chimie/index.js";
+import PPBS from "pages/Pbs/Physique/index.js";
 import PbMS from "pages/Pbs/Math/Spe/index.js";
 import PbMAl from "pages/Pbs/Math/Sup/Algebre/index.js";
 import PbMSAl from "pages/Pbs/Math/Spe/Algebre/index.js";
@@ -421,6 +431,16 @@ const routes = [
                 component: (
                   <Pdf C={C02} label1="Math" label2="Ensembles, relations, applications" />
                 ),
+              },
+              {
+                name: "",
+                route: "/SignIn",
+                component: <SignIn />,
+              },
+              {
+                name: "",
+                route: "/pages/Contact",
+                component: <ContactUs />,
               },
               {
                 name: "Trigonométrie",
@@ -2313,36 +2333,47 @@ const routes = [
       {
         name: "Pbs Physique",
         description: "",
-        route: "/pages/landing-pages/about-us",
+        route: "/pages/Pbs/Physique",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            route: "/pages/Pbs/Sup/Physique",
+            collapse: [
+              {
+                name: "Sup",
+                route: "/pages/Pbs/Sup/Physique",
+                component: <PbPS />,
+              },
+              {
+                name: "",
+                route: "/pages/Pbs/Physique",
+                component: <PPBS />,
+              },
+            ],
           },
           {
             name: "Spe",
             route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
+            component: <AboutUs />,
           },
         ],
       },
       {
         name: "Pbs Chimie",
         description: "",
-        route: "/pages/landing-pages/about-us",
+        route: "/pages/Pbs/Chimie",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            route: "/pages/Pbs/Chimie",
+            component: <CPBS />,
           },
           {
             name: "Spe",
             route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
+            component: <AboutUs />,
           },
         ],
       },
@@ -2355,165 +2386,52 @@ const routes = [
       {
         name: "CNC",
         //description: "Analyse, Algebre, Proba",
-        route: "/pages/landing-pages/about-us",
-        dropdown: true,
+        route: "/CNC",
+        dropdown: false,
         collapse: [
           {
             name: "Math",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "Physique",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "SI",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "Chimie",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "Informatique",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
+            route: "/CNC",
+            component: <CNC />,
           },
         ],
       },
       {
         name: "CCINP",
         description: "",
-        route: "/pages/landing-pages/about-us",
-        dropdown: true,
+        route: "/CCINP",
+        dropdown: false,
         collapse: [
           {
             name: "Math",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "Physique",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "SI",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "Chimie",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "Informatique",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
+            route: "/CCINP",
+            component: <CCINP />,
           },
         ],
       },
       {
         name: "CCMP",
         description: "",
-        route: "/pages/landing-pages/about-us",
-        dropdown: true,
+        route: "/CCMP",
+        dropdown: false,
         collapse: [
           {
             name: "Math",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "Physique",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "SI",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "Chimie",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "Informatique",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
+            route: "/CCMP",
+            component: <CCMP />,
           },
         ],
       },
       {
         name: "CCS",
         //description: "Mecanique - Asservissement",
-        route: "/pages/landing-pages/about-us",
-        dropdown: true,
+        route: "/CCS",
+        dropdown: false,
         collapse: [
           {
             name: "Math",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "Physique",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "SI",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "Chimie",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "Informatique",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-        ],
-      },
-      {
-        name: "X-ENS",
-        //description: "Python",
-        route: "/pages/landing-pages/about-us",
-        dropdown: true,
-        collapse: [
-          {
-            name: "Math",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "Physique",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "SI",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "Chimie",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "Informatique",
-            route: "/pages/landing-pages/about-us",
-            component: <ContactUs />,
+            route: "/CCS",
+            component: <CCS />,
           },
         ],
       },
@@ -2756,24 +2674,16 @@ const routes = [
     icon: <Icon>web</Icon>,
     collapse: [
       {
-        name: "getting started",
-        description: "All about overview, quick start, license and contents",
-        href: "learning-lab/react/quick-start//",
+        name: "TIPE",
+        description: "Informations Générale",
+        route: "/TIPEIG",
+        component: <TIPEIG />,
       },
       {
-        name: "foundation",
-        description: "See our colors, icons and typography",
-        href: "learning-lab/react/colors//",
-      },
-      {
-        name: "components",
-        description: "Explore our collection of fully designed components",
-        href: "",
-      },
-      {
-        name: "plugins",
-        description: "Check how you can integrate our plugins",
-        href: "learning-lab/react/datepicker//",
+        name: "TIPE examples",
+        description: "MP-PSI-TSI",
+        route: "/TIPE",
+        component: <TIPE />,
       },
     ],
   },

@@ -1,43 +1,18 @@
-// @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import React from "react";
 import Card from "@mui/material/Card";
-
-// e_ React components
+import Grid from "@mui/material/Grid";
+import Container from "@mui/material/Container"; // Import Container component
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-//import MKSocialButton from "components/MKSocialButton";
-
-// e_ React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
-import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
-import { useNavigate } from "react-router-dom";
-// Home page sections
-//import Information from "pages/Formations/Math/sections/Information";
-import Pages from "pages/Formations/Math/sections/Pages";
-//import Testimonials from "pages/Formations/Math/sections/Testimonials";
-//import Download from "pages/Formations/Math/sections/Download";
-import React from "react";
-// Home page components
-import BuiltByDevelopers from "pages/Formations/Math/components/BuiltByDevelopers";
-//import React, { useState } from "react";
-import SignIn from "layouts/pages/authentication/sign-in";
-//import { getIsLoggedIn } from "pages/LandingPages/SignIn/isLoggedIn";
-import { handleSignIn } from "pages/LandingPages/SignIn/index";
-// Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
-
-// Images
 import bgImage from "assets/images/MathF.jpg";
-
+import Pages from "pages/Formations/Math/sections/Pages"; // Import Pages component
+import BuiltByDevelopers from "pages/Formations/Math/components/BuiltByDevelopers"; // Import BuiltByDevelopers component
+import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard"; // Import FilledInfoCard component
+import DefaultFooter from "examples/Footers/DefaultFooter"; // Import DefaultFooter component
+import footerRoutes from "footer.routes"; // Import footerRoutes variable
 function MathF() {
-  const navigate = useNavigate();
-  if (handleSignIn === true) {
-    navigate("/layouts/pages/authentication/sign-in");
-    return <SignIn />; // or a loading indicator or message
-  }
   return (
     <>
       <DefaultNavbar

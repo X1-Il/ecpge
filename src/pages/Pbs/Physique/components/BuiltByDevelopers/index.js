@@ -29,7 +29,7 @@ function BuiltByDevelopers() {
             Conseil
           </MKTypography>
           <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-            Pour optimiser la concentration pendant les vidéos avec les professeurs, il est
+            Pour optimiser la concentration pendant la classe avec les professeurs, il est
             recommandé de bien lire le cours avant la séance.
           </MKTypography>
         </Grid>

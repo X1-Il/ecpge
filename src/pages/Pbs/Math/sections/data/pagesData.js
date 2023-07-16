@@ -11,17 +11,17 @@ Coded by www.creative-tim.com
  =========================================================
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-import Khalid from "assets/images/Khalid.jpg";
-import Expertise from "assets/images/Expertise.jpg";
+import Sup from "assets/images/Sup1.jpg";
+import Spe from "assets/images/Spe2.jpg";
 export default [
   {
-    image: Khalid,
+    image: Sup,
     name: "Sup",
-    route: "/pages/formation/SI/Khalid",
+    route: "/pages/Pbs/Sup/Math",
   },
   {
-    image: Expertise,
+    image: Spe,
     name: "Spe",
-    route: "/pages/landing-pages/contact-us",
+    route: "/pages/Pbs/Spe/Math",
   },
 ];

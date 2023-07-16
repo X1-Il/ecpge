@@ -40,17 +40,17 @@ function Pages() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="les profs disponibles"
+            badgeContent="Votre niveau"
             container
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            Des profs d&apos;exellence
+            Des problémes classiques
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            Les deux professeurs, Khalid et le prof de l&apos;expertise, sont des
+            Les problémes sont importé depuis un drive de prof
             <br />
-            enseignants agréés qui utilisent des méthodes exceptionnelles pour expliquer les cours.
+            Mustapha Elamdaoui
           </MKTypography>
         </Grid>
       </Container>
@@ -64,11 +64,11 @@ function Pages() {
           <Grid item xs={12} lg={3}>
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                Cours polyvalents, toutes filières, tous niveaux.
+                Problémes polyvalents, toutes filières, tous niveaux.
               </MKTypography>
               <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
-                Les cours conviennent à toutes les filières (mp/psi/tsi/mpi) et à tous les niveaux,
-                y compris la préparation aux divers concours.
+                Les problémes conviennent à toutes les filières (mp/psi/tsi/mpi) et à tous les
+                niveaux, y compris la préparation aux divers concours.
               </MKTypography>
             </MKBox>
           </Grid>
