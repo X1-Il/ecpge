@@ -99,7 +99,7 @@ function MathF() {
                 description="Lire attentivement le cours pour une meilleure compréhension et assimilation des informations essentielles."
                 action={{
                   type: "internal",
-                  route: "",
+                  route: "/404",
                   label: "Voir les cours",
                 }}
               />
@@ -112,7 +112,7 @@ function MathF() {
                 description="Travailler régulièrement les travaux dirigés (TD) pour renforcer la compréhension des concepts enseignés."
                 action={{
                   type: "internal",
-                  route: "",
+                  route: "/404",
                   label: "Voir les TDs",
                 }}
               />
@@ -125,7 +125,7 @@ function MathF() {
                 description="Résoudre activement les problèmes pour développer des compétences pratiques et approfondir la compréhension des concepts."
                 action={{
                   type: "internal",
-                  route: "",
+                  route: "/404",
                   label: "Voir les pbs",
                 }}
               />

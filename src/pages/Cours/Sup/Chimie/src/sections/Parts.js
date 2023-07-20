@@ -56,19 +56,9 @@ function Parts() {
                 position={{ color: "info", label: "Chimie de Solution" }}
                 description="Étude des propriétés de l'eau en tant que liquide et solvant."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M1">
+              <Link to="/Cours/Sup/Chimie/C1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
                   Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V1">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
                 </MKButton>
               </Link>
             </MKBox>
@@ -81,17 +71,17 @@ function Parts() {
                 position={{ color: "info", label: "Chimie de Solution" }}
                 description="Compréhension des réactions chimiques entre acides et bases."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M2">
+              <Link to="/Cours/Sup/Chimie/C2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T2">
+              <Link to="/Cours/Sup/Chimie/T1">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V2">
+              <Link to="/Cours/Sup/Chimie/V1">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -106,17 +96,17 @@ function Parts() {
                 position={{ color: "info", label: "Chimie de Solution" }}
                 description="Compréhension des interactions complexes entre molécules et ions métalliques."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M3">
+              <Link to="/Cours/Sup/Chimie/C3">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T3">
+              <Link to="/Cours/Sup/Chimie/T2">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V3">
+              <Link to="/Cours/Sup/Chimie/V2">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -131,17 +121,17 @@ function Parts() {
                 position={{ color: "info", label: "Chimie de Solution" }}
                 description="Formation de précipités solides lors de réactions chimiques spécifiques."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M4">
+              <Link to="/Cours/Sup/Chimie/C4">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T4">
+              <Link to="/Cours/Sup/Chimie/T3">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V4">
+              <Link to="/Cours/Sup/Chimie/V2">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -156,17 +146,17 @@ function Parts() {
                 position={{ color: "info", label: "Chimie de Solution" }}
                 description="Transformation chimique impliquant une diminution de l'état d'oxydation d'une substance."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M5">
+              <Link to="/Cours/Sup/Chimie/C5">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T5">
+              <Link to="/Cours/Sup/Chimie/T4">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V5">
+              <Link to="/Cours/Sup/Chimie/V3">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -181,17 +171,17 @@ function Parts() {
                 position={{ color: "info", label: "Chimie de Solution" }}
                 description="Représentation graphique du potentiel électrochimique en fonction du pH."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M6">
+              <Link to="/Cours/Sup/Chimie/C6">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T6">
+              <Link to="/Cours/Sup/Chimie/T5">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V6">
+              <Link to="/Cours/Sup/Chimie/V4">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -218,17 +208,17 @@ function Parts() {
                 position={{ color: "info", label: "chimie de coordination" }}
                 description="Description de l'arrangement et de la connectivité des atomes dans une molécule."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M1">
+              <Link to="/Cours/Sup/Chimie/C7">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Sup/Chimie/T6">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V1">
+              <Link to="/Cours/Sup/Chimie/V5">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -243,17 +233,12 @@ function Parts() {
                 position={{ color: "info", label: "chimie de coordination" }}
                 description="Organisation des éléments chimiques en fonction de leurs propriétés périodiques communes."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M2">
+              <Link to="/Cours/Sup/Chimie/C8">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T2">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V2">
+              <Link to="/Cours/Sup/Chimie/V5">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -268,17 +253,17 @@ function Parts() {
                 position={{ color: "info", label: "chimie de coordination" }}
                 description="Étude des propriétés et comportements des atomes et de leurs interactions."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M3">
+              <Link to="/Cours/Sup/Chimie/C9">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T3">
+              <Link to="/Cours/Sup/Chimie/T7">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V3">
+              <Link to="/Cours/Sup/Chimie/V6">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -293,17 +278,17 @@ function Parts() {
                 position={{ color: "info", label: "chimie de coordination" }}
                 description="Étude de la structure cristalline des solides, basée sur leur arrangement périodique."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M4">
+              <Link to="/Cours/Sup/Chimie/C10">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T4">
+              <Link to="/Cours/Sup/Chimie/T8">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V4">
+              <Link to="/Cours/Sup/Chimie/V7">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>

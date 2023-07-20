@@ -26,7 +26,7 @@ function ContactUs() {
           routes={routes}
           action={{
             type: "external",
-            route: "",
+            route: "/404",
             label: "Contact us",
             color: "info",
           }}

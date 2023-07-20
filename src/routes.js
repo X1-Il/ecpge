@@ -2,6 +2,7 @@
 import Icon from "@mui/material/Icon";
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
+import NotFound from "pages/LandingPages/Error/index1.js";
 import CNC from "pages/Concours/CNC/index.js";
 import CCINP from "pages/Concours/CCINP/index.js";
 import CCMP from "pages/Concours/CCMP/index.js";
@@ -66,6 +67,9 @@ import PbMAl from "pages/Pbs/Math/Sup/Algebre/index.js";
 import PbMSAl from "pages/Pbs/Math/Spe/Algebre/index.js";
 import PbMSA from "pages/Pbs/Math/Spe/Analyse/index.js";
 import PbMSP from "pages/Pbs/Math/Spe/Proba/index.js";
+//Pdf Trad
+import Trad1 from "pages/Cours/Spe/Tr/src/pdf/1-Traduction 1ère année.pdf";
+import Trad2 from "pages/Cours/Spe/Tr/src/pdf/1-Traduction 2ème année .pdf";
 //SI Pdf
 import SI1 from "pages/Cours/Sup/SI/src/Pdfs/SI1.pdf";
 import SI2 from "pages/Cours/Sup/SI/src/Pdfs/SI2.pdf";
@@ -348,6 +352,34 @@ import MS14 from "./pages/Cours/Spe/Math/src/Pdfs/MS14.pdf";
 import MS15 from "./pages/Cours/Spe/Math/src/Pdfs/MS15.pdf";
 import MS16 from "./pages/Cours/Spe/Math/src/Pdfs/MS16.pdf";
 import MS17 from "./pages/Cours/Spe/Math/src/Pdfs/MS17.pdf";
+//ChimieSup
+import CCSC1 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/1-Eau liquide et eau solvant.pdf";
+import CCSC2 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/2-Réactions acido-basiques.pdf";
+import CCSC3 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/3-Réaction de complexation.pdf";
+import CCSC4 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/4-Réactions de précipitation.pdf";
+import CCSC5 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/5-Réactions de réduction.pdf";
+import CCSC6 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/6-Diagramme  potentiel-pH.pdf";
+import TCSC2 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/2-TD.pdf";
+import TCSC3 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/3-TD.pdf";
+import TCSC4 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/4-TD.pdf";
+import TCSC5 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/5-TD.pdf";
+import TCSC6 from "pages/Cours/Sup/Chimie/src/Pdfs/CDS/6-TD.pdf";
+//ChimieSpe
+import SCSC1 from "pages/Cours/Sup/Chimie/src/Pdfs/CDC/Structure des molécules.pdf";
+import SCSC2 from "pages/Cours/Sup/Chimie/src/Pdfs/CDC/Classification périodique.pdf";
+import SCSC3 from "pages/Cours/Sup/Chimie/src/Pdfs/CDC/Atomistique.pdf";
+import SCSC4 from "pages/Cours/Sup/Chimie/src/Pdfs/CDC/Cristallographie.pdf";
+import TSCSC1 from "pages/Cours/Sup/Chimie/src/Pdfs/CDC/T1.pdf";
+import TSCSC1C from "pages/Cours/Sup/Chimie/src/Pdfs/CDC/T1C.pdf";
+import TSCSC3 from "pages/Cours/Sup/Chimie/src/Pdfs/CDC/T3.pdf";
+import TSCSC4 from "pages/Cours/Sup/Chimie/src/Pdfs/CDC/T4.pdf";
+//------
+import TherC1 from "pages/Cours/Spe/Chimie/src/Pdfs/Thermochimie/Aspet thermodynamique des réactions rédox.pdf";
+import TTherC1 from "pages/Cours/Spe/Chimie/src/Pdfs/Thermochimie/T1.pdf";
+import TherC2 from "pages/Cours/Spe/Chimie/src/Pdfs/Thermochimie/Déplacement des équilibres chimiques.pdf";
+import TherC3 from "pages/Cours/Spe/Chimie/src/Pdfs/Electrochimie/ElectroChimie.pdf";
+import TTherC3 from "pages/Cours/Spe/Chimie/src/Pdfs/Electrochimie/T1.pdf";
+import TTherC3C from "pages/Cours/Spe/Chimie/src/Pdfs/Electrochimie/T1C.pdf";
 //TDS---------------
 import TS1 from "./pages/Cours/Spe/Math/src/Pdfs/TS1.pdf";
 import TS2 from "./pages/Cours/Spe/Math/src/Pdfs/TS2.pdf";
@@ -387,7 +419,155 @@ import SIF from "./pages/Formations/SI";
 import InfoF from "./pages/Formations/Info";
 import PbPSP from "./pages/Pbs/Physique/Pspe";
 import CbPSP from "./pages/Pbs/Chimie/Cspe";
-//import C01 from "pages/Cours/Sup/Math/src/Pdfs/Math/Cours/C01.pdf";
+
+//Cours SUP
+//Mecanique
+import CP1 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/CP1.pdf";
+import CP2 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/CP2.pdf";
+import CP3 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/CP3.pdf";
+import CP4 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/CP4.pdf";
+import CP5 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/CP5.pdf";
+import CP6 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/CP6.pdf";
+import CP7 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/CP7.pdf";
+import TP1 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/T1.pdf";
+import TP2 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/T2.pdf";
+import TP3 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/T3.pdf";
+import TP4 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/T4.pdf";
+import TP5 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/T5.pdf";
+import TP6 from "pages/Cours/Sup/Physique/src/Pdfs/Mecanique/T6.pdf";
+
+//Thermo
+import CST1 from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/C1.pdf";
+import CST2 from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/C2.pdf";
+import CST3 from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/C3.pdf";
+import CST4 from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/C4.pdf";
+import CST5 from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/C5.pdf";
+import CST6 from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/C6.pdf";
+import TST1 from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/T1.pdf";
+import TST2 from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/T2.pdf";
+import TST3 from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/T3.pdf";
+import TST4 from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/T4.pdf";
+import TST1C from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/T1C.pdf";
+import TST2C from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/T2C.pdf";
+import TST3C from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/T3C.pdf";
+import TST4C from "pages/Cours/Sup/Physique/src/Pdfs/Thermo/T4C.pdf";
+
+//Electronique
+
+import CSE1 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/C1.pdf";
+import CSE2 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/C2.pdf";
+import CSE3 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/C3.pdf";
+import CSE4 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/C4.pdf";
+import CSE5 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/C5.pdf";
+import CSE6 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/C6.pdf";
+import CSE7 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/C7.pdf";
+import CSE8 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/C8.pdf";
+import CSE9 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/C9.pdf";
+import TSE1 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T1.pdf";
+import TSE2 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T2.pdf";
+import TSE3 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T3.pdf";
+import TSE4 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T4.pdf";
+import TSE5 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T5.pdf";
+import TSE6 from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T6.pdf";
+import TSE1C from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T1C.pdf";
+import TSE2C from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T2C.pdf";
+import TSE3C from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T3C.pdf";
+import TSE4C from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T4C.pdf";
+import TSE5C from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T5C.pdf";
+import TSE6C from "pages/Cours/Sup/Physique/src/Pdfs/Electrocinetique/T6C.pdf";
+
+//Optique
+
+import CSO1 from "pages/Cours/Sup/Physique/src/Pdfs/Opt/C1.pdf";
+import CSO2 from "pages/Cours/Sup/Physique/src/Pdfs/Opt/C2.pdf";
+import CSO3 from "pages/Cours/Sup/Physique/src/Pdfs/Opt/C3.pdf";
+import TSO1 from "pages/Cours/Sup/Physique/src/Pdfs/Opt/T1.pdf";
+import TSO2 from "pages/Cours/Sup/Physique/src/Pdfs/Opt/T2.pdf";
+import TSO3 from "pages/Cours/Sup/Physique/src/Pdfs/Opt/T3.pdf";
+import TSO1C from "pages/Cours/Sup/Physique/src/Pdfs/Opt/T1C.pdf";
+import TSO2C from "pages/Cours/Sup/Physique/src/Pdfs/Opt/T2C.pdf";
+import TSO3C from "pages/Cours/Sup/Physique/src/Pdfs/Opt/T3C.pdf";
+
+//Electrostatique
+
+import CSEM1 from "pages/Cours/Sup/Physique/src/Pdfs/Electrostatique/C1.pdf";
+import CSEM2 from "pages/Cours/Sup/Physique/src/Pdfs/Electrostatique/C2.pdf";
+import CSEM3 from "pages/Cours/Sup/Physique/src/Pdfs/Electrostatique/C3.pdf";
+import CSEM4 from "pages/Cours/Sup/Physique/src/Pdfs/Electrostatique/C4.pdf";
+import TSEM1 from "pages/Cours/Sup/Physique/src/Pdfs/Electrostatique/T1.pdf";
+import TSEM2 from "pages/Cours/Sup/Physique/src/Pdfs/Electrostatique/T2.pdf";
+import TSEM3 from "pages/Cours/Sup/Physique/src/Pdfs/Electrostatique/T3.pdf";
+import TSEM1C from "pages/Cours/Sup/Physique/src/Pdfs/Electrostatique/T1C.pdf";
+import TSEM2C from "pages/Cours/Sup/Physique/src/Pdfs/Electrostatique/T2C.pdf";
+import TSEM3C from "pages/Cours/Sup/Physique/src/Pdfs/Electrostatique/T3C.pdf";
+
+//Quantique
+import CSQ1 from "pages/Cours/Sup/Physique/src/Pdfs/Quantique/C1.pdf";
+import TSQ1 from "pages/Cours/Sup/Physique/src/Pdfs/Quantique/T1.pdf";
+import TSQ1C from "pages/Cours/Sup/Physique/src/Pdfs/Quantique/T1C.pdf";
+//CoursSpe
+//Mecanique Solide
+import C5 from "pages/Cours/Spe/Physique/src/Pdfs/MecS/C5.pdf";
+import C1 from "pages/Cours/Spe/Physique/src/Pdfs/MecS/C1.pdf";
+import C2 from "pages/Cours/Spe/Physique/src/Pdfs/MecS/C2.pdf";
+import C3 from "pages/Cours/Spe/Physique/src/Pdfs/MecS/C3.pdf";
+import C4 from "pages/Cours/Spe/Physique/src/Pdfs/MecS/C4.pdf";
+import TCS1 from "pages/Cours/Spe/Physique/src/Pdfs/MecS/T12.pdf";
+import TCS2 from "pages/Cours/Spe/Physique/src/Pdfs/MecS/T345.pdf";
+//Electronique
+import CE1 from "pages/Cours/Spe/Physique/src/Pdfs/Electronique/C1.pdf";
+import CE2 from "pages/Cours/Spe/Physique/src/Pdfs/Electronique/C2.pdf";
+import TCE1 from "pages/Cours/Spe/Physique/src/Pdfs/Electronique/T1.pdf";
+import TCE1C from "pages/Cours/Spe/Physique/src/Pdfs/Electronique/T1C.pdf";
+import TCE2 from "pages/Cours/Spe/Physique/src/Pdfs/Electronique/T2.pdf";
+import TCE2C from "pages/Cours/Spe/Physique/src/Pdfs/Electronique/T2C.pdf";
+//Ondes
+import CO5 from "pages/Cours/Spe/Physique/src/Pdfs/Onde/C5.pdf";
+import CO1 from "pages/Cours/Spe/Physique/src/Pdfs/Onde/C1.pdf";
+import CO2 from "pages/Cours/Spe/Physique/src/Pdfs/Onde/C2.pdf";
+import CO3 from "pages/Cours/Spe/Physique/src/Pdfs/Onde/C3.pdf";
+import CO4 from "pages/Cours/Spe/Physique/src/Pdfs/Onde/C4.pdf";
+import TCO1 from "pages/Cours/Spe/Physique/src/Pdfs/Onde/T1.pdf";
+import TCO2 from "pages/Cours/Spe/Physique/src/Pdfs/Onde/T2.pdf";
+import TCO3 from "pages/Cours/Spe/Physique/src/Pdfs/Onde/T3.pdf";
+import TCO4 from "pages/Cours/Spe/Physique/src/Pdfs/Onde/T4.pdf";
+import TCO5 from "pages/Cours/Spe/Physique/src/Pdfs/Onde/T5.pdf";
+//Ondulatoire
+
+import CON5 from "pages/Cours/Spe/Physique/src/Pdfs/Ondulatoir/C5.pdf";
+import CON1 from "pages/Cours/Spe/Physique/src/Pdfs/Ondulatoir/C1.pdf";
+import CON2 from "pages/Cours/Spe/Physique/src/Pdfs/Ondulatoir/C2.pdf";
+import CON3 from "pages/Cours/Spe/Physique/src/Pdfs/Ondulatoir/C3.pdf";
+import CON4 from "pages/Cours/Spe/Physique/src/Pdfs/Ondulatoir/C4.pdf";
+import TCOO1 from "pages/Cours/Spe/Physique/src/Pdfs/Ondulatoir/T1.pdf";
+import TCOO2 from "pages/Cours/Spe/Physique/src/Pdfs/Ondulatoir/T2.pdf";
+import TCOO3 from "pages/Cours/Spe/Physique/src/Pdfs/Ondulatoir/T3.pdf";
+import TCOO4 from "pages/Cours/Spe/Physique/src/Pdfs/Ondulatoir/T4.pdf";
+import TCOO5 from "pages/Cours/Spe/Physique/src/Pdfs/Ondulatoir/T5.pdf";
+
+//ThermoSpe
+
+import CT1 from "pages/Cours/Spe/Physique/src/Pdfs/Thermos/C1.pdf";
+import CT2 from "pages/Cours/Spe/Physique/src/Pdfs/Thermos/C2.pdf";
+import TCT1 from "pages/Cours/Spe/Physique/src/Pdfs/Thermos/T1.pdf";
+import TCT2 from "pages/Cours/Spe/Physique/src/Pdfs/Thermos/T2.pdf";
+//Electromagnetisme
+
+import CEM5 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/C5.pdf";
+import CEM1 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/C1.pdf";
+import CEM2 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/C2.pdf";
+import CEM3 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/C3.pdf";
+import CEM4 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/C4.pdf";
+import CEM6 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/C6.pdf";
+import CEM7 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/C7.pdf";
+import TEM1 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/T1.pdf";
+import TEM2 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/T2.pdf";
+import TEM2C from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/T2C.pdf";
+import TEM3 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/T3.pdf";
+import TEM4 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/T4.pdf";
+import TEM5 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/T5.pdf";
+import TEM6 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/T6.pdf";
+import TEM7 from "pages/Cours/Spe/Physique/src/Pdfs/électromagnétisme/T7.pdf";
 const routes = [
   {
     name: "Cours & Td",
@@ -419,9 +599,14 @@ const routes = [
               },
               {
                 name: "",
-                route: "/pages/about/founder",
+                route: "/author",
                 dropdown: true,
                 component: <Author />,
+              },
+              {
+                name: "",
+                route: "/404",
+                component: <NotFound />,
               },
               {
                 name: "Logique",
@@ -1601,12 +1786,686 @@ const routes = [
                 route: "/pages/Cours/Physique/Sup",
                 component: <PSup />,
               },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C1",
+                component: <Pdf C={CP1} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C2",
+                component: <Pdf C={CP2} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C3",
+                component: <Pdf C={CP3} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C4",
+                component: <Pdf C={CP4} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C5",
+                component: <Pdf C={CP5} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C6",
+                component: <Pdf C={CP6} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C7",
+                component: <Pdf C={CP7} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T1",
+                component: <Pdfss C={TP1} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T2",
+                component: <Pdfss C={TP2} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T3",
+                component: <Pdfss C={TP3} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T4",
+                component: <Pdfss C={TP4} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T5",
+                component: <Pdfss C={TP5} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T6",
+                component: <Pdfss C={TP6} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C8",
+                component: <Pdf C={CST1} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C9",
+                component: <Pdf C={CST2} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C10",
+                component: <Pdf C={CST3} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C11",
+                component: <Pdf C={CST4} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C12",
+                component: <Pdf C={CST5} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C13",
+                component: <Pdf C={CST6} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T8",
+                component: <Pdfss T={TST1C} C={TST1} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T9",
+                component: <Pdfss T={TST2C} C={TST2} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T10",
+                component: <Pdfss T={TST3C} C={TST3} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T11",
+                component: <Pdfss T={TST4C} C={TST4} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C14",
+                component: <Pdf C={CSE1} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C15",
+                component: <Pdf C={CSE2} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C16",
+                component: <Pdf C={CSE3} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C17",
+                component: <Pdf C={CSE4} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C18",
+                component: <Pdf C={CSE5} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C19",
+                component: <Pdf C={CSE6} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C20",
+                component: <Pdf C={CSE7} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C21",
+                component: <Pdf C={CSE8} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C22",
+                component: <Pdf C={CSE9} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T12",
+                component: <Pdfss T={TSE1C} C={TSE1} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T13",
+                component: <Pdfss T={TSE2C} C={TSE2} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T14",
+                component: <Pdfss T={TSE3C} C={TSE3} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T15",
+                component: <Pdfss T={TSE4C} C={TSE4} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T16",
+                component: <Pdfss T={TSE5C} C={TSE5} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T17",
+                component: <Pdfss T={TSE6C} C={TSE6} label1="Physique" label2="Electrocinetique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C23",
+                component: <Pdf C={CSO1} label1="Physique" label2="Optique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C24",
+                component: <Pdf C={CSO2} label1="Physique" label2="Optique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C25",
+                component: <Pdf C={CSO3} label1="Physique" label2="Optique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T18",
+                component: <Pdfss T={TSO1C} C={TSO1} label1="Physique" label2="Optique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T19",
+                component: <Pdfss T={TSO2C} C={TSO2} label1="Physique" label2="Optique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T20",
+                component: <Pdfss T={TSO3C} C={TSO3} label1="Physique" label2="Optique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C26",
+                component: <Pdf C={CSEM1} label1="Physique" label2="Electrostatique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C27",
+                component: <Pdf C={CSEM2} label1="Physique" label2="Electrostatique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C28",
+                component: <Pdf C={CSEM3} label1="Physique" label2="Electrostatique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C29",
+                component: <Pdf C={CSEM4} label1="Physique" label2="Electrostatique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T21",
+                component: (
+                  <Pdfss T={TSEM1C} C={TSEM1} label1="Physique" label2="Electrostatique" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T22",
+                component: (
+                  <Pdfss T={TSEM2C} C={TSEM2} label1="Physique" label2="Electrostatique" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T23",
+                component: (
+                  <Pdfss T={TSEM3C} C={TSEM3} label1="Physique" label2="Electrostatique" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/T24",
+                component: <Pdfss T={TSQ1C} C={TSQ1} label1="Physique" label2="Quantique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/C30",
+                component: <Pdf C={CSQ1} label1="Physique" label2="Quantique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V1",
+                component: <Video Y={"2OOJPQ0Anv8"} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V2",
+                component: <Video Y={"zmeCJaTFMew"} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V3",
+                component: <Video Y={"o1pafUcarMA"} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V4",
+                component: <Video Y={"t-6ZjOihEiY"} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V5",
+                component: <Video Y={"6DI6S4Vr3lU"} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V6",
+                component: <Video Y={"uZhlJPIToLE"} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V7",
+                component: <Video Y={"7dqCqDjWi7w"} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V8",
+                component: <Video Y={"XmY-uFptVRo"} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V9",
+                component: <Video Y={"A0SmY3i3OIQ"} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V10",
+                component: <Video Y={"usnKxd13u2o"} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V11",
+                component: <Video Y={"Gb5Kq4nmjo0"} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V12",
+                component: <Video Y={"Y7EVabC5uns"} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V13",
+                component: <Video Y={"RV0MIsrxzQY"} label1="Physique" label2="Thermodynamique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V14",
+                component: <Video Y={"nr0JkXuBVmU"} label1="Physique" label2="Electrocinétique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V15",
+                component: <Video Y={"2c0ib1XDPnk"} label1="Physique" label2="Electrocinétique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V16",
+                component: <Video Y={"J5KLsenuppc"} label1="Physique" label2="Electrocinétique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V17",
+                component: <Video Y={"ltIWqsyZBsQ"} label1="Physique" label2="Electrocinétique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V18",
+                component: <Video Y={"FexTemsmfWk"} label1="Physique" label2="Electrocinétique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V19",
+                component: <Video Y={"S_Ij1fqAT1E"} label1="Physique" label2="Electrocinétique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V20",
+                component: <Video Y={"ehE06qsdoZ0"} label1="Physique" label2="Electrocinétique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V21",
+                component: <Video Y={"z0flTFtJCt4"} label1="Physique" label2="Electrocinétique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V22",
+                component: <Video Y={"4F1vOIy6FZU"} label1="Physique" label2="Electrocinétique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V23",
+                component: <Video Y={"4wXorb-bFp0"} label1="Physique" label2="Optique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V24",
+                component: <Video Y={"UDHWW6Ql7p8"} label1="Physique" label2="Optique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V25",
+                component: <Video Y={"I5RKH0m_2WQ"} label1="Physique" label2="Optique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V26",
+                component: <Video Y={"FaqptQ4prc0"} label1="Physique" label2="Electrostatique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V27",
+                component: <Video Y={"yIsl1qSI4nE"} label1="Physique" label2="Electrostatique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V28",
+                component: <Video Y={"ivgw3tEdFyA"} label1="Physique" label2="Electrostatique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V29",
+                component: <Video Y={"gNGRI_HOqH8"} label1="Physique" label2="Electrostatique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Physique/V30",
+                component: <Video Y={"6DXAU-CqDcQ"} label1="Physique" label2="Quantique" />,
+              },
             ],
           },
           {
             name: "Spe",
             route: "/pages/Cours/Physique/Spe",
-            component: <PSpe />,
+            collapse: [
+              {
+                name: "",
+                route: "/pages/Cours/Physique/Spe",
+                component: <PSpe />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C1",
+                component: <Pdf C={C1} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T1",
+                component: <Pdfss C={TCS1} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C2",
+                component: <Pdf C={C2} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C3",
+                component: <Pdf C={C3} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T2",
+                component: <Pdfss C={TCS2} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C4",
+                component: <Pdf C={C4} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C5",
+                component: <Pdf C={C5} label1="Physique" label2="Mecanique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C6",
+                component: <Pdf C={CE1} label1="Physique" label2="Electronique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T3",
+                component: <Pdfss T={TCE1C} C={TCE1} label1="Physique" label2="Electronique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T4",
+                component: <Pdfss T={TCE2C} C={TCE2} label1="Physique" label2="Electronique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C7",
+                component: <Pdf C={CE2} label1="Physique" label2="Electronique" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C8",
+                component: <Pdf C={CEM1} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C9",
+                component: <Pdf C={CEM2} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C10",
+                component: <Pdf C={CEM3} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C11",
+                component: <Pdf C={CEM4} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C12",
+                component: <Pdf C={CEM5} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C13",
+                component: <Pdf C={CEM6} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C14",
+                component: <Pdf C={CEM7} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T10",
+                component: <Pdfss C={TEM1} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T11",
+                component: (
+                  <Pdfss T={TEM2C} C={TEM2} label1="Physique" label2="Electromagnetisme" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T12",
+                component: <Pdfss C={TEM3} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T13",
+                component: <Pdfss C={TEM4} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T14",
+                component: <Pdfss C={TEM5} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T15",
+                component: <Pdfss C={TEM6} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T16",
+                component: <Pdfss C={TEM7} label1="Physique" label2="Electromagnetisme" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C15",
+                component: <Pdf C={CO1} label1="Physique" label2="Ondes" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C16",
+                component: <Pdf C={CO2} label1="Physique" label2="Ondes" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C17",
+                component: <Pdf C={CO3} label1="Physique" label2="Ondes" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C18",
+                component: <Pdf C={CO4} label1="Physique" label2="Ondes" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C19",
+                component: <Pdf C={CO5} label1="Physique" label2="Ondes" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T5",
+                component: <Pdfss C={TCO1} label1="Physique" label2="Ondes" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T6",
+                component: <Pdfss C={TCO2} label1="Physique" label2="Ondes" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T7",
+                component: <Pdfss C={TCO3} label1="Physique" label2="Ondes" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T8",
+                component: <Pdfss C={TCO4} label1="Physique" label2="Ondes" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T9",
+                component: <Pdfss C={TCO5} label1="Physique" label2="Ondes" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C20",
+                component: <Pdf C={CT1} label1="Physique" label2="Thermo Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C21",
+                component: <Pdf C={CT2} label1="Physique" label2="Thermo Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T17",
+                component: <Pdfss C={TCT1} label1="Physique" label2="Thermo Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T18",
+                component: <Pdfss C={TCT2} label1="Physique" label2="Thermo Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C22",
+                component: <Pdf C={CON1} label1="Physique" label2="Ondulatoire" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C23",
+                component: <Pdf C={CON2} label1="Physique" label2="Ondulatoire" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C24",
+                component: <Pdf C={CON3} label1="Physique" label2="Ondulatoire" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C25",
+                component: <Pdf C={CON4} label1="Physique" label2="Ondulatoire" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/C26",
+                component: <Pdf C={CON5} label1="Physique" label2="Ondulatoire" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T19",
+                component: <Pdfss C={TCOO1} label1="Physique" label2="Ondulatoire" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T20",
+                component: <Pdfss C={TCOO2} label1="Physique" label2="Ondulatoire" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T21",
+                component: <Pdfss C={TCOO3} label1="Physique" label2="Ondulatoire" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T22",
+                component: <Pdfss C={TCOO4} label1="Physique" label2="Ondulatoire" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Physique/T23",
+                component: <Pdfss C={TCOO5} label1="Physique" label2="Ondulatoire" />,
+              },
+            ],
           },
         ],
       },
@@ -1630,6 +2489,147 @@ const routes = [
                 route: "/pages/Cours/Chimie/Sup",
                 component: <CSup />,
               },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/C1",
+                component: <Pdf C={CCSC1} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/C2",
+                component: <Pdf C={CCSC2} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/C3",
+                component: <Pdf C={CCSC3} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/C4",
+                component: <Pdf C={CCSC4} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/C5",
+                component: <Pdf C={CCSC5} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/C6",
+                component: <Pdf C={CCSC6} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/T1",
+                component: <Pdfss C={TCSC2} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/T2",
+                component: <Pdfss C={TCSC3} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/T3",
+                component: <Pdfss C={TCSC4} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/T4",
+                component: <Pdfss C={TCSC5} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/T5",
+                component: <Pdfss C={TCSC6} label1="Chimie" label2="Chimie des solutions" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/C7",
+                component: <Pdf C={SCSC1} label1="Chimie" label2="Chimie de coordination" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/C8",
+                component: <Pdf C={SCSC2} label1="Chimie" label2="Chimie de coordination" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/C9",
+                component: <Pdf C={SCSC3} label1="Chimie" label2="Chimie de coordination" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/C10",
+                component: <Pdf C={SCSC4} label1="Chimie" label2="Chimie de coordination" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/T6",
+                component: (
+                  <Pdfss T={TSCSC1C} C={TSCSC1} label1="Chimie" label2="Chimie de coordination" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/T7",
+                component: <Pdfss C={TSCSC3} label1="Chimie" label2="Chimie de coordination" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/T8",
+                component: <Pdfss C={TSCSC4} label1="Chimie" label2="Chimie de coordination" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/V1",
+                component: (
+                  <Video Y={"seMnp6_g27I"} label1="Chimie" label2="Chimie des solutions" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/V2",
+                component: (
+                  <Video Y={"_d3xpEAn-bo"} label1="Chimie" label2="Chimie des solutions" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/V3",
+                component: (
+                  <Video Y={"--7stKiqhwI"} label1="Chimie" label2="Chimie des solutions" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/V4",
+                component: (
+                  <Video Y={"Ns8zTz7jfJc"} label1="Chimie" label2="Chimie des solutions" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/V5",
+                component: (
+                  <Video Y={"0ZGeK2G2S5M"} label1="Chimie" label2="chimie de coordination" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/V6",
+                component: (
+                  <Video Y={"I1rGedZQ1wk"} label1="Chimie" label2="chimie de coordination" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Sup/Chimie/V7",
+                component: (
+                  <Video Y={"ONWWBJIu4vY"} label1="Chimie" label2="chimie de coordination" />
+                ),
+              },
             ],
           },
           {
@@ -1640,6 +2640,46 @@ const routes = [
                 name: "Spe",
                 route: "/pages/Cours/Chimie/Spe",
                 component: <CSpe />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Chimie/C1",
+                component: <Pdf C={TherC1} label1="Chimie" label2="Thermochimie" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Chimie/T1",
+                component: <Pdfss C={TTherC1} label1="Chimie" label2="Thermochimie" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Chimie/C2",
+                component: <Pdf C={TherC2} label1="Chimie" label2="Thermochimie" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Chimie/C3",
+                component: <Pdf C={TherC3} label1="Chimie" label2="Electrochimie" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Chimie/T2",
+                component: <Pdf T={TTherC3C} C={TTherC3} label1="Chimie" label2="Electrochimie" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Chimie/V1",
+                component: <Video Y={"1nD9RkYpVjo"} label1="Chimie" label2="Thermochimie" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Chimie/V2",
+                component: <Video Y={"XrQ98MQaC1c"} label1="Chimie" label2="Thermochimie" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Spe/Chimie/V3",
+                component: <Video Y={"y1BvJX3liqs"} label1="Chimie" label2="Electrochimie" />,
               },
             ],
           },
@@ -2256,6 +3296,16 @@ const routes = [
                 name: "Spe",
                 route: "/pages/Cours/Tr/Spe",
                 component: <TSpe />,
+              },
+              {
+                name: "",
+                route: "/Cours/Tr/Spe/Tx2",
+                component: <Pdf C={Trad2} label1="Traduction" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Tr/Sup/Tx",
+                component: <Pdf C={Trad1} label1="Traduction" label2="Sup" />,
               },
             ],
           },

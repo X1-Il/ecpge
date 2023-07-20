@@ -49,17 +49,17 @@ function Parts() {
                 position={{ color: "info", label: "Thermochimie" }}
                 description="Étude des aspects thermodynamiques des réactions d'oxydoréduction, incluant les potentiels redox et les énergies libres."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M1">
+              <Link to="/Cours/Spe/Chimie/C1">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Spe/Chimie/T1">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V1">
+              <Link to="/Cours/Spe/Chimie/V1">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -74,17 +74,17 @@ function Parts() {
                 position={{ color: "info", label: "Thermochimie" }}
                 description="Changement de position de l'équilibre chimique d'une réaction suite à des modifications des conditions (température, pression, concentration)."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M2">
+              <Link to="/Cours/Spe/Chimie/C2">
                 <MKButton variant="contained" color="info" style={{ float: "centre" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T2">
+              <Link to="/Cours/Spe/Chimie/T1">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V2">
+              <Link to="/Cours/Spe/Chimie/V2">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>
@@ -111,17 +111,17 @@ function Parts() {
                 position={{ color: "info", label: "Electrochimie" }}
                 description="Étude des réactions chimiques qui impliquent des transferts d'électrons, généralement en solution."
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M1">
+              <Link to="/Cours/Spe/Chimie/C3">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Spe/Chimie/T2">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   Td
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V1">
+              <Link to="/Cours/Spe/Chimie/V3">
                 <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
                   video
                 </MKButton>

@@ -14,7 +14,7 @@ function NavbarDark() {
         routes={routes}
         action={{
           type: "external",
-          route: "",
+          route: "/404",
           label: "tests",
           color: "info",
         }}

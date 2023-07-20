@@ -102,7 +102,7 @@ DefaultNavbarDropdown.defaultProps = {
   collapseStatus: false,
   light: false,
   href: "",
-  route: "",
+  route: "/404",
 };
 
 // Typechecking props for the DefaultNavbarDropdown

@@ -29,7 +29,7 @@ const C8 = ({ C, label1, label2 }) => {
   return (
     <BaseLayout
       title="Cours"
-      breadcrumb={[{ label: label1, route: "/Tech/Pdf" }, { label: label2 }]}
+      breadcrumb={[{ label: label1 }, { label: label2 }]}
     >
       <View title="">
         <Pdf pdfUrl={C} />

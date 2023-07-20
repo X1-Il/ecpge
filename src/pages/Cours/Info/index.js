@@ -116,7 +116,7 @@ function InfoC() {
                 description="Lire attentivement le cours pour une meilleure compréhension et assimilation des informations essentielles."
                 action={{
                   type: "external",
-                  route: "",
+                  route: "/404",
                   label: "Voir les cours",
                 }}
               />
@@ -129,7 +129,7 @@ function InfoC() {
                 description="Travailler régulièrement les travaux dirigés (TD) pour renforcer la compréhension des concepts enseignés."
                 action={{
                   type: "external",
-                  route: "",
+                  route: "/404",
                   label: "Voir les TDs",
                 }}
               />
@@ -142,7 +142,7 @@ function InfoC() {
                 description="Résoudre activement les problèmes pour développer des compétences pratiques et approfondir la compréhension des concepts."
                 action={{
                   type: "external",
-                  route: "",
+                  route: "/404",
                   label: "Voir les pbs",
                 }}
               />

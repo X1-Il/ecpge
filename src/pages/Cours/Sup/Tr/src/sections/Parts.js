@@ -47,19 +47,9 @@ function Parts() {
                 position={{ color: "info", label: "Traduction" }}
                 description="Arabe->Fr et Fr->Arabe"
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M1">
+              <Link to="/Cours/Tr/Sup/Tx">
                 <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
-                  Cours
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
-                <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
-                  Td
-                </MKButton>
-              </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-V1">
-                <MKButton variant="text" color="info" style={{ float: "right" }} size="small">
-                  video
+                  Texts
                 </MKButton>
               </Link>
             </MKBox>

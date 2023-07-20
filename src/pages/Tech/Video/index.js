@@ -12,10 +12,7 @@ import PropTypes from "prop-types";
 // eslint-disable-next-line react/prop-types
 const Video = ({ Y, D, S, label1, label2 }) => {
   return (
-    <BaseLayout
-      title="Cours"
-      breadcrumb={[{ label: label1, route: "/Tech/Pdf" }, { label: label2 }]}
-    >
+    <BaseLayout title="Cours" breadcrumb={[{ label: label1 }, { label: label2 }]}>
       <View title="">
         <VideoPlayer Y={Y} D={D} S={S} />
       </View>

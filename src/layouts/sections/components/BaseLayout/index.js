@@ -25,7 +25,7 @@ function BaseLayout({ breadcrumb, title, children }) {
           routes={routes}
           action={{
             type: "external",
-            route: "",
+            route: "/404",
             label: "Contact ",
             color: "info",
           }}

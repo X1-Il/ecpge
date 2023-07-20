@@ -1,19 +1,3 @@
-/**
-=========================================================
-* e_ React - v2.1.0
-=========================================================
-
-* Product Page:
-* Copyright 2023 X1-Il (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
 // @mui material components
@@ -106,13 +90,8 @@ function SimpleFooter({ company, links, light }) {
 
 // Setting default values for the props of SimpleFooter
 SimpleFooter.defaultProps = {
-  company: { href: "", name: "X1-Il" },
-  links: [
-    { href: "", name: "X1-Il" },
-    { href: "Home", name: "About Us" },
-    { href: "blog", name: "Blog" },
-    { href: "license", name: "License" },
-  ],
+  company: { href: "https://x1-il.netlify.app/", name: "X1-Il" },
+  links: [{ href: "https://x1-il.netlify.app/", name: "X1-Il" }],
   light: false,
 };
 
