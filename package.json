@@ -23,6 +23,7 @@
     "browserslist": "^4.6.3",
     "chroma-js": "2.4.2",
     "flatpickr": "4.6.13",
+    "pages": "^0.0.16",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-copy-to-clipboard": "5.1.0",

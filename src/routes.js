@@ -67,6 +67,369 @@ import PbMAl from "pages/Pbs/Math/Sup/Algebre/index.js";
 import PbMSAl from "pages/Pbs/Math/Spe/Algebre/index.js";
 import PbMSA from "pages/Pbs/Math/Spe/Analyse/index.js";
 import PbMSP from "pages/Pbs/Math/Spe/Proba/index.js";
+import Pb from "pages/Tech/pb/index.js";
+//Physique Pbs
+//ARQS
+import pbp1 from "pages/Pbs/Physique/Physique/ARQS/Champs E et B dans un condensateur.pdf";
+import pbp2 from "pages/Pbs/Physique/Physique/ARQS/OndeReflexion Dielectrique Solenoide.pdf";
+//Electronique
+import pbp3 from "pages/Pbs/Physique/Physique/electronique/COetCO2 CircuitsCouples.pdf";
+import pbp4 from "pages/Pbs/Physique/Physique/electronique/DetectionSynchrone FiltreUniversel.pdf";
+import pbp5 from "pages/Pbs/Physique/Physique/electronique/DisqueRotationInitiale PasseBandeTriangle CaviteLaser Gravitation.pdf";
+import pbp6 from "pages/Pbs/Physique/Physique/electronique/EffetMoyenne CouleursDiffraction.pdf";
+import pbp7 from "pages/Pbs/Physique/Physique/electronique/Electrocinetique de base.pdf";
+import pbp8 from "pages/Pbs/Physique/Physique/electronique/Filtre Modulation Demodulation.pdf";
+import pbp9 from "pages/Pbs/Physique/Physique/electronique/Filtre selectif.pdf";
+import pbp10 from "pages/Pbs/Physique/Physique/electronique/Filtres OscillationsNonGalileen DoubleurEt Hyperfocale CycleEntropie.pdf";
+import pbp11 from "pages/Pbs/Physique/Physique/electronique/Jouets BinaireEauEthanol ModulationPhase.pdf";
+import pbp12 from "pages/Pbs/Physique/Physique/electronique/MachZehnder Filtrage RefrigerationAirPulse.pdf";
+import pbp13 from "pages/Pbs/Physique/Physique/electronique/MichelsonGravitation InterferencesDispersion MgCorrosion BinaireHNO3.pdf";
+import pbp14 from "pages/Pbs/Physique/Physique/electronique/ModeleThomsonEffetZeeman ChromeEllingham BinaireEauHF.pdf";
+import pbp15 from "pages/Pbs/Physique/Physique/electronique/MoteurElectrostatique Variometre Laiton.pdf";
+import pbp16 from "pages/Pbs/Physique/Physique/electronique/Onde thermique.pdf";
+import pbp17 from "pages/Pbs/Physique/Physique/electronique/PortraitPhaseElec NonGalileenEnergie LiquefactionCompressionIsotherme.pdf";
+import pbp18 from "pages/Pbs/Physique/Physique/electronique/ReseauReflexion Defibrillateur Chlore.pdf";
+import pbp19 from "pages/Pbs/Physique/Physique/electronique/ThermoregulationCycliste EtoileDouble Modulation.pdf";
+import pbp20 from "pages/Pbs/Physique/Physique/electronique/Velo diode roue libre.pdf";
+//Electrostatique
+import pbp21 from "pages/Pbs/Physique/Physique/electrostatique/AvancementGaz Accelerometre TemperatureLune.pdf";
+import pbp22 from "pages/Pbs/Physique/Physique/electrostatique/Biprisme EffetHall PressionElectromagnetisme.pdf";
+import pbp23 from "pages/Pbs/Physique/Physique/electrostatique/ChampEBordPlan ChambreProjectionTemporelle ThermiqueTransistor.pdf";
+import pbp24 from "pages/Pbs/Physique/Physique/electrostatique/Charges ponctuelles en electrostatique.pdf";
+import pbp25 from "pages/Pbs/Physique/Physique/electrostatique/Conducteurs cylindriques en electrostatique.pdf";
+import pbp26 from "pages/Pbs/Physique/Physique/electrostatique/Fibre optique saut et gradient.pdf";
+import pbp27 from "pages/Pbs/Physique/Physique/electrostatique/La foudre.pdf";
+import pbp28 from "pages/Pbs/Physique/Physique/electrostatique/ModeleThomsonEffetZeeman ChromeEllingham BinaireEauHF.pdf";
+import pbp29 from "pages/Pbs/Physique/Physique/electrostatique/MoteurElectrostatique Variometre Laiton.pdf";
+import pbp30 from "pages/Pbs/Physique/Physique/electrostatique/MoteurEntropie InterferencesMiroirs ModelesAtome.pdf";
+import pbp31 from "pages/Pbs/Physique/Physique/electrostatique/OndeReflexion Dielectrique Solenoide.pdf";
+import pbp32 from "pages/Pbs/Physique/Physique/electrostatique/SphereConductriceDansEUniforme PiegeDePenning.pdf";
+//Induction
+import pbp33 from "pages/Pbs/Physique/Physique/Induction/BoucleDetection ChuteDansB DiffractionYoung.pdf";
+import pbp34 from "pages/Pbs/Physique/Physique/Induction/ChampMagnetiqueTerrestre.pdf";
+import pbp35 from "pages/Pbs/Physique/Physique/Induction/Chute aimant dans tube metallique.pdf";
+import pbp36 from "pages/Pbs/Physique/Physique/Induction/CompresseurAdiabatique ElihuThomson.pdf";
+import pbp37 from "pages/Pbs/Physique/Physique/Induction/EcrantageB LevitationSphereSupraconductrice PollutionMercure.pdf";
+import pbp38 from "pages/Pbs/Physique/Physique/Induction/LevitationMagnetique MoteurLineaire Ressort.pdf";
+import pbp39 from "pages/Pbs/Physique/Physique/Induction/RailLaplace MoteurCurzon.pdf";
+import pbp40 from "pages/Pbs/Physique/Physique/Induction/RendementBeauDeRochas Alternateur OxydesCuivre.pdf";
+import pbp41 from "pages/Pbs/Physique/Physique/Induction/Skeleton OndeMetal PreparationTitane.pdf";
+import pbp42 from "pages/Pbs/Physique/Physique/Induction/Spire dans un champ magnetique uniforme.pdf";
+import pbp43 from "pages/Pbs/Physique/Physique/Induction/TemperatureTerre RailLaplace MichelsonPlaneite.pdf";
+//Magnetostatique
+import pbp44 from "pages/Pbs/Physique/Physique/magnetostatique/Biprisme EffetHall PressionElectromagnetisme_2.pdf";
+import pbp45 from "pages/Pbs/Physique/Physique/magnetostatique/ChampMagnetiqueTerrestre.pdf";
+import pbp46 from "pages/Pbs/Physique/Physique/magnetostatique/CompresseurAdiabatique ElihuThomson.pdf";
+import pbp47 from "pages/Pbs/Physique/Physique/magnetostatique/EcrantageB LevitationSphereSupraconductrice PollutionMercure.pdf";
+import pbp48 from "pages/Pbs/Physique/Physique/magnetostatique/Effet Hall et magnetoresistance.pdf";
+import pbp49 from "pages/Pbs/Physique/Physique/magnetostatique/Indice Distillation.pdf";
+import pbp50 from "pages/Pbs/Physique/Physique/magnetostatique/LevitationMagnetique MoteurLineaire Ressort.pdf";
+import pbp51 from "pages/Pbs/Physique/Physique/magnetostatique/Sphere supraconductrice.pdf";
+//Mecanique du point
+import pbp52 from "pages/Pbs/Physique/Physique/mecanique du point/AvancementGaz Accelerometre TemperatureLune.pdf";
+import pbp53 from "pages/Pbs/Physique/Physique/mecanique du point/Centrifugeuse.pdf";
+import pbp54 from "pages/Pbs/Physique/Physique/mecanique du point/ChampEBordPlan ChambreProjectionTemporelle ThermiqueTransistor.pdf";
+import pbp55 from "pages/Pbs/Physique/Physique/mecanique du point/ChampMagnetiqueTerrestre.pdf";
+import pbp56 from "pages/Pbs/Physique/Physique/mecanique du point/COetCO2 CircuitsCouples.pdf";
+import pbp57 from "pages/Pbs/Physique/Physique/mecanique du point/Deviation lumiere par etoiles.pdf";
+import pbp58 from "pages/Pbs/Physique/Physique/mecanique du point/DisqueRotationInitiale PasseBandeTriangle CaviteLaser Gravitation.pdf";
+import pbp59 from "pages/Pbs/Physique/Physique/mecanique du point/EcrantageB LevitationSphereSupraconductrice PollutionMercure.pdf";
+import pbp60 from "pages/Pbs/Physique/Physique/mecanique du point/Electron dans un champ magnetique constant.pdf";
+import pbp61 from "pages/Pbs/Physique/Physique/mecanique du point/Filtres OscillationsNonGalileen DoubleurEt Hyperfocale CycleEntropie.pdf";
+import pbp62 from "pages/Pbs/Physique/Physique/mecanique du point/LevitationMagnetique MoteurLineaire Ressort.pdf";
+import pbp63 from "pages/Pbs/Physique/Physique/mecanique du point/Mission Apollo.pdf";
+import pbp64 from "pages/Pbs/Physique/Physique/mecanique du point/ModeleThomsonEffetZeeman ChromeEllingham BinaireEauHF.pdf";
+import pbp65 from "pages/Pbs/Physique/Physique/mecanique du point/MoteurElectrostatique Variometre Laiton.pdf";
+import pbp66 from "pages/Pbs/Physique/Physique/mecanique du point/MoteurEntropie InterferencesMiroirs ModelesAtome.pdf";
+import pbp67 from "pages/Pbs/Physique/Physique/mecanique du point/Optique non lineaire.pdf";
+import pbp68 from "pages/Pbs/Physique/Physique/mecanique du point/Orbitogramme Frottement.pdf";
+import pbp69 from "pages/Pbs/Physique/Physique/mecanique du point/Pendule CinetiqueDensiteOptique.pdf";
+import pbp70 from "pages/Pbs/Physique/Physique/mecanique du point/PointSurDisque Voiture.pdf";
+import pbp71 from "pages/Pbs/Physique/Physique/mecanique du point/PortraitPhaseElec NonGalileenEnergie LiquefactionCompressionIsotherme.pdf";
+import pbp72 from "pages/Pbs/Physique/Physique/mecanique du point/Ressort et amortisseur.pdf";
+import pbp73 from "pages/Pbs/Physique/Physique/mecanique du point/Ressort et frottement.pdf";
+import pbp74 from "pages/Pbs/Physique/Physique/mecanique du point/Ressorts et equations differentielles.pdf";
+import pbp75 from "pages/Pbs/Physique/Physique/mecanique du point/SatelliteEllipseViriel GravitationPesanteur.pdf";
+import pbp76 from "pages/Pbs/Physique/Physique/mecanique du point/Satellites d observation terrestre.pdf";
+import pbp77 from "pages/Pbs/Physique/Physique/mecanique du point/Secousses Tunnel.pdf";
+import pbp78 from "pages/Pbs/Physique/Physique/mecanique du point/SphereConductriceDansEUniforme PiegeDePenning.pdf";
+import pbp79 from "pages/Pbs/Physique/Physique/mecanique du point/ThermoregulationCycliste EtoileDouble Modulation.pdf";
+import pbp80 from "pages/Pbs/Physique/Physique/mecanique du point/VaisseauSpatial MicroscopeForceAtomique.pdf";
+import pbp81 from "pages/Pbs/Physique/Physique/mecanique du point/VecteurExcentricite CompressionsMonothermes ViseurLunettes.pdf";
+//Mecanique Solide
+import pbp82 from "pages/Pbs/Physique/Physique/mecanique solide/BifurcationMecanique ChauffeEauSolaire DepotLaiton.pdf";
+import pbp83 from "pages/Pbs/Physique/Physique/mecanique solide/ChuteTartine ReductionNiO DiffusionBarre.pdf";
+import pbp84 from "pages/Pbs/Physique/Physique/mecanique solide/ConvoyeurRouleaux Monochromateur Vaporeformage.pdf";
+import pbp85 from "pages/Pbs/Physique/Physique/mecanique solide/DisqueRotationInitiale PasseBandeTriangle CaviteLaser Gravitation.pdf";
+import pbp86 from "pages/Pbs/Physique/Physique/mecanique solide/Jouets BinaireEauEthanol ModulationPhase_2.pdf";
+import pbp87 from "pages/Pbs/Physique/Physique/mecanique solide/Oscillations.pdf";
+import pbp88 from "pages/Pbs/Physique/Physique/mecanique solide/PointSurDisque Voiture.pdf";
+import pbp89 from "pages/Pbs/Physique/Physique/mecanique solide/Roue sur un profil cylindrique.pdf";
+import pbp90 from "pages/Pbs/Physique/Physique/mecanique solide/RoueFreinage RoueTapisRoulant Timochenko.pdf";
+import pbp91 from "pages/Pbs/Physique/Physique/mecanique solide/Roues de bicyclette.pdf";
+import pbp92 from "pages/Pbs/Physique/Physique/mecanique solide/Scooter.pdf";
+import pbp93 from "pages/Pbs/Physique/Physique/mecanique solide/Secousses Tunnel.pdf";
+import pbp94 from "pages/Pbs/Physique/Physique/mecanique solide/Telepherique Holographie.pdf";
+import pbp95 from "pages/Pbs/Physique/Physique/mecanique solide/TensionRotation StickSlip CondensateurHF.pdf";
+import pbp96 from "pages/Pbs/Physique/Physique/mecanique solide/Terebenthine Retro Antireflet.pdf";
+import pbp97 from "pages/Pbs/Physique/Physique/mecanique solide/Velo diode roue libre.pdf";
+import pbp98 from "pages/Pbs/Physique/Physique/mecanique solide/Wagonnet sur une pente.pdf";
+//Ondes
+import pbp99 from "pages/Pbs/Physique/Physique/ondes/Absorption OPPM par un gaz.pdf";
+import pbp100 from "pages/Pbs/Physique/Physique/ondes/Biprisme EffetHall PressionElectromagnetisme.pdf";
+import pbp101 from "pages/Pbs/Physique/Physique/ondes/Bon conducteur et guide TE.pdf";
+import pbp102 from "pages/Pbs/Physique/Physique/ondes/ChauffagePlaqueFoucault ThermometreCristauxLiquides.pdf";
+import pbp103 from "pages/Pbs/Physique/Physique/ondes/Coaxial GuideRectangulaire Doppler PotentielPhChrome.pdf";
+import pbp104 from "pages/Pbs/Physique/Physique/ondes/Coefficients de reflexion et de transmission.pdf";
+import pbp105 from "pages/Pbs/Physique/Physique/ondes/DisqueRotationInitiale PasseBandeTriangle CaviteLaser Gravitation.pdf";
+import pbp106 from "pages/Pbs/Physique/Physique/ondes/Effet Faraday dans un plasma.pdf";
+import pbp107 from "pages/Pbs/Physique/Physique/ondes/ExperienceFourier EffetPeau.pdf";
+import pbp108 from "pages/Pbs/Physique/Physique/ondes/FibreOptique Aluminium.pdf";
+import pbp109 from "pages/Pbs/Physique/Physique/ondes/Flux et circulations pour un coaxial.pdf";
+import pbp110 from "pages/Pbs/Physique/Physique/ondes/Guide Avalanche Cadmium.pdf";
+import pbp111 from "pages/Pbs/Physique/Physique/ondes/GuideTM RayonnementReception EpHChrome.pdf";
+import pbp112 from "pages/Pbs/Physique/Physique/ondes/Indice Distillation.pdf";
+import pbp113 from "pages/Pbs/Physique/Physique/ondes/Ligne a rubans impedance caracteristique.pdf";
+import pbp114 from "pages/Pbs/Physique/Physique/ondes/Metal non parfait.pdf";
+import pbp115 from "pages/Pbs/Physique/Physique/ondes/ModeleThomsonEffetZeeman ChromeEllingham BinaireEauHF.pdf";
+import pbp116 from "pages/Pbs/Physique/Physique/ondes/OndequasimonochrResonateurGuide Plasma.pdf";
+import pbp117 from "pages/Pbs/Physique/Physique/ondes/OndeReflexion Dielectrique Solenoide.pdf";
+import pbp118 from "pages/Pbs/Physique/Physique/ondes/Ondes sur une corde.pdf";
+import pbp119 from "pages/Pbs/Physique/Physique/ondes/Plasma GuideOndes CycleTroisTransformations.pdf";
+import pbp120 from "pages/Pbs/Physique/Physique/ondes/Skeleton OndeMetal PreparationTitane.pdf";
+import pbp121 from "pages/Pbs/Physique/Physique/ondes/TensionRotation StickSlip CondensateurHF.pdf";
+import pbp122 from "pages/Pbs/Physique/Physique/ondes/Terebenthine Retro Antireflet.pdf";
+//Ondulatoire
+import pbp123 from "pages/Pbs/Physique/Physique/Ondulatoire/Biprisme EffetHall PressionElectromagnetisme.pdf";
+import pbp124 from "pages/Pbs/Physique/Physique/Ondulatoire/ChauffagePlaqueFoucault ThermometreCristauxLiquides.pdf";
+import pbp125 from "pages/Pbs/Physique/Physique/Ondulatoire/ConvoyeurRouleaux Monochromateur Vaporeformage.pdf";
+import pbp126 from "pages/Pbs/Physique/Physique/Ondulatoire/Lambdametre.pdf";
+import pbp127 from "pages/Pbs/Physique/Physique/Ondulatoire/MachZehnder Filtrage RefrigerationAirPulse.pdf";
+import pbp128 from "pages/Pbs/Physique/Physique/Ondulatoire/MichelsonGravitation InterferencesDispersion MgCorrosion BinaireHNO3.pdf";
+import pbp129 from "pages/Pbs/Physique/Physique/Ondulatoire/MoteurEntropie InterferencesMiroirs ModelesAtome.pdf";
+import pbp130 from "pages/Pbs/Physique/Physique/Ondulatoire/Optique non lineaire.pdf";
+import pbp131 from "pages/Pbs/Physique/Physique/Ondulatoire/Projecteur ObservationEtoiles.pdf";
+import pbp132 from "pages/Pbs/Physique/Physique/Ondulatoire/Refractometrie avec un Mach Zehnder.pdf";
+import pbp133 from "pages/Pbs/Physique/Physique/Ondulatoire/Refractometrie par interferometrie.pdf";
+import pbp134 from "pages/Pbs/Physique/Physique/Ondulatoire/ReseauReflexion Defibrillateur Chlore.pdf";
+import pbp135 from "pages/Pbs/Physique/Physique/Ondulatoire/Spectrophotometre.pdf";
+import pbp136 from "pages/Pbs/Physique/Physique/Ondulatoire/Synthese d ouverture.pdf";
+import pbp137 from "pages/Pbs/Physique/Physique/Ondulatoire/Telepherique Holographie.pdf";
+import pbp138 from "pages/Pbs/Physique/Physique/Ondulatoire/TemperatureTerre RailLaplace MichelsonPlaneite.pdf";
+import pbp139 from "pages/Pbs/Physique/Physique/Ondulatoire/Terebenthine Retro Antireflet.pdf";
+import pbp140 from "pages/Pbs/Physique/Physique/Ondulatoire/TurbineVapeur SpectrometrieInterferentielle.pdf";
+//Optique Geometrique
+import pbp141 from "pages/Pbs/Physique/Physique/Optique G/BoucleDetection ChuteDansB DiffractionYoung.pdf";
+import pbp142 from "pages/Pbs/Physique/Physique/Optique G/ChauffagePlaqueFoucault ThermometreCristauxLiquides.pdf";
+import pbp143 from "pages/Pbs/Physique/Physique/Optique G/Diffraction de base.pdf";
+import pbp144 from "pages/Pbs/Physique/Physique/Optique G/Diffraction et effets turbulence pour telescope.pdf";
+import pbp145 from "pages/Pbs/Physique/Physique/Optique G/Diffraction et resolution du reseau.pdf";
+import pbp146 from "pages/Pbs/Physique/Physique/Optique G/EffetMoyenne CouleursDiffraction.pdf";
+import pbp147 from "pages/Pbs/Physique/Physique/Optique G/FibreOptique Aluminium.pdf";
+import pbp148 from "pages/Pbs/Physique/Physique/Optique G/FiltrageOptique ChloreEnSolution DetenteEauDiazote.pdf";
+import pbp149 from "pages/Pbs/Physique/Physique/Optique G/Filtres OscillationsNonGalileen DoubleurEt Hyperfocale CycleEntropie.pdf";
+import pbp150 from "pages/Pbs/Physique/Physique/Optique G/MichelsonGravitation InterferencesDispersion MgCorrosion BinaireHNO3.pdf";
+import pbp151 from "pages/Pbs/Physique/Physique/Optique G/Miroirs et lentilles.pdf";
+import pbp152 from "pages/Pbs/Physique/Physique/Optique G/Projecteur ObservationEtoiles.pdf";
+import pbp153 from "pages/Pbs/Physique/Physique/Optique G/Reseau a echelettes.pdf";
+import pbp154 from "pages/Pbs/Physique/Physique/Optique G/ReseauReflexion Defibrillateur Chlore.pdf";
+import pbp155 from "pages/Pbs/Physique/Physique/Optique G/Satellites d observation terrestre.pdf";
+import pbp156 from "pages/Pbs/Physique/Physique/Optique G/Spectrophotometre.pdf";
+import pbp157 from "pages/Pbs/Physique/Physique/Optique G/Synthese d ouverture.pdf";
+import pbp158 from "pages/Pbs/Physique/Physique/Optique G/Telepherique Holographie.pdf";
+import pbp159 from "pages/Pbs/Physique/Physique/Optique G/Terebenthine Retro Antireflet.pdf";
+import pbp160 from "pages/Pbs/Physique/Physique/Optique G/VecteurExcentricite CompressionsMonothermes ViseurLunettes.pdf";
+//Thermique
+import pbp161 from "pages/Pbs/Physique/Physique/thermique/AvancementGaz Accelerometre TemperatureLune.pdf";
+import pbp162 from "pages/Pbs/Physique/Physique/thermique/BifurcationMecanique ChauffeEauSolaire DepotLaiton.pdf";
+import pbp163 from "pages/Pbs/Physique/Physique/thermique/CartesElectroniques.pdf";
+import pbp164 from "pages/Pbs/Physique/Physique/thermique/ChampEBordPlan ChambreProjectionTemporelle ThermiqueTransistor.pdf";
+import pbp165 from "pages/Pbs/Physique/Physique/thermique/ChauffagePlaqueFoucault ThermometreCristauxLiquides.pdf";
+import pbp166 from "pages/Pbs/Physique/Physique/thermique/ChuteTartine ReductionNiO DiffusionBarre.pdf";
+import pbp167 from "pages/Pbs/Physique/Physique/thermique/Cryostat RegimeNonStationnaire.pdf";
+import pbp168 from "pages/Pbs/Physique/Physique/thermique/ExperienceFourier EffetPeau.pdf";
+import pbp169 from "pages/Pbs/Physique/Physique/thermique/Formation couche de glace sur lac.pdf";
+import pbp170 from "pages/Pbs/Physique/Physique/thermique/Isolation thermique d un tube vaporisateur.pdf";
+import pbp171 from "pages/Pbs/Physique/Physique/thermique/Lampe a incandescence.pdf";
+import pbp172 from "pages/Pbs/Physique/Physique/thermique/MicroOndes SulfiteSulfate.pdf";
+import pbp173 from "pages/Pbs/Physique/Physique/thermique/Onde thermique.pdf";
+import pbp174 from "pages/Pbs/Physique/Physique/thermique/ReacteurBrayton LaserEffetThermique.pdf";
+import pbp175 from "pages/Pbs/Physique/Physique/thermique/TemperatureTerre RailLaplace MichelsonPlaneite.pdf";
+import pbp176 from "pages/Pbs/Physique/Physique/thermique/Thermique appliquee au corps humain.pdf";
+import pbp177 from "pages/Pbs/Physique/Physique/thermique/Thermique dans un fil electrique.pdf";
+import pbp178 from "pages/Pbs/Physique/Physique/thermique/Thermique en regime stationnaire avec cylindre.pdf";
+import pbp179 from "pages/Pbs/Physique/Physique/thermique/ThermoregulationCycliste EtoileDouble Modulation.pdf";
+//Thermodynamique
+import pbp180 from "pages/Pbs/Physique/Physique/thermodynamique/ChaineProductionAzote.pdf";
+import pbp181 from "pages/Pbs/Physique/Physique/thermodynamique/Chauffage local en fonction de t.pdf";
+import pbp182 from "pages/Pbs/Physique/Physique/thermodynamique/CompresseurAdiabatique ElihuThomson.pdf";
+import pbp183 from "pages/Pbs/Physique/Physique/thermodynamique/CycleDiesel.pdf";
+import pbp184 from "pages/Pbs/Physique/Physique/thermodynamique/FiltrageOptique ChloreEnSolution DetenteEauDiazote.pdf";
+import pbp185 from "pages/Pbs/Physique/Physique/thermodynamique/Filtres OscillationsNonGalileen DoubleurEt Hyperfocale CycleEntropie.pdf";
+import pbp186 from "pages/Pbs/Physique/Physique/thermodynamique/Gaz parfait et eau liquide et vapeur.pdf";
+import pbp187 from "pages/Pbs/Physique/Physique/thermodynamique/MachZehnder Filtrage RefrigerationAirPulse.pdf";
+import pbp188 from "pages/Pbs/Physique/Physique/thermodynamique/MoteurEntropie InterferencesMiroirs ModelesAtome.pdf";
+import pbp189 from "pages/Pbs/Physique/Physique/thermodynamique/Plasma GuideOndes CycleTroisTransformations.pdf";
+import pbp190 from "pages/Pbs/Physique/Physique/thermodynamique/PortraitPhaseElec NonGalileenEnergie LiquefactionCompressionIsotherme.pdf";
+import pbp191 from "pages/Pbs/Physique/Physique/thermodynamique/RailLaplace MoteurCurzon.pdf";
+import pbp192 from "pages/Pbs/Physique/Physique/thermodynamique/ReacteurBrayton LaserEffetThermique.pdf";
+import pbp193 from "pages/Pbs/Physique/Physique/thermodynamique/RendementBeauDeRochas Alternateur OxydesCuivre.pdf";
+import pbp194 from "pages/Pbs/Physique/Physique/thermodynamique/TurbineVapeur SpectrometrieInterferentielle.pdf";
+import pbp195 from "pages/Pbs/Physique/Physique/thermodynamique/VecteurExcentricite CompressionsMonothermes ViseurLunettes.pdf";
+//Chimie pbs
+//Atomistique
+import pbc1 from "pages/Pbs/Chimie/Ch/Atomistique/Argent.pdf";
+import pbc2 from "pages/Pbs/Chimie/Ch/Atomistique/Brome.pdf";
+import pbc3 from "pages/Pbs/Chimie/Ch/Atomistique/Chrome.pdf";
+import pbc4 from "pages/Pbs/Chimie/Ch/Atomistique/Mercure.pdf";
+import pbc5 from "pages/Pbs/Chimie/Ch/Atomistique/Silicium.pdf";
+import pbc6 from "pages/Pbs/Chimie/Ch/Atomistique/Soufre.pdf";
+import pbc7 from "pages/Pbs/Chimie/Ch/Atomistique/Titane.pdf";
+//Cinetique
+import pbc8 from "pages/Pbs/Chimie/Ch/Cinetique/Chrome.pdf";
+import pbc9 from "pages/Pbs/Chimie/Ch/Cinetique/FibreOptique Aluminium.pdf";
+import pbc10 from "pages/Pbs/Chimie/Ch/Cinetique/FiltrageOptique ChloreEnSolution DetenteEauDiazote.pdf";
+import pbc11 from "pages/Pbs/Chimie/Ch/Cinetique/Mercure.pdf";
+import pbc12 from "pages/Pbs/Chimie/Ch/Cinetique/Pendule CinetiqueDensiteOptique.pdf";
+import pbc13 from "pages/Pbs/Chimie/Ch/Cinetique/Silicium.pdf";
+import pbc14 from "pages/Pbs/Chimie/Ch/Cinetique/Soufre.pdf";
+//Cristallo
+import pbc15 from "pages/Pbs/Chimie/Ch/Cristallo/Argent.pdf";
+import pbc16 from "pages/Pbs/Chimie/Ch/Cristallo/Brome.pdf";
+import pbc17 from "pages/Pbs/Chimie/Ch/Cristallo/Chrome.pdf";
+import pbc18 from "pages/Pbs/Chimie/Ch/Cristallo/Jouets BinaireEauEthanol ModulationPhase.pdf";
+import pbc19 from "pages/Pbs/Chimie/Ch/Cristallo/MichelsonGravitation InterferencesDispersion MgCorrosion BinaireHNO3.pdf";
+import pbc20 from "pages/Pbs/Chimie/Ch/Cristallo/ModeleThomsonEffetZeeman ChromeEllingham BinaireEauHF.pdf";
+import pbc21 from "pages/Pbs/Chimie/Ch/Cristallo/Silicium.pdf";
+import pbc22 from "pages/Pbs/Chimie/Ch/Cristallo/Terebenthine Retro Antireflet.pdf";
+import pbc23 from "pages/Pbs/Chimie/Ch/Cristallo/Titane.pdf";
+//Diag binaire
+import pbc24 from "pages/Pbs/Chimie/Ch/Diag bin/Indice Distillation.pdf";
+import pbc25 from "pages/Pbs/Chimie/Ch/Diag bin/ModeleThomsonEffetZeeman ChromeEllingham BinaireEauHF.pdf";
+import pbc26 from "pages/Pbs/Chimie/Ch/Diag bin/RendementBeauDeRochas Alternateur OxydesCuivre.pdf";
+import pbc27 from "pages/Pbs/Chimie/Ch/Diag bin/Skeleton OndeMetal PreparationTitane.pdf";
+//Diag D'ellingham
+import pbc28 from "pages/Pbs/Chimie/Ch/diag d'ellingham/Mercure.pdf";
+import pbc29 from "pages/Pbs/Chimie/Ch/diag d'ellingham/ModeleThomsonEffetZeeman ChromeEllingham BinaireEauHF.pdf";
+import pbc30 from "pages/Pbs/Chimie/Ch/diag d'ellingham/RendementBeauDeRochas Alternateur OxydesCuivre.pdf";
+import pbc31 from "pages/Pbs/Chimie/Ch/diag d'ellingham/Skeleton OndeMetal PreparationTitane.pdf";
+//diag E-ph
+import pbc32 from "pages/Pbs/Chimie/Ch/diag E-pH/Argent.pdf";
+import pbc33 from "pages/Pbs/Chimie/Ch/diag E-pH/BifurcationMecanique ChauffeEauSolaire DepotLaiton.pdf";
+import pbc34 from "pages/Pbs/Chimie/Ch/diag E-pH/Brome.pdf";
+import pbc35 from "pages/Pbs/Chimie/Ch/diag E-pH/Coaxial GuideRectangulaire Doppler PotentielPhChrome.pdf";
+import pbc36 from "pages/Pbs/Chimie/Ch/diag E-pH/EcrantageB LevitationSphereSupraconductrice PollutionMercure.pdf";
+import pbc37 from "pages/Pbs/Chimie/Ch/diag E-pH/FibreOptique Aluminium.pdf";
+import pbc38 from "pages/Pbs/Chimie/Ch/diag E-pH/Guide Avalanche Cadmium.pdf";
+import pbc39 from "pages/Pbs/Chimie/Ch/diag E-pH/GuideTM RayonnementReception EpHChrome.pdf";
+import pbc40 from "pages/Pbs/Chimie/Ch/diag E-pH/MichelsonGravitation InterferencesDispersion MgCorrosion BinaireHNO3.pdf";
+import pbc41 from "pages/Pbs/Chimie/Ch/diag E-pH/ReseauReflexion Defibrillateur Chlore.pdf";
+import pbc42 from "pages/Pbs/Chimie/Ch/diag E-pH/SolubiliteAluminium OrDiagrammeEpCN.pdf";
+//Solution aqueuse
+import pbc43 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+import pbc44 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+import pbc45 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+import pbc46 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+import pbc47 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+import pbc48 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+import pbc49 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+import pbc50 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+import pbc51 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+import pbc52 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+import pbc53 from "pages/Pbs/Chimie/Ch/Solution a/Argent.pdf";
+//Structure
+import pbc54 from "pages/Pbs/Chimie/Ch/Structure/Chrome.pdf";
+import pbc55 from "pages/Pbs/Chimie/Ch/Structure/COetCO2 CircuitsCouples.pdf";
+import pbc56 from "pages/Pbs/Chimie/Ch/Structure/FiltrageOptique ChloreEnSolution DetenteEauDiazote.pdf";
+import pbc57 from "pages/Pbs/Chimie/Ch/Structure/Soufre.pdf";
+import pbc58 from "pages/Pbs/Chimie/Ch/Structure/Titane.pdf";
+//Thermochimie
+import pbc59 from "pages/Pbs/Chimie/Ch/Thermochimie/Argent.pdf";
+import pbc60 from "pages/Pbs/Chimie/Ch/Thermochimie/AvancementGaz Accelerometre TemperatureLune.pdf";
+import pbc61 from "pages/Pbs/Chimie/Ch/Thermochimie/Brome.pdf";
+import pbc62 from "pages/Pbs/Chimie/Ch/Thermochimie/Chrome.pdf";
+import pbc63 from "pages/Pbs/Chimie/Ch/Thermochimie/ChuteTartine ReductionNiO DiffusionBarre.pdf";
+import pbc64 from "pages/Pbs/Chimie/Ch/Thermochimie/ConvoyeurRouleaux Monochromateur Vaporeformage.pdf";
+import pbc65 from "pages/Pbs/Chimie/Ch/Thermochimie/FiltrageOptique ChloreEnSolution DetenteEauDiazote.pdf";
+import pbc66 from "pages/Pbs/Chimie/Ch/Thermochimie/Mercure.pdf";
+import pbc67 from "pages/Pbs/Chimie/Ch/Thermochimie/Silicium.pdf";
+import pbc68 from "pages/Pbs/Chimie/Ch/Thermochimie/Soufre.pdf";
+import pbc69 from "pages/Pbs/Chimie/Ch/Thermochimie/Titane.pdf";
+//Pbs Math Sup
+import pbm1 from "pages/Pbs/Math/Elamdaoui/MPSI/polynomes-classique/Polynome de Bezout.pdf";
+import pbm2 from "pages/Pbs/Math/Elamdaoui/MPSI/polynomes-classique/Polynome de Hilbert.pdf";
+import pbm3 from "pages/Pbs/Math/Elamdaoui/MPSI/polynomes-classique/Polynome de Legendre.pdf";
+import pbm4 from "pages/Pbs/Math/Elamdaoui/MPSI/polynomes-classique/Polynome de Tchebychev.pdf";
+import pbm5 from "pages/Pbs/Math/Elamdaoui/MPSI/polynomes-classique/Polynomes irreductibles dans Q[X].pdf";
+import pbm6 from "pages/Pbs/Math/Elamdaoui/MPSI/polynomes-classique/Theoreme de Tchebychev.pdf";
+import pbm7 from "pages/Pbs/Math/Elamdaoui/MPSI/polynomes-classique/Theoreme de Wedderburn.pdf";
+import pbm8 from "pages/Pbs/Math/Elamdaoui/MPSI/Déterminant/Calcul de determinant.pdf";
+import pbm9 from "pages/Pbs/Math/Elamdaoui/MPSI/Déterminant/Det d_une matrice dependant d_un parametre.pdf";
+import pbm10 from "pages/Pbs/Math/Elamdaoui/MPSI/Déterminant/Det de vandermonde et de cauchy.pdf";
+import pbm11 from "pages/Pbs/Math/Elamdaoui/MPSI/Déterminant/Systeme tridiagonal symetrique.pdf";
+import pbm12 from "pages/Pbs/Math/Elamdaoui/MPSI/Matrices/Equation matricielle.pdf";
+import pbm13 from "pages/Pbs/Math/Elamdaoui/MPSI/Matrices/Hyperplans de Mn(K).pdf";
+import pbm14 from "pages/Pbs/Math/Elamdaoui/MPSI/Matrices/Matrice productive.pdf";
+import pbm15 from "pages/Pbs/Math/Elamdaoui/MPSI/Matrices/Matrices magiques d_ordre 3.pdf";
+import pbm16 from "pages/Pbs/Math/Elamdaoui/MPSI/Matrices/Matrices semblables è son inverse.pdf";
+import pbm17 from "pages/Pbs/Math/Elamdaoui/MPSI/Matrices/Puissance d_une matrice.pdf";
+import pbm18 from "pages/Pbs/Math/Elamdaoui/MPSI/Algébre lin/TD révision.pdf";
+import pbm19 from "pages/Pbs/Math/Elamdaoui/MPSI/Algébre lin/algebre-lineaire.pdf";
+//Pbs Math Spe
+import pbms1 from "pages/Pbs/Math/Elamdaoui/MP/1-Groupes/DL corrigé_Groupe operant.pdf";
+import pbms2 from "pages/Pbs/Math/Elamdaoui/MP/1-Groupes/Exposant d_un groupe.pdf";
+import pbms3 from "pages/Pbs/Math/Elamdaoui/MP/1-Groupes/Les entiers de gauss.pdf";
+import pbms4 from "pages/Pbs/Math/Elamdaoui/MP/1-Groupes/Sous groupes de (R,+).pdf";
+import pbms5 from "pages/Pbs/Math/Elamdaoui/MP/1-Groupes/TD corrigé.pdf";
+import pbms6 from "pages/Pbs/Math/Elamdaoui/MP/3-Reduction/Automorphisme.pdf";
+import pbms7 from "pages/Pbs/Math/Elamdaoui/MP/3-Reduction/Classiques.pdf";
+import pbms8 from "pages/Pbs/Math/Elamdaoui/MP/3-Reduction/Dunford.pdf";
+import pbms9 from "pages/Pbs/Math/Elamdaoui/MP/3-Reduction/Matrice stockastique.pdf";
+import pbms10 from "pages/Pbs/Math/Elamdaoui/MP/3-Reduction/Noyaux_images.pdf";
+import pbms11 from "pages/Pbs/Math/Elamdaoui/MP/3-Reduction/Poly_minimal.pdf";
+import pbms12 from "pages/Pbs/Math/Elamdaoui/MP/3-Reduction/produit de kronecker-corrigé.pdf";
+import pbms13 from "pages/Pbs/Math/Elamdaoui/MP/3-Reduction/produit de kronecker_enoncé.pdf";
+import pbms14 from "pages/Pbs/Math/Elamdaoui/MP/3-Reduction/Rang_1.pdf";
+import pbms15 from "pages/Pbs/Math/Elamdaoui/MP/4-Topologie/calcul de distance par la norme de Schur.pdf";
+import pbms16 from "pages/Pbs/Math/Elamdaoui/MP/4-Topologie/classiques topologie Mn(K).pdf";
+import pbms17 from "pages/Pbs/Math/Elamdaoui/MP/4-Topologie/formes linéaires continues, hyperplans.pdf";
+import pbms18 from "pages/Pbs/Math/Elamdaoui/MP/4-Topologie/normes subordonnées.pdf";
+import pbms19 from "pages/Pbs/Math/Elamdaoui/MP/4-Topologie/suites définis par itération, point fixe.pdf";
+import pbms20 from "pages/Pbs/Math/Elamdaoui/MP/5-Series Num/SER-Stirling-3.pdf";
+import pbms21 from "pages/Pbs/Math/Elamdaoui/MP/6-Sommabilité/classiques sommabilité.pdf";
+import pbms22 from "pages/Pbs/Math/Elamdaoui/MP/7-Dérivation-intégration/Intégrale de Gauss.pdf";
+import pbms23 from "pages/Pbs/Math/Elamdaoui/MP/7-Dérivation-intégration/Les polynômes de Bernoulli.pdf";
+import pbms24 from "pages/Pbs/Math/Elamdaoui/MP/8-Suites et séries de fnct/comparaison des modes de cv.pdf";
+import pbms25 from "pages/Pbs/Math/Elamdaoui/MP/8-Suites et séries de fnct/Fonction Digamma.pdf";
+import pbms26 from "pages/Pbs/Math/Elamdaoui/MP/8-Suites et séries de fnct/Fonctions d_Euler.pdf";
+import pbms27 from "pages/Pbs/Math/Elamdaoui/MP/8-Suites et séries de fnct/Les fonctions Eulériennes.pdf";
+import pbms28 from "pages/Pbs/Math/Elamdaoui/MP/8-Suites et séries de fnct/théorème d_Abel.pdf";
+import pbms29 from "pages/Pbs/Math/Elamdaoui/MP/8-Suites et séries de fnct/théorème de Stone Weirstrass.pdf";
+import pbms30 from "pages/Pbs/Math/Elamdaoui/MP/8-Suites et séries de fnct/zéta et zéta alternée de Riemann.pdf";
+import pbms31 from "pages/Pbs/Math/Elamdaoui/MP/8-Suites et séries de fnct/étude d_une série ......pdf";
+import pbms32 from "pages/Pbs/Math/Elamdaoui/MP/8-Suites et séries de fnct/étude d_une série .....pdf";
+import pbms33 from "pages/Pbs/Math/Elamdaoui/MP/8-Suites et séries de fnct/étude d_une série ....pdf";
+import pbms34 from "pages/Pbs/Math/Elamdaoui/MP/9-Séries entiers/Autour les séries entières.pdf";
+import pbms35 from "pages/Pbs/Math/Elamdaoui/MP/9-Séries entiers/nombre de dérangement.pdf";
+import pbms36 from "pages/Pbs/Math/Elamdaoui/MP/9-Séries entiers/Théorèmes d_Abel et Tauberien faible.pdf";
+import pbms37 from "pages/Pbs/Math/Elamdaoui/MP/10-Equa-Diff/Cal-dif-Equation-chaleur (1)-1.pdf";
+import pbms38 from "pages/Pbs/Math/Elamdaoui/MP/10-Equa-Diff/REV-ERA.pdf";
+import pbms39 from "pages/Pbs/Math/Elamdaoui/MP/11-Fonction holomorphes/REV-ERA.pdf";
+import pbms40 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Fon_Gen_Mom.pdf";
+import pbms41 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Formule_de_Stirling.pdf";
+import pbms42 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Loi_de_Zipf.pdf";
+import pbms43 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Proba_convergence.pdf";
+import pbms44 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Proba_Fonc_caract.pdf";
+import pbms45 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Proba_fonc_gen_moments.pdf";
+import pbms46 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Proba_For_stirling.pdf";
+import pbms47 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Proba_geo_exp_conv.pdf";
+import pbms48 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Proba_khi_deux.pdf";
+import pbms49 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Proba_loi_Zipf.pdf";
+import pbms50 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Proba_min_max_quotient.pdf";
+import pbms51 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Proba_stone_weierst.pdf";
+import pbms52 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Proba_var_sans_memoire.pdf";
+import pbms53 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Stone_Weiestrass.pdf";
+import pbms54 from "pages/Pbs/Math/Elamdaoui/Classique_probas/Var_Sous_Gau.pdf";
 //InfoSpe
 import CinfoS1 from "pages/Cours/Spe/Info/src/Pdfs/1 - Bases de données - Cours.pdf";
 import RinfoS1 from "pages/Cours/Spe/Info/src/Pdfs/1 - Bases de données - Résumé.pdf";
@@ -403,7 +766,6 @@ import SIS6T1C from "pages/Cours/Spe/SI/src/Pdfs/SIS6T1C.pdf";
 import SIS6T2 from "pages/Cours/Spe/SI/src/Pdfs/SIS6T2.pdf";
 import SIS6T2C from "pages/Cours/Spe/SI/src/Pdfs/SIS6T2C.pdf";
 // Sections
-//import { BrowserRouter as Router, Route } from "react-router-dom";
 import Pdfss from "./pages/Tech/Td";
 import Pdf from "./pages/Tech/Pdf";
 import Video from "./pages/Tech/Video";
@@ -4120,6 +4482,101 @@ const routes = [
                 route: "/Pbs/Sup/Math/Algebre",
                 component: <PbMAl />,
               },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P1",
+                component: <Pb C={pbm1} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P2",
+                component: <Pb C={pbm2} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P3",
+                component: <Pb C={pbm3} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P4",
+                component: <Pb C={pbm4} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P5",
+                component: <Pb C={pbm5} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P6",
+                component: <Pb C={pbm6} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P7",
+                component: <Pb C={pbm7} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P8",
+                component: <Pb C={pbm8} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P9",
+                component: <Pb C={pbm9} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P10",
+                component: <Pb C={pbm10} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P11",
+                component: <Pb C={pbm11} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P12",
+                component: <Pb C={pbm12} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P13",
+                component: <Pb C={pbm13} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P14",
+                component: <Pb C={pbm14} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P15",
+                component: <Pb C={pbm15} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P16",
+                component: <Pb C={pbm16} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P17",
+                component: <Pb C={pbm17} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P18",
+                component: <Pb C={pbm18} label1="Math" label2="Algebre" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Sup/Math/P19",
+                component: <Pb C={pbm19} label1="Math" label2="Algebre" />,
+              },
             ],
           },
           {
@@ -4146,6 +4603,276 @@ const routes = [
                 route: "/Pbs/Spe/Math/Proba",
                 component: <PbMSP />,
               },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P1",
+                component: <Pb C={pbms1} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P2",
+                component: <Pb C={pbms2} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P3",
+                component: <Pb C={pbms3} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P4",
+                component: <Pb C={pbms4} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P5",
+                component: <Pb C={pbms5} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P6",
+                component: <Pb C={pbms6} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P7",
+                component: <Pb C={pbms7} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P8",
+                component: <Pb C={pbms8} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P9",
+                component: <Pb C={pbms9} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P10",
+                component: <Pb C={pbms10} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P11",
+                component: <Pb C={pbms11} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P12",
+                component: <Pb C={pbms12} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P13",
+                component: <Pb C={pbms13} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P14",
+                component: <Pb C={pbms14} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P15",
+                component: <Pb C={pbms15} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P16",
+                component: <Pb C={pbms16} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P17",
+                component: <Pb C={pbms17} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P18",
+                component: <Pb C={pbms18} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P19",
+                component: <Pb C={pbms19} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P20",
+                component: <Pb C={pbms20} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P21",
+                component: <Pb C={pbms21} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P22",
+                component: <Pb C={pbms22} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P23",
+                component: <Pb C={pbms23} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P24",
+                component: <Pb C={pbms24} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P25",
+                component: <Pb C={pbms25} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P26",
+                component: <Pb C={pbms26} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P27",
+                component: <Pb C={pbms27} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P28",
+                component: <Pb C={pbms28} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P29",
+                component: <Pb C={pbms29} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P30",
+                component: <Pb C={pbms30} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P31",
+                component: <Pb C={pbms31} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P32",
+                component: <Pb C={pbms32} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P33",
+                component: <Pb C={pbms33} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P34",
+                component: <Pb C={pbms34} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P35",
+                component: <Pb C={pbms35} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P36",
+                component: <Pb C={pbms36} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P37",
+                component: <Pb C={pbms37} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P38",
+                component: <Pb C={pbms38} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P39",
+                component: <Pb C={pbms39} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P40",
+                component: <Pb C={pbms40} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P41",
+                component: <Pb C={pbms41} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P42",
+                component: <Pb C={pbms42} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P43",
+                component: <Pb C={pbms43} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P44",
+                component: <Pb C={pbms44} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P45",
+                component: <Pb C={pbms45} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P46",
+                component: <Pb C={pbms46} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P47",
+                component: <Pb C={pbms47} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P48",
+                component: <Pb C={pbms48} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P49",
+                component: <Pb C={pbms49} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P50",
+                component: <Pb C={pbms50} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P51",
+                component: <Pb C={pbms51} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P52",
+                component: <Pb C={pbms52} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P53",
+                component: <Pb C={pbms53} label1="Math" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Spe/Math/P54",
+                component: <Pb C={pbms54} label1="Math" label2="Spe" />,
+              },
             ],
           },
         ],
@@ -4169,6 +4896,981 @@ const routes = [
                 name: "",
                 route: "/Pbs/Physique",
                 component: <PPBS />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P1",
+                component: <Pb C={pbp1} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P2",
+                component: <Pb C={pbp2} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P3",
+                component: <Pb C={pbp3} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P4",
+                component: <Pb C={pbp4} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P5",
+                component: <Pb C={pbp5} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P6",
+                component: <Pb C={pbp6} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P7",
+                component: <Pb C={pbp7} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P8",
+                component: <Pb C={pbp8} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P9",
+                component: <Pb C={pbp9} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P10",
+                component: <Pb C={pbp10} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P11",
+                component: <Pb C={pbp11} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P12",
+                component: <Pb C={pbp12} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P13",
+                component: <Pb C={pbp13} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P14",
+                component: <Pb C={pbp14} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P15",
+                component: <Pb C={pbp15} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P16",
+                component: <Pb C={pbp16} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P17",
+                component: <Pb C={pbp17} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P18",
+                component: <Pb C={pbp18} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P19",
+                component: <Pb C={pbp19} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P20",
+                component: <Pb C={pbp20} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P21",
+                component: <Pb C={pbp21} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P22",
+                component: <Pb C={pbp22} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P23",
+                component: <Pb C={pbp23} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P24",
+                component: <Pb C={pbp24} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P25",
+                component: <Pb C={pbp25} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P26",
+                component: <Pb C={pbp26} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P27",
+                component: <Pb C={pbp27} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P28",
+                component: <Pb C={pbp28} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P29",
+                component: <Pb C={pbp29} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P30",
+                component: <Pb C={pbp30} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P31",
+                component: <Pb C={pbp31} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P32",
+                component: <Pb C={pbp32} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P33",
+                component: <Pb C={pbp33} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P34",
+                component: <Pb C={pbp34} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P35",
+                component: <Pb C={pbp35} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P36",
+                component: <Pb C={pbp36} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P37",
+                component: <Pb C={pbp37} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P38",
+                component: <Pb C={pbp38} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P39",
+                component: <Pb C={pbp39} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P40",
+                component: <Pb C={pbp40} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P41",
+                component: <Pb C={pbp41} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P42",
+                component: <Pb C={pbp42} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P43",
+                component: <Pb C={pbp43} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P44",
+                component: <Pb C={pbp44} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P45",
+                component: <Pb C={pbp45} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P46",
+                component: <Pb C={pbp46} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P47",
+                component: <Pb C={pbp47} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P48",
+                component: <Pb C={pbp48} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P49",
+                component: <Pb C={pbp49} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P50",
+                component: <Pb C={pbp50} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P51",
+                component: <Pb C={pbp51} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P52",
+                component: <Pb C={pbp52} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P53",
+                component: <Pb C={pbp53} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P54",
+                component: <Pb C={pbp54} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P55",
+                component: <Pb C={pbp55} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P56",
+                component: <Pb C={pbp56} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P57",
+                component: <Pb C={pbp57} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P58",
+                component: <Pb C={pbp58} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P59",
+                component: <Pb C={pbp59} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P60",
+                component: <Pb C={pbp60} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P61",
+                component: <Pb C={pbp61} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P62",
+                component: <Pb C={pbp62} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P63",
+                component: <Pb C={pbp63} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P64",
+                component: <Pb C={pbp64} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P65",
+                component: <Pb C={pbp65} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P66",
+                component: <Pb C={pbp66} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P67",
+                component: <Pb C={pbp67} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P68",
+                component: <Pb C={pbp68} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P69",
+                component: <Pb C={pbp69} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P70",
+                component: <Pb C={pbp70} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P71",
+                component: <Pb C={pbp71} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P72",
+                component: <Pb C={pbp72} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P73",
+                component: <Pb C={pbp73} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P74",
+                component: <Pb C={pbp74} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P75",
+                component: <Pb C={pbp75} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P76",
+                component: <Pb C={pbp76} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P77",
+                component: <Pb C={pbp77} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P78",
+                component: <Pb C={pbp78} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P79",
+                component: <Pb C={pbp79} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P80",
+                component: <Pb C={pbp80} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P81",
+                component: <Pb C={pbp81} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P82",
+                component: <Pb C={pbp82} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P83",
+                component: <Pb C={pbp83} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P84",
+                component: <Pb C={pbp84} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P85",
+                component: <Pb C={pbp85} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P86",
+                component: <Pb C={pbp86} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P87",
+                component: <Pb C={pbp87} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P88",
+                component: <Pb C={pbp88} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P89",
+                component: <Pb C={pbp89} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P90",
+                component: <Pb C={pbp90} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P91",
+                component: <Pb C={pbp91} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P92",
+                component: <Pb C={pbp92} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P93",
+                component: <Pb C={pbp93} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P94",
+                component: <Pb C={pbp94} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P95",
+                component: <Pb C={pbp95} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P96",
+                component: <Pb C={pbp96} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P97",
+                component: <Pb C={pbp97} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P98",
+                component: <Pb C={pbp98} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P99",
+                component: <Pb C={pbp99} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P100",
+                component: <Pb C={pbp100} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P101",
+                component: <Pb C={pbp101} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P102",
+                component: <Pb C={pbp102} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P103",
+                component: <Pb C={pbp103} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P104",
+                component: <Pb C={pbp104} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P105",
+                component: <Pb C={pbp105} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P106",
+                component: <Pb C={pbp106} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P107",
+                component: <Pb C={pbp107} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P108",
+                component: <Pb C={pbp108} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P109",
+                component: <Pb C={pbp109} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P110",
+                component: <Pb C={pbp110} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P111",
+                component: <Pb C={pbp111} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P112",
+                component: <Pb C={pbp112} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P113",
+                component: <Pb C={pbp113} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P114",
+                component: <Pb C={pbp114} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P115",
+                component: <Pb C={pbp115} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P116",
+                component: <Pb C={pbp116} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P117",
+                component: <Pb C={pbp117} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P118",
+                component: <Pb C={pbp118} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P119",
+                component: <Pb C={pbp119} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P120",
+                component: <Pb C={pbp120} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P121",
+                component: <Pb C={pbp121} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P122",
+                component: <Pb C={pbp122} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P123",
+                component: <Pb C={pbp123} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P124",
+                component: <Pb C={pbp124} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P125",
+                component: <Pb C={pbp125} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P126",
+                component: <Pb C={pbp126} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P127",
+                component: <Pb C={pbp127} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P128",
+                component: <Pb C={pbp128} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P129",
+                component: <Pb C={pbp129} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P130",
+                component: <Pb C={pbp130} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P131",
+                component: <Pb C={pbp131} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P132",
+                component: <Pb C={pbp132} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P133",
+                component: <Pb C={pbp133} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P134",
+                component: <Pb C={pbp134} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P135",
+                component: <Pb C={pbp135} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P136",
+                component: <Pb C={pbp136} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P137",
+                component: <Pb C={pbp137} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P138",
+                component: <Pb C={pbp138} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P139",
+                component: <Pb C={pbp139} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P140",
+                component: <Pb C={pbp140} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P141",
+                component: <Pb C={pbp141} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P142",
+                component: <Pb C={pbp142} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P143",
+                component: <Pb C={pbp143} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P144",
+                component: <Pb C={pbp144} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P145",
+                component: <Pb C={pbp145} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P146",
+                component: <Pb C={pbp146} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P147",
+                component: <Pb C={pbp147} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P148",
+                component: <Pb C={pbp148} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P149",
+                component: <Pb C={pbp149} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P150",
+                component: <Pb C={pbp150} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P151",
+                component: <Pb C={pbp151} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P152",
+                component: <Pb C={pbp152} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P153",
+                component: <Pb C={pbp153} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P154",
+                component: <Pb C={pbp154} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P155",
+                component: <Pb C={pbp155} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P156",
+                component: <Pb C={pbp156} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P157",
+                component: <Pb C={pbp157} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P158",
+                component: <Pb C={pbp158} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P159",
+                component: <Pb C={pbp159} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P160",
+                component: <Pb C={pbp160} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P161",
+                component: <Pb C={pbp161} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P162",
+                component: <Pb C={pbp162} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P163",
+                component: <Pb C={pbp163} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P164",
+                component: <Pb C={pbp164} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P165",
+                component: <Pb C={pbp165} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P166",
+                component: <Pb C={pbp166} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P167",
+                component: <Pb C={pbp167} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P168",
+                component: <Pb C={pbp168} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P169",
+                component: <Pb C={pbp169} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P170",
+                component: <Pb C={pbp170} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P171",
+                component: <Pb C={pbp171} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P172",
+                component: <Pb C={pbp172} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P173",
+                component: <Pb C={pbp173} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P174",
+                component: <Pb C={pbp174} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P175",
+                component: <Pb C={pbp175} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P176",
+                component: <Pb C={pbp176} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P177",
+                component: <Pb C={pbp177} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P178",
+                component: <Pb C={pbp178} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P179",
+                component: <Pb C={pbp179} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P180",
+                component: <Pb C={pbp180} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P181",
+                component: <Pb C={pbp181} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P182",
+                component: <Pb C={pbp182} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P183",
+                component: <Pb C={pbp183} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P184",
+                component: <Pb C={pbp184} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P185",
+                component: <Pb C={pbp185} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P186",
+                component: <Pb C={pbp186} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P187",
+                component: <Pb C={pbp187} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P188",
+                component: <Pb C={pbp188} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P189",
+                component: <Pb C={pbp189} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P190",
+                component: <Pb C={pbp190} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P191",
+                component: <Pb C={pbp191} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P192",
+                component: <Pb C={pbp192} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P193",
+                component: <Pb C={pbp193} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P194",
+                component: <Pb C={pbp194} label1="Physique" label2="Problème" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Physique/P195",
+                component: <Pb C={pbp195} label1="Physique" label2="Problème" />,
               },
             ],
           },
@@ -4209,6 +5911,351 @@ const routes = [
                 name: "",
                 route: "/Pbs/Chimie",
                 component: <CPBS />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P1",
+                component: <Pb C={pbc1} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P2",
+                component: <Pb C={pbc2} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P3",
+                component: <Pb C={pbc3} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P4",
+                component: <Pb C={pbc4} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P5",
+                component: <Pb C={pbc5} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P6",
+                component: <Pb C={pbc6} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P7",
+                component: <Pb C={pbc7} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P8",
+                component: <Pb C={pbc8} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P9",
+                component: <Pb C={pbc9} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P10",
+                component: <Pb C={pbc10} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P11",
+                component: <Pb C={pbc11} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P12",
+                component: <Pb C={pbc12} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P13",
+                component: <Pb C={pbc13} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P14",
+                component: <Pb C={pbc14} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P15",
+                component: <Pb C={pbc15} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P16",
+                component: <Pb C={pbc16} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P17",
+                component: <Pb C={pbc17} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P18",
+                component: <Pb C={pbc18} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P19",
+                component: <Pb C={pbc19} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P20",
+                component: <Pb C={pbc20} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P21",
+                component: <Pb C={pbc21} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P22",
+                component: <Pb C={pbc22} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P23",
+                component: <Pb C={pbc23} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P24",
+                component: <Pb C={pbc24} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P25",
+                component: <Pb C={pbc25} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P26",
+                component: <Pb C={pbc26} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P27",
+                component: <Pb C={pbc27} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P28",
+                component: <Pb C={pbc28} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P29",
+                component: <Pb C={pbc29} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P30",
+                component: <Pb C={pbc30} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P31",
+                component: <Pb C={pbc31} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P32",
+                component: <Pb C={pbc32} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P33",
+                component: <Pb C={pbc33} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P34",
+                component: <Pb C={pbc34} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P35",
+                component: <Pb C={pbc35} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P36",
+                component: <Pb C={pbc36} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P37",
+                component: <Pb C={pbc37} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P38",
+                component: <Pb C={pbc38} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P39",
+                component: <Pb C={pbc39} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P40",
+                component: <Pb C={pbc40} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P41",
+                component: <Pb C={pbc41} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P42",
+                component: <Pb C={pbc42} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P43",
+                component: <Pb C={pbc43} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P44",
+                component: <Pb C={pbc44} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P45",
+                component: <Pb C={pbc45} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P46",
+                component: <Pb C={pbc46} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P47",
+                component: <Pb C={pbc47} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P48",
+                component: <Pb C={pbc48} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P49",
+                component: <Pb C={pbc49} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P50",
+                component: <Pb C={pbc50} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P51",
+                component: <Pb C={pbc51} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P52",
+                component: <Pb C={pbc52} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P53",
+                component: <Pb C={pbc53} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P54",
+                component: <Pb C={pbc54} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P55",
+                component: <Pb C={pbc55} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P56",
+                component: <Pb C={pbc56} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P57",
+                component: <Pb C={pbc57} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P58",
+                component: <Pb C={pbc58} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P59",
+                component: <Pb C={pbc59} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P60",
+                component: <Pb C={pbc60} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P61",
+                component: <Pb C={pbc61} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P62",
+                component: <Pb C={pbc62} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P63",
+                component: <Pb C={pbc63} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P64",
+                component: <Pb C={pbc64} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P65",
+                component: <Pb C={pbc65} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P66",
+                component: <Pb C={pbc66} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P67",
+                component: <Pb C={pbc67} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P68",
+                component: <Pb C={pbc68} label1="Chimie" label2="Problèmes" />,
+              },
+              {
+                name: "",
+                route: "/Pbs/Chimie/P69",
+                component: <Pb C={pbc69} label1="Chimie" label2="Problèmes" />,
               },
             ],
           },

@@ -12,10 +12,7 @@ import PropTypes from "prop-types";
 // eslint-disable-next-line react/prop-types
 const Pb = ({ C, label1, label2 }) => {
   return (
-    <BaseLayout
-      title="Problème"
-      breadcrumb={[{ label: label1 }, { label: label2 }]}
-    >
+    <BaseLayout title="Problème" breadcrumb={[{ label: label1 }, { label: label2 }]}>
       <View title="">
         <Pdf pdfUrl={C} />
       </View>
