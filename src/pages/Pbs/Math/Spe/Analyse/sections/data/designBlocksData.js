@@ -12,15 +12,7 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-import A1 from "assets/images/Formation/Ilham/A1.png";
-import I1 from "assets/images/Formation/Ilham/I1.png";
-import T1 from "assets/images/Formation/Ilham/T1.png";
-import T2 from "assets/images/Formation/Ilham/T2.png";
-import C1 from "assets/images/Formation/Ilham/C1.png";
-import C2 from "assets/images/Formation/Ilham/C2.png";
-import E1 from "assets/images/Formation/Ilham/E1.png";
-import E2 from "assets/images/Formation/Ilham/E2.png";
-import S1 from "assets/images/Formation/Ilham/S1.png";
+import A1 from "assets/images/mathematics.jpg";
 export default [
   {
     title: "Series Numerique",
@@ -39,7 +31,7 @@ export default [
     description: "",
     items: [
       {
-        image: I1,
+        image: A1,
         name: "classiques sommabilité",
         count: 1,
         route: "/sections/navigation/In",
@@ -51,12 +43,12 @@ export default [
     description: "",
     items: [
       {
-        image: T1,
+        image: A1,
         name: "Intégrale de Gauss",
         count: 1,
       },
       {
-        image: T2,
+        image: A1,
         name: "Les polynômes de Bernoulli",
         count: 2,
       },
@@ -66,63 +58,63 @@ export default [
     title: "Suites et séries de fnct",
     items: [
       {
-        image: C1,
+        image: A1,
         name: "comparaison des modes de cv",
         count: 1,
         route: "/sections/attention-catchers/alerts",
       },
       {
-        image: C2,
+        image: A1,
         name: "étude d_une série 1",
         count: 2,
       },
       {
-        image: C2,
+        image: A1,
         name: "étude d_une série 2",
         count: 3,
       },
       {
-        image: C2,
+        image: A1,
         name: "étude d_une série 3",
         count: 4,
       },
       {
-        image: C2,
+        image: A1,
         name: "étude d_une série 4",
         count: 5,
       },
       {
-        image: C2,
+        image: A1,
         name: "étude d_une série 4",
         count: 6,
       },
       {
-        image: C2,
+        image: A1,
         name: "Fonction Digamma",
         count: 7,
       },
       {
-        image: C2,
+        image: A1,
         name: "Fonctions d'Euler",
         count: 8,
       },
       {
-        image: C2,
+        image: A1,
         name: "Les fonctions Eulériennes",
         count: 9,
       },
       {
-        image: C2,
+        image: A1,
         name: "Théorème d'Abel",
         count: 10,
       },
       {
-        image: C2,
+        image: A1,
         name: "Théorème de Stone Weirstrass",
         count: 11,
       },
       {
-        image: C2,
+        image: A1,
         name: "Zéta et zéta alternée de Riemann",
         count: 12,
       },
@@ -133,19 +125,19 @@ export default [
     description: "",
     items: [
       {
-        image: E1,
+        image: A1,
         name: "Autour les séries entières",
         count: 1,
         route: "/sections/elements/buttons",
       },
       {
-        image: E2,
+        image: A1,
         name: "Nombre de dérangement",
         count: 2,
         route: "/sections/elements/avatars",
       },
       {
-        image: E2,
+        image: A1,
         name: "Théorèmes d'Abel et Tauberien faible",
         count: 3,
         route: "/sections/elements/avatars",
@@ -157,12 +149,12 @@ export default [
     description: "",
     items: [
       {
-        image: S1,
+        image: A1,
         name: "Cal-diff-Equation-chaleur",
         count: 1,
       },
       {
-        image: S1,
+        image: A1,
         name: "Fonctions holomorphes",
         count: 2,
       },

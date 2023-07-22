@@ -8,31 +8,31 @@ export default [
   {
     image: p,
     name: "Physique",
-    route: "/pages/Cours/Physique",
+    route: "/Cours/Physique",
   },
   {
     image: M,
     name: "Math",
-    route: "/pages/Cours/Math",
+    route: "/Cours/Math",
   },
   {
     image: C,
     name: "Chimie",
-    route: "/pages/Cours/Chimie",
+    route: "/Cours/Chimie",
   },
   {
     image: SI,
     name: "SI",
-    route: "/pages/Cours/SI",
+    route: "/Cours/SI",
   },
   {
     image: I,
     name: "Informatique",
-    route: "/pages/Cours/Info",
+    route: "/Cours/Info",
   },
   {
     image: T,
     name: "Traduction",
-    route: "/pages/Cours/Tr",
+    route: "/Cours/Tr",
   },
 ];

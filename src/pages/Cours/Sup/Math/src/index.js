@@ -1,7 +1,7 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
-
+import { Link } from "react-router-dom";
 // e_ One_ components
 import MKBox from "../../../../../components/MKBox";
 import MKTypography from "../../../../../components/MKTypography";
@@ -29,7 +29,7 @@ function MathSup() {
         routes={routes}
         action={{
           type: "internal",
-          route: "/pages/Contact",
+          route: "/Contact",
           label: "Contact ",
           color: "default",
         }}
@@ -77,9 +77,11 @@ function MathSup() {
               Les cours utiliser dans cette section sont importé depuis math-france ce qui un entre
               les meilleurs cours du math
             </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
-              Voir les problémes
-            </MKButton>
+            <Link to="/Pbs/Sup/Math">
+              <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
+                Voir les problémes
+              </MKButton>
+            </Link>
           </Grid>
         </Container>
       </MKBox>

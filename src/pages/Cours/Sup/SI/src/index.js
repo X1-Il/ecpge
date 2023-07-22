@@ -5,13 +5,11 @@ import Card from "@mui/material/Card";
 // e_ One_ components
 import MKBox from "../../../../../components/MKBox";
 import MKTypography from "../../../../../components/MKTypography";
-import MKButton from "../../../../../components/MKButton";
 
 // e_ One_ examples
 import DefaultNavbar from "../../../../../examples/Navbars/DefaultNavbar";
 import DefaultFooter from "../../../../../examples/Footers/DefaultFooter";
 
-import Information from "./sections/Information";
 import Parts from "./sections/Parts";
 import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 
@@ -29,7 +27,7 @@ function SISup() {
         routes={routes}
         action={{
           type: "internal",
-          route: "/pages/Contact",
+          route: "/Contact",
           label: "Contact us",
           color: "default",
         }}
@@ -76,9 +74,6 @@ function SISup() {
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
               Les cours utiliser dans cette section sont importé depuis le prof Denis DEFAUCHY
             </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
-              Voir les problémes
-            </MKButton>
           </Grid>
         </Container>
       </MKBox>
@@ -91,7 +86,6 @@ function SISup() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <Information />
         <Parts />
         <Newsletter />
       </Card>

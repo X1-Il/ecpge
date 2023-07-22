@@ -76,7 +76,7 @@ function Information() {
               description=" La matiére du SI n'a pas seulement une discipline de règles et de formules, mais aussi un domaine qui permet l'expression de la créativité. Cherchez des moyens originaux de résoudre les problèmes en mecanique et en electronique."
               action={{
                 type: "internal",
-                route: "pages/company/about-us",
+                route: "/404",
                 color: "info",
                 label: "Plus",
               }}

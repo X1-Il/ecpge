@@ -61,7 +61,7 @@ function Information() {
               description=" la chimie ne sont pas seulement une discipline de règles et de formules, mais aussi un domaine qui permet l'expression de la créativité. Cherchez des moyens originaux de résoudre les problèmes du chimie."
               action={{
                 type: "internal",
-                route: "pages/company/about-us",
+                route: "/404",
                 color: "info",
                 label: "Plus",
               }}

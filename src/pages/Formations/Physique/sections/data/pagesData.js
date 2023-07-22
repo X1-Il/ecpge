@@ -18,16 +18,16 @@ export default [
   {
     image: Hinaoui,
     name: "Mohamed hianoui",
-    route: "/pages/formation/physique/Hinaoui",
+    route: "/formation/physique/Hinaoui",
   },
   {
     image: Bouhamza,
     name: "Rachid Bouhamza",
-    route: "/pages/landing-pages/contact-us",
+    route: "/landing-pages/contact-us",
   },
   {
     image: Ibraiken,
     name: "Brahim Ibraiken",
-    route: "/pages/landing-pages/contact-us",
+    route: "/landing-pages/contact-us",
   },
 ];

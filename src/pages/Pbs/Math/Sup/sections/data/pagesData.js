@@ -5,16 +5,16 @@ export default [
   {
     image: Analyse,
     name: "Analyse",
-    route: "/pages/Pbs/Math/Sup/Analyse",
+    route: "/Pbs/Math/Sup/Analyse",
   },
   {
     image: Algébre,
     name: "Algébre",
-    route: "/pages/Pbs/Sup/Math/Algebre",
+    route: "/Pbs/Sup/Math/Algebre",
   },
   {
     image: Proba,
     name: "Proba",
-    route: "/pages/Pbs/Math/Sup/Proba",
+    route: "/Pbs/Math/Sup/Proba",
   },
 ];

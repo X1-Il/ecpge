@@ -67,6 +67,190 @@ import PbMAl from "pages/Pbs/Math/Sup/Algebre/index.js";
 import PbMSAl from "pages/Pbs/Math/Spe/Algebre/index.js";
 import PbMSA from "pages/Pbs/Math/Spe/Analyse/index.js";
 import PbMSP from "pages/Pbs/Math/Spe/Proba/index.js";
+//InfoSpe
+import CinfoS1 from "pages/Cours/Spe/Info/src/Pdfs/1 - Bases de données - Cours.pdf";
+import RinfoS1 from "pages/Cours/Spe/Info/src/Pdfs/1 - Bases de données - Résumé.pdf";
+import T1infoS1 from "pages/Cours/Spe/Info/src/Pdfs/1-1 - TD - Applications du cours.pdf";
+import T1infoS1C from "pages/Cours/Spe/Info/src/Pdfs/1-1 - TD - Applications du cours - Correction.pdf";
+import T2infoS1 from "pages/Cours/Spe/Info/src/Pdfs/1-2 - TD - Station de ski.pdf";
+import T2infoS1C from "pages/Cours/Spe/Info/src/Pdfs/1-2 - TD - Station de ski - Correction.pdf";
+import T3infoS1 from "pages/Cours/Spe/Info/src/Pdfs/1-3 - IA & BDD - Sujet.pdf";
+import T3infoS1C from "pages/Cours/Spe/Info/src/Pdfs/1-3 - IA & BDD - Correction - Apprentissage.py";
+import RinfoS2 from "pages/Cours/Spe/Info/src/Pdfs/2 - Dictionnaires et programmation dynamique - Résumé.pdf";
+import T1infoS2 from "pages/Cours/Spe/Info/src/Pdfs/2-1 - TD - Dictionnaires - Sujet.pdf";
+import T1infoS2C from "pages/Cours/Spe/Info/src/Pdfs/2-1 - TD - Dictionnaires - Correction.py";
+import T2infoS2 from "pages/Cours/Spe/Info/src/Pdfs/2-2 - TD - Hachage - Sujet.pdf";
+import T2infoS2C from "pages/Cours/Spe/Info/src/Pdfs/2-2 - TD - Hachage - Correction.py";
+import T3infoS2 from "pages/Cours/Spe/Info/src/Pdfs/2-3 - TD - Le compte est bon - Sujet.pdf";
+import T3infoS2C from "pages/Cours/Spe/Info/src/Pdfs/2-3 - TD - Le compte est bon - Correction.py";
+import T4infoS2 from "pages/Cours/Spe/Info/src/Pdfs/2-4 - TD - Partition équilibrée d'entiers positifs.pdf";
+import T4infoS2C from "pages/Cours/Spe/Info/src/Pdfs/2-4 - TD - Partition équilibrée d'entiers positifs.py";
+import T5infoS2 from "pages/Cours/Spe/Info/src/Pdfs/2-5 - TD - Ordonnancement de tâches pondérées.pdf";
+import T5infoS2C from "pages/Cours/Spe/Info/src/Pdfs/2-5 - TD - Ordonnancement de tâches pondérées.py";
+import T6infoS2 from "pages/Cours/Spe/Info/src/Pdfs/2-6 - TD - Plus longue sous-suite commune.pdf";
+import T6infoS2C from "pages/Cours/Spe/Info/src/Pdfs/2-6 - TD - Plus longue sous-suite commune.py";
+import T7infoS2 from "pages/Cours/Spe/Info/src/Pdfs/2-7 - TD - Distance d’édition - Levenshtein.pdf";
+import T7infoS2C from "pages/Cours/Spe/Info/src/Pdfs/2-7 - TD - Distance d’édition - Levenshtein.py";
+import T8infoS2 from "pages/Cours/Spe/Info/src/Pdfs/2-8 - TD - Distances dans un graphe - Floyd-Warshall.pdf";
+import T8infoS2C from "pages/Cours/Spe/Info/src/Pdfs/2-8 - TD - Distances dans un graphe - Floyd-Warshall.py";
+import RinfoS3 from "pages/Cours/Spe/Info/src/Pdfs/3 - Intelligence artificielle - Résumé.pdf";
+import T1infoS3 from "pages/Cours/Spe/Info/src/Pdfs/3-1 - Algorithme KNN - Sujet.pdf";
+import T1infoS3C from "pages/Cours/Spe/Info/src/Pdfs/3-1 - Algorithme KNN - Correction.py";
+import T2infoS3 from "pages/Cours/Spe/Info/src/Pdfs/3-2 - Algorithme K-moyennes - Sujet.pdf";
+import T2infoS3C from "pages/Cours/Spe/Info/src/Pdfs/3-2 - Algorithme K-moyennes - Correction.py";
+import T3infoS3 from "pages/Cours/Spe/Info/src/Pdfs/3-3 - Jeu de Babylone - Sujet.pdf";
+import T3infoS3C from "pages/Cours/Spe/Info/src/Pdfs/3-3 - Jeu de Babylone - Correction.py";
+import T4infoS3 from "pages/Cours/Spe/Info/src/Pdfs/3-4 - KNN 2D - Sujet.pdf";
+import T4infoS3C from "pages/Cours/Spe/Info/src/Pdfs/3-4 - KNN 2D - Correction.py";
+
+//InfoSup
+import Cinfo1 from "pages/Cours/Sup/Info/src/Pdfs/1 - Ordinateur.pdf";
+import Cinfo2 from "pages/Cours/Sup/Info/src/Pdfs/2 - Logiciel - Cours.pdf";
+import Rinfo2 from "pages/Cours/Sup/Info/src/Pdfs/2 - Logiciel - Résumé.pdf";
+import Cinfo3 from "pages/Cours/Sup/Info/src/Pdfs/3 - Commentaires - Cours.pdf";
+import Cinfo4 from "pages/Cours/Sup/Info/src/Pdfs/4 - Variables - Cours.pdf";
+import Rinfo4 from "pages/Cours/Sup/Info/src/Pdfs/4 - Variables - Résumé.pdf";
+import Tinfo4 from "pages/Cours/Sup/Info/src/Pdfs/4-1 - TD - Variables - Sujet.pdf";
+import Tinfo4C from "pages/Cours/Sup/Info/src/Pdfs/4-1 - TD - Variables - Correction.pdf";
+import Cinfo5 from "pages/Cours/Sup/Info/src/Pdfs/5 - Print - Cours.pdf";
+import Cinfo6 from "pages/Cours/Sup/Info/src/Pdfs/6 - Librairies - Cours.pdf";
+import Cinfo7 from "pages/Cours/Sup/Info/src/Pdfs/7 - Listes - Cours.pdf";
+import Rinfo7 from "pages/Cours/Sup/Info/src/Pdfs/7 - Listes - Résumé.pdf";
+import Tinfo7 from "pages/Cours/Sup/Info/src/Pdfs/7-1 - TD - Listes - Sujet.pdf";
+import Tinfo7C from "pages/Cours/Sup/Info/src/Pdfs/7-1 - TD - Listes - Correction.pdf";
+import Cinfo8 from "pages/Cours/Sup/Info/src/Pdfs/8 - for if while - Cours.pdf";
+import Rinfo8 from "pages/Cours/Sup/Info/src/Pdfs/8 - for if while - Résumé.pdf";
+import T1info8 from "pages/Cours/Sup/Info/src/Pdfs/8-1 - TD - for if while - Sujet.pdf";
+import T1info8C from "pages/Cours/Sup/Info/src/Pdfs/8-1 - TD - for if while - Correction.pdf";
+import T2info8 from "pages/Cours/Sup/Info/src/Pdfs/8-2 - TD - Balle rebondissante - Sujet.pdf";
+import T2info8C from "pages/Cours/Sup/Info/src/Pdfs/8-2 - TD - Balle rebondissante - 1 - Balle.py";
+import Cinfo9 from "pages/Cours/Sup/Info/src/Pdfs/9 - Fonctions - Cours.pdf";
+import Rinfo9 from "pages/Cours/Sup/Info/src/Pdfs/9 - Fonctions - Résumé.pdf";
+import Cinfo10 from "pages/Cours/Sup/Info/src/Pdfs/10 - Matplotlib - Cours.pdf";
+import Rinfo10 from "pages/Cours/Sup/Info/src/Pdfs/10 - Matplotlib - Résumé.pdf";
+import Cinfo11 from "pages/Cours/Sup/Info/src/Pdfs/11 - Numpy - Array - Cours.pdf";
+import Rinfo11 from "pages/Cours/Sup/Info/src/Pdfs/11 - Numpy - Array - Résumé.pdf";
+import Cinfo12 from "pages/Cours/Sup/Info/src/Pdfs/12 - Fichiers - Cours.pdf";
+import Rinfo12 from "pages/Cours/Sup/Info/src/Pdfs/12 - Fichiers - Résumé.pdf";
+import Tinfo12 from "pages/Cours/Sup/Info/src/Pdfs/12-1 - TD - Anagrammes.pdf";
+import Tinfo12C from "pages/Cours/Sup/Info/src/Pdfs/12-1 - TD - Anagrammes.py";
+import Cinfo13 from "pages/Cours/Sup/Info/src/Pdfs/13 - Dictionnaires - Cours.pdf";
+import Rinfo13 from "pages/Cours/Sup/Info/src/Pdfs/13 - Dictionnaires - Résumé.pdf";
+import Cinfo14 from "pages/Cours/Sup/Info/src/Pdfs/14 - Boîte à outils - Cours.pdf";
+import Rinfo14 from "pages/Cours/Sup/Info/src/Pdfs/14 - Boîte à outils - Résumé.pdf";
+import Cinfo15 from "pages/Cours/Sup/Info/src/Pdfs/15 - Aide Python - Cours.pdf";
+import Rinfo15 from "pages/Cours/Sup/Info/src/Pdfs/15 - Aide Python - Résumé.pdf";
+import Cinfo16 from "pages/Cours/Sup/Info/src/Pdfs/16 - Quelques erreurs - Cours.pdf";
+import Rinfo16 from "pages/Cours/Sup/Info/src/Pdfs/16 - Quelques erreurs - Résumé.pdf";
+import Cinfo17 from "pages/Cours/Sup/Info/src/Pdfs/17 - Rédaction - Cours.pdf";
+import T1info18 from "pages/Cours/Sup/Info/src/Pdfs/ict/2-1 - TD - Facteur dans un texte.pdf";
+import T1info18C from "pages/Cours/Sup/Info/src/Pdfs/ict/2-1 - TD - Facteur dans un texte.py";
+import T2info18 from "pages/Cours/Sup/Info/src/Pdfs/ict/2-2 - TD - Valeurs proches dans un tableau.pdf";
+import T2info18C from "pages/Cours/Sup/Info/src/Pdfs/ict/2-2 - TD - Valeurs proches dans un tableau.py";
+import T3info18 from "pages/Cours/Sup/Info/src/Pdfs/ict/2-3 - TD - Tri bulles.pdf";
+import T3info18C from "pages/Cours/Sup/Info/src/Pdfs/ict/2-3 - TD - Tri bulles.py";
+import T1info19 from "pages/Cours/Sup/Info/src/Pdfs/ict/3-1 - TD - Lecture dans un fichier.pdf";
+import T1info19C from "pages/Cours/Sup/Info/src/Pdfs/ict/3-1 - TD - Lecture dans un fichier.py";
+import T2info19 from "pages/Cours/Sup/Info/src/Pdfs/ict/3-2 - TD - Représentation graphique.pdf";
+import T2info19C from "pages/Cours/Sup/Info/src/Pdfs/ict/3-2 - TD - Représentation graphique.py";
+import T3info19 from "pages/Cours/Sup/Info/src/Pdfs/ict/3-3 - TD - Calcul statistique.pdf";
+import T3info19C from "pages/Cours/Sup/Info/src/Pdfs/ict/3-3 - TD - Calcul statistique.py";
+import T1info20 from "pages/Cours/Sup/Info/src/Pdfs/ict/4-1 - TD - Recherche dans un tableau trié.pdf";
+import T1info20C from "pages/Cours/Sup/Info/src/Pdfs/ict/4-1 - TD - Recherche dans un tableau trié.py";
+import T2info20 from "pages/Cours/Sup/Info/src/Pdfs/ict/4-2 - TD - Exponentiation rapide.pdf";
+import T2info20C from "pages/Cours/Sup/Info/src/Pdfs/ict/4-2 - TD - Exponentiation rapide.py";
+import T3info20 from "pages/Cours/Sup/Info/src/Pdfs/ict/4-3 - TD - Tri insertion.pdf";
+import T3info20C from "pages/Cours/Sup/Info/src/Pdfs/ict/4-3 - TD - Tri insertion.py";
+import T4info20 from "pages/Cours/Sup/Info/src/Pdfs/ict/4-4 - TD - Maximum.pdf";
+import T4info20C from "pages/Cours/Sup/Info/src/Pdfs/ict/4-4 - TD - Maximum.py";
+import Cinfo21 from "pages/Cours/Sup/Info/src/Pdfs/ict/5 - Cours - Fonctions récursives.pdf";
+import Rinfo21 from "pages/Cours/Sup/Info/src/Pdfs/ict/5 - Résumé - Fonctions récursives.pdf";
+import T0info21 from "pages/Cours/Sup/Info/src/Pdfs/ict/5-0 - TD - Entrainement.pdf";
+import T0info21C from "pages/Cours/Sup/Info/src/Pdfs/ict/5-0 - TD - Entrainement.py";
+import T1info21 from "pages/Cours/Sup/Info/src/Pdfs/ict/5-1 - TD - Recherche dichotomique dans un tableau trié.pdf";
+import T1info21C from "pages/Cours/Sup/Info/src/Pdfs/ict/5-1 - TD - Recherche dichotomique dans un tableau trié.py";
+import T2info21 from "pages/Cours/Sup/Info/src/Pdfs/ict/5-2 - TD - Exponentiation rapide.pdf";
+import T2info21C from "pages/Cours/Sup/Info/src/Pdfs/ict/5-2 - TD - Exponentiation rapide.py";
+import T3info21 from "pages/Cours/Sup/Info/src/Pdfs/ict/5-3 - TD - Figures récursives.pdf";
+import T3info21C from "pages/Cours/Sup/Info/src/Pdfs/ict/5-3 - TD - Figures récursives.py";
+import T4info21 from "pages/Cours/Sup/Info/src/Pdfs/ict/5-4 - TD - Enumération de sous-listes et permutations.pdf";
+import T4info21C from "pages/Cours/Sup/Info/src/Pdfs/ict/5-4 - TD - Enumération de sous-listes et permutations.py";
+import T5info21 from "pages/Cours/Sup/Info/src/Pdfs/ict/5-5 - TD - Exercices divers.pdf";
+import T5info21C from "pages/Cours/Sup/Info/src/Pdfs/ict/5-5 - TD - Exercices divers.py";
+import T1info22 from "pages/Cours/Sup/Info/src/Pdfs/ict/6-1 - TD - Rendu de monnaie.pdf";
+import T1info22C from "pages/Cours/Sup/Info/src/Pdfs/ict/6-1 - TD - Rendu de monnaie.py";
+import T2info22 from "pages/Cours/Sup/Info/src/Pdfs/ict/6-2 - TD - Allocation de ressources.pdf";
+import T2info22C from "pages/Cours/Sup/Info/src/Pdfs/ict/6-2 - TD - Allocation de ressources.py";
+import Cinfo23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7 - Cours - Images.pdf";
+import Rinfo23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7 - Résumé - Images.pdf";
+import T1info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-1 - TD - Météo.pdf";
+import T1info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-1 - TD - Météo.py";
+import T2info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-2 - TD - Détection de contours.pdf";
+import T2info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-2 - TD - Détection de contours.py";
+import T3info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-3 - TD - Transformations.pdf";
+import T3info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-3 - TD - Transformations - Correction.py";
+import T4info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-4 - TD - Missile guidé.pdf";
+import T4info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-4 - TD - Missile guidé.py";
+import T5info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-5 - TD - Tour de magie.pdf";
+import T5info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-5 - TD - Tour de magie.py";
+import T6info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-6 - TD - Images cachées.pdf";
+import T6info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-6 - TD - Images cachées.py";
+import T7info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-7 - TD - Fractales de Mandelbrot.pdf";
+import T7info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-7 - TD - Fractales de Mandelbrot.py";
+import T8info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-8 - TD - Fractales de Newton.pdf";
+import T8info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-8 - TD - Fractales de Newton.py";
+import T9info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-9 - TD - Photomaton.pdf";
+import T9info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-9 - TD - Photomaton.py";
+import T10info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-10 - Avant Après.pdf";
+import T10info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-10 - Avant Après.py";
+import T11info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-11 - TD - Les pixels.pdf";
+import T11info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-11 - TD - Les pixels.py";
+import T12info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-12 - TD - Différences.pdf";
+import T12info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-12 - TD - Différences.py";
+import T13info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-13 - TD - Agent secret.pdf";
+import T13info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-13 - TD - Agent secret.py";
+import T14info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-14 - TD - Miroir.pdf";
+import T14info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-14 - TD - Miroir.py";
+import T15info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-15 - Détection de zones et motifs.pdf";
+import T15info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-15 - Détection de zones et motifs - Correction.py";
+import T16info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-16 - Recadrage bilinéaire.pdf";
+import T16info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-16 - Recadrage bilinéaire - Correction.py";
+import T17info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-17 - Recadrage projectif.pdf";
+import T17info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-17 - Recadrage projectif - Correction.py";
+import T18info23 from "pages/Cours/Sup/Info/src/Pdfs/ict/7-18 - Etude de texte.pdf";
+import T18info23C from "pages/Cours/Sup/Info/src/Pdfs/ict/7-18 - Etude de texte.py";
+import Cinfo24 from "pages/Cours/Sup/Info/src/Pdfs/ict/8 - Cours - Tris.pdf";
+import Rinfo24 from "pages/Cours/Sup/Info/src/Pdfs/ict/8 - Résumé - Tris.pdf";
+import T1info24 from "pages/Cours/Sup/Info/src/Pdfs/ict/8-1 - TD - Tri par insertion.pdf";
+import T1info24C from "pages/Cours/Sup/Info/src/Pdfs/ict/8-1 - TD - Tri par insertion.py";
+import T2info24 from "pages/Cours/Sup/Info/src/Pdfs/ict/8-2 - TD - Tri par sélection.pdf";
+import T2info24C from "pages/Cours/Sup/Info/src/Pdfs/ict/8-2 - TD - Tri par sélection.py";
+import T3info24 from "pages/Cours/Sup/Info/src/Pdfs/ict/8-3 - TD - Tri fusion.pdf";
+import T3info24C from "pages/Cours/Sup/Info/src/Pdfs/ict/8-3 - TD - Tri fusion.py";
+import T4info24 from "pages/Cours/Sup/Info/src/Pdfs/ict/8-4 - TD - Tri rapide.pdf";
+import T4info24C from "pages/Cours/Sup/Info/src/Pdfs/ict/8-4 - TD - Tri rapide.py";
+import T5info24 from "pages/Cours/Sup/Info/src/Pdfs/ict/8-5 - TD - Tri par comptage.pdf";
+import T5info24C from "pages/Cours/Sup/Info/src/Pdfs/ict/8-5 - TD - Tri par comptage.py";
+import T6info24 from "pages/Cours/Sup/Info/src/Pdfs/ict/8-6 - TD - Tri radix.pdf";
+import T6info24C from "pages/Cours/Sup/Info/src/Pdfs/ict/8-6 - TD - Tri radix.py";
+import T7info24 from "pages/Cours/Sup/Info/src/Pdfs/ict/8-7 - TD - Scm et Alpha-tri.pdf";
+import T7info24C from "pages/Cours/Sup/Info/src/Pdfs/ict/8-7 - TD - Scm et Alpha-tri.py";
+import T8info24 from "pages/Cours/Sup/Info/src/Pdfs/ict/8-8 - TD - Analyse.pdf";
+import T8info24C from "pages/Cours/Sup/Info/src/Pdfs/ict/8-8 - TD - Analyse.py";
+import Cinfo25 from "pages/Cours/Sup/Info/src/Pdfs/ict/9 - Algorithmique - Cours.pdf";
+import Rinfo25 from "pages/Cours/Sup/Info/src/Pdfs/ict/9 - Algorithmique - Résumé.pdf";
+import Cinfo26 from "pages/Cours/Sup/Info/src/Pdfs/ict/10 - Cours - Représentation des nombres.pdf";
+import Rinfo26 from "pages/Cours/Sup/Info/src/Pdfs/ict/10 - Résumé - Représentation des nombres.pdf";
+import T1info26 from "pages/Cours/Sup/Info/src/Pdfs/ict/10-1 - TD - Entiers binaires.pdf";
+import T1info26C from "pages/Cours/Sup/Info/src/Pdfs/ict/10-1 - TD - Entiers binaires.py";
+import T2info26 from "pages/Cours/Sup/Info/src/Pdfs/ict/10-2 - TD - Entiers multiprécision.pdf";
+import T2info26C from "pages/Cours/Sup/Info/src/Pdfs/ict/10-2 - TD - Entiers multiprécision.py";
+import Cinfo27 from "pages/Cours/Sup/Info/src/Pdfs/ict/11 - Bases de graphes - Cours.pdf";
+import Rinfo27 from "pages/Cours/Sup/Info/src/Pdfs/ict/11 - Bases de graphes - Résumé.pdf";
+import T1info27 from "pages/Cours/Sup/Info/src/Pdfs/ict/11-1 - TD - Parcours.pdf";
+import T1info27C from "pages/Cours/Sup/Info/src/Pdfs/ict/11-1 - TD - Parcours.py";
+import T2info27 from "pages/Cours/Sup/Info/src/Pdfs/ict/11-2 - TD - Dijkstra.pdf";
+import T2info27C from "pages/Cours/Sup/Info/src/Pdfs/ict/11-2 - TD - Dijkstra.py";
 //Pdf Trad
 import Trad1 from "pages/Cours/Spe/Tr/src/pdf/1-Traduction 1ère année.pdf";
 import Trad2 from "pages/Cours/Spe/Tr/src/pdf/1-Traduction 2ème année .pdf";
@@ -576,24 +760,24 @@ const routes = [
       {
         name: "Maths",
         //description: "Analyse, Algebre, Proba",
-        route: "/pages/Cours/Math",
+        route: "/Cours/Math",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/Cours/Sup/Math",
+            route: "/Cours/Sup/Math",
             dropdown: true,
             component: <MathSup />,
             collapse: [
               {
                 name: "Sup",
-                route: "/pages/Cours/Sup/Math",
+                route: "/Cours/Sup/Math",
                 dropdown: true,
                 component: <MathSup />,
               },
               {
                 name: "Sup",
-                route: "/pages/Cours/Math",
+                route: "/Cours/Math",
                 dropdown: true,
                 component: <MathC />,
               },
@@ -627,7 +811,7 @@ const routes = [
               },
               {
                 name: "",
-                route: "/pages/Contact",
+                route: "/Contact",
                 component: <ContactUs />,
               },
               {
@@ -1359,13 +1543,13 @@ const routes = [
           },
           {
             name: "Spe",
-            route: "/pages/Cours/Spe/Math",
+            route: "/Cours/Spe/Math",
             dropdown: true,
             component: <MathSpe />,
             collapse: [
               {
                 name: "Spe",
-                route: "/pages/Cours/Spe/Math",
+                route: "/Cours/Spe/Math",
                 dropdown: true,
                 component: <MathSpe />,
               },
@@ -1764,26 +1948,26 @@ const routes = [
       {
         name: "Physique",
         description: "",
-        route: "/pages/Cours/Physique",
+        route: "/Cours/Physique",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/Cours/Physique/Sup",
+            route: "/Cours/Physique/Sup",
             collapse: [
               {
                 name: "Sup",
-                route: "/pages/landing-pages/about-us",
+                route: "/landing-pages/about-us",
                 component: <Formation data={datailham} />,
               },
               {
                 name: "",
-                route: "/pages/Cours/Physique",
+                route: "/Cours/Physique",
                 component: <PhysiqueC />,
               },
               {
                 name: "",
-                route: "/pages/Cours/Physique/Sup",
+                route: "/Cours/Physique/Sup",
                 component: <PSup />,
               },
               {
@@ -2211,11 +2395,11 @@ const routes = [
           },
           {
             name: "Spe",
-            route: "/pages/Cours/Physique/Spe",
+            route: "/Cours/Physique/Spe",
             collapse: [
               {
                 name: "",
-                route: "/pages/Cours/Physique/Spe",
+                route: "/Cours/Physique/Spe",
                 component: <PSpe />,
               },
               {
@@ -2472,21 +2656,21 @@ const routes = [
       {
         name: "Chimie",
         description: "",
-        route: "/pages/Cours/Chimie",
+        route: "/Cours/Chimie",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/Cours/Chimie/Sup",
+            route: "/Cours/Chimie/Sup",
             collapse: [
               {
                 name: "",
-                route: "/pages/Cours/Chimie",
+                route: "/Cours/Chimie",
                 component: <ChimieC />,
               },
               {
                 name: "",
-                route: "/pages/Cours/Chimie/Sup",
+                route: "/Cours/Chimie/Sup",
                 component: <CSup />,
               },
               {
@@ -2634,11 +2818,11 @@ const routes = [
           },
           {
             name: "Spe",
-            route: "/pages/Cours/Chimie/Spe",
+            route: "/Cours/Chimie/Spe",
             collapse: [
               {
                 name: "Spe",
-                route: "/pages/Cours/Chimie/Spe",
+                route: "/Cours/Chimie/Spe",
                 component: <CSpe />,
               },
               {
@@ -2688,21 +2872,21 @@ const routes = [
       {
         name: "SI",
         //description: "Mecanique - Asservissement",
-        route: "/pages/Cours/SI",
+        route: "/Cours/SI",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/Cours/Sup/SI",
+            route: "/Cours/Sup/SI",
             collapse: [
               {
                 name: "Sup",
-                route: "/pages/Cours/Sup/SI",
+                route: "/Cours/Sup/SI",
                 component: <SISup />,
               },
               {
                 name: "",
-                route: "/pages/Cours/SI",
+                route: "/Cours/SI",
                 component: <SIC />,
               },
               {
@@ -3051,11 +3235,11 @@ const routes = [
           },
           {
             name: "Spe",
-            route: "/pages/Cours/Spe/SI",
+            route: "/Cours/Spe/SI",
             collapse: [
               {
                 name: "",
-                route: "/pages/Cours/Spe/SI",
+                route: "/Cours/Spe/SI",
                 component: <SISpe />,
               },
               {
@@ -3235,38 +3419,621 @@ const routes = [
       {
         name: "Informatique",
         //description: "Python",
-        route: "/pages/Cours/Info",
+        route: "/Cours/Info",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/Cours/Info/Sup",
+            route: "/Cours/Info/Sup",
             collapse: [
               {
                 name: "",
-                route: "/pages/Cours/Info",
+                route: "/Cours/Info",
                 component: <InfoC />,
               },
               {
                 name: "Sup",
-                route: "/pages/Cours/Info/Sup",
+                route: "/Cours/Info/Sup",
                 component: <ISup />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C1",
+                component: <Pdf C={Cinfo1} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C2",
+                component: <Pdf C={Cinfo2} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R2",
+                component: <Pdf C={Rinfo2} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C3",
+                component: <Pdf C={Cinfo3} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C4",
+                component: <Pdf C={Cinfo4} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R4",
+                component: <Pdf C={Rinfo4} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/T4",
+                component: <Pdfss T={Tinfo4C} C={Tinfo4} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C5",
+                component: <Pdf C={Cinfo5} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C6",
+                component: <Pdf C={Cinfo6} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C7",
+                component: <Pdf C={Cinfo7} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R7",
+                component: <Pdf C={Rinfo7} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/T7",
+                component: <Pdfss T={Tinfo7C} C={Tinfo7} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C8",
+                component: <Pdf C={Cinfo8} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R8",
+                component: <Pdf C={Rinfo8} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/T81",
+                component: <Pdfss T={T1info8C} C={T1info8} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/T82",
+                component: <Pdfss T={T2info8C} C={T2info8} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C9",
+                component: <Pdf C={Cinfo9} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R9",
+                component: <Pdf C={Rinfo9} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C10",
+                component: <Pdf C={Cinfo10} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R10",
+                component: <Pdf C={Rinfo10} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C11",
+                component: <Pdf C={Cinfo11} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R11",
+                component: <Pdf C={Rinfo11} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C12",
+                component: <Pdf C={Cinfo12} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R12",
+                component: <Pdf C={Rinfo12} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/T12",
+                component: <Pdfss T={Tinfo12C} C={Tinfo12} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C13",
+                component: <Pdf C={Cinfo13} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R13",
+                component: <Pdf C={Rinfo13} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C14",
+                component: <Pdf C={Cinfo14} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R14",
+                component: <Pdf C={Rinfo14} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C15",
+                component: <Pdf C={Cinfo15} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R15",
+                component: <Pdf C={Rinfo15} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C16",
+                component: <Pdf C={Cinfo16} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/R16",
+                component: <Pdf C={Rinfo16} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "Sup",
+                route: "/Cours/Info/Sup/C17",
+                component: <Pdf C={Cinfo17} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T118",
+                component: <Pdfss T={T1info18C} C={T1info18} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T218",
+                component: <Pdfss T={T2info18C} C={T2info18} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T318",
+                component: <Pdfss T={T3info18C} C={T3info18} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T119",
+                component: <Pdfss T={T1info19C} C={T1info19} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T219",
+                component: <Pdfss T={T2info19C} C={T2info19} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T319",
+                component: <Pdfss T={T3info19C} C={T3info19} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T120",
+                component: <Pdfss T={T1info20C} C={T1info20} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T220",
+                component: <Pdfss T={T2info20C} C={T2info20} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T320",
+                component: <Pdfss T={T3info20C} C={T3info20} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T420",
+                component: <Pdfss T={T4info20C} C={T4info20} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/C21",
+                component: <Pdf C={Cinfo21} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/R21",
+                component: <Pdf C={Rinfo21} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T021",
+                component: <Pdfss T={T0info21C} C={T0info21} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T121",
+                component: <Pdfss T={T1info21C} C={T1info21} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T221",
+                component: <Pdfss T={T2info21C} C={T2info21} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T321",
+                component: <Pdfss T={T3info21C} C={T3info21} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T421",
+                component: <Pdfss T={T4info21C} C={T4info21} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T521",
+                component: <Pdfss T={T5info21C} C={T5info21} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T122",
+                component: <Pdfss T={T1info22C} C={T1info22} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T222",
+                component: <Pdfss T={T2info22C} C={T2info22} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/C23",
+                component: <Pdf C={Cinfo23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/R23",
+                component: <Pdf C={Rinfo23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T123",
+                component: <Pdfss T={T1info23C} C={T1info23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T223",
+                component: <Pdfss T={T2info23C} C={T2info23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T323",
+                component: <Pdfss T={T3info23C} C={T3info23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T423",
+                component: <Pdfss T={T4info23C} C={T4info23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T523",
+                component: <Pdfss T={T5info23C} C={T5info23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T623",
+                component: <Pdfss T={T6info23C} C={T6info23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T723",
+                component: <Pdfss T={T7info23C} C={T7info23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T823",
+                component: <Pdfss T={T8info23C} C={T8info23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T923",
+                component: <Pdfss T={T9info23C} C={T9info23} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T1023",
+                component: (
+                  <Pdfss T={T10info23C} C={T10info23} label1="Informatique" label2="Sup" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T1123",
+                component: (
+                  <Pdfss T={T11info23C} C={T11info23} label1="Informatique" label2="Sup" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T1223",
+                component: (
+                  <Pdfss T={T12info23C} C={T12info23} label1="Informatique" label2="Sup" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T1323",
+                component: (
+                  <Pdfss T={T13info23C} C={T13info23} label1="Informatique" label2="Sup" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T1423",
+                component: (
+                  <Pdfss T={T14info23C} C={T14info23} label1="Informatique" label2="Sup" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T1523",
+                component: (
+                  <Pdfss T={T15info23C} C={T15info23} label1="Informatique" label2="Sup" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T1623",
+                component: (
+                  <Pdfss T={T16info23C} C={T16info23} label1="Informatique" label2="Sup" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T1723",
+                component: (
+                  <Pdfss T={T17info23C} C={T17info23} label1="Informatique" label2="Sup" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T1823",
+                component: (
+                  <Pdfss T={T18info23C} C={T18info23} label1="Informatique" label2="Sup" />
+                ),
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/C24",
+                component: <Pdf C={Cinfo24} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/R24",
+                component: <Pdf C={Rinfo24} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T124",
+                component: <Pdfss T={T1info24C} C={T1info24} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T224",
+                component: <Pdfss T={T2info24C} C={T2info24} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T324",
+                component: <Pdfss T={T3info24C} C={T3info24} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T424",
+                component: <Pdfss T={T4info24C} C={T4info24} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T524",
+                component: <Pdfss T={T5info24C} C={T5info24} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T624",
+                component: <Pdfss T={T6info24C} C={T6info24} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T724",
+                component: <Pdfss T={T7info24C} C={T7info24} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T824",
+                component: <Pdfss T={T8info24C} C={T8info24} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/C25",
+                component: <Pdf C={Cinfo25} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/R25",
+                component: <Pdf C={Rinfo25} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/C26",
+                component: <Pdf C={Cinfo26} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/R26",
+                component: <Pdf C={Rinfo26} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T126",
+                component: <Pdfss T={T1info26C} C={T1info26} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T226",
+                component: <Pdfss T={T2info26C} C={T2info26} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/C27",
+                component: <Pdf C={Cinfo27} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/R27",
+                component: <Pdf C={Rinfo27} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T127",
+                component: <Pdfss T={T1info27C} C={T1info27} label1="Informatique" label2="Sup" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Sup/T227",
+                component: <Pdfss T={T2info27C} C={T2info27} label1="Informatique" label2="Sup" />,
               },
             ],
           },
           {
             name: "Spe",
-            route: "/pages/Cours/Info/Spe",
+            route: "/Cours/Info/Spe",
             collapse: [
               {
                 name: "",
-                route: "/pages/Cours/Info",
+                route: "/Cours/Info",
                 component: <InfoC />,
               },
               {
                 name: "Spe",
-                route: "/pages/Cours/Info/Spe",
+                route: "/Cours/Info/Spe",
                 component: <ISpe />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/C1",
+                component: <Pdf C={CinfoS1} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/R1",
+                component: <Pdf C={RinfoS1} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T11",
+                component: <Pdfss T={T1infoS1C} C={T1infoS1} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T12",
+                component: <Pdfss T={T2infoS1C} C={T2infoS1} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T13",
+                component: <Pdfss T={T3infoS1C} C={T3infoS1} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/R2",
+                component: <Pdf C={RinfoS2} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T21",
+                component: <Pdfss T={T1infoS2C} C={T1infoS2} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T22",
+                component: <Pdfss T={T2infoS2C} C={T2infoS2} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T23",
+                component: <Pdfss T={T3infoS2C} C={T3infoS2} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T24",
+                component: <Pdfss T={T4infoS2C} C={T4infoS2} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T25",
+                component: <Pdfss T={T5infoS2C} C={T5infoS2} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T26",
+                component: <Pdfss T={T6infoS2C} C={T6infoS2} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T27",
+                component: <Pdfss T={T7infoS2C} C={T7infoS2} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T28",
+                component: <Pdfss T={T8infoS2C} C={T8infoS2} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/R3",
+                component: <Pdf C={RinfoS3} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T31",
+                component: <Pdfss T={T1infoS3C} C={T1infoS3} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T32",
+                component: <Pdfss T={T2infoS3C} C={T2infoS3} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T33",
+                component: <Pdfss T={T3infoS3C} C={T3infoS3} label1="Informatique" label2="Spe" />,
+              },
+              {
+                name: "",
+                route: "/Cours/Info/Spe/T34",
+                component: <Pdfss T={T4infoS3C} C={T4infoS3} label1="Informatique" label2="Spe" />,
               },
             ],
           },
@@ -3275,26 +4042,26 @@ const routes = [
       {
         name: "Traduction",
         //description: "Ar-Fr",
-        route: "/pages/Cours/Tr",
+        route: "/Cours/Tr",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/Cours/Tr/Sup",
+            route: "/Cours/Tr/Sup",
             collapse: [
               {
                 name: "",
-                route: "/pages/Cours/Tr",
+                route: "/Cours/Tr",
                 component: <TrC />,
               },
               {
                 name: "",
-                route: "/pages/Cours/Tr/Sup",
+                route: "/Cours/Tr/Sup",
                 component: <TSup />,
               },
               {
                 name: "Spe",
-                route: "/pages/Cours/Tr/Spe",
+                route: "/Cours/Tr/Spe",
                 component: <TSpe />,
               },
               {
@@ -3311,11 +4078,11 @@ const routes = [
           },
           {
             name: "Spe",
-            route: "/pages/Cours/Tr/Spe",
+            route: "/Cours/Tr/Spe",
             collapse: [
               {
                 name: "Spe",
-                route: "/pages/Cours/Tr/Spe",
+                route: "/Cours/Tr/Spe",
                 component: <TSpe />,
               },
             ],
@@ -3331,52 +4098,52 @@ const routes = [
       {
         name: "Pbs Maths",
         //description: "Analyse, Algebre, Proba",
-        route: "/pages/Pbs/Math",
+        route: "/Pbs/Math",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/Pbs/Sup/Math",
+            route: "/Pbs/Sup/Math",
             collapse: [
               {
                 name: "",
-                route: "/pages/Pbs/Sup/Math",
+                route: "/Pbs/Sup/Math",
                 component: <PbM />,
               },
               {
                 name: "",
-                route: "/pages/Pbs/Math",
+                route: "/Pbs/Math",
                 component: <MPBS />,
               },
               {
                 name: "",
-                route: "/pages/Pbs/Sup/Math/Algebre",
+                route: "/Pbs/Sup/Math/Algebre",
                 component: <PbMAl />,
               },
             ],
           },
           {
             name: "Spe",
-            route: "/pages/Pbs/Spe/Math",
+            route: "/Pbs/Spe/Math",
             collapse: [
               {
                 name: "",
-                route: "/pages/Pbs/Spe/Math",
+                route: "/Pbs/Spe/Math",
                 component: <PbMS />,
               },
               {
                 name: "",
-                route: "/pages/Pbs/Spe/Math/Algebre",
+                route: "/Pbs/Spe/Math/Algebre",
                 component: <PbMSAl />,
               },
               {
                 name: "",
-                route: "/pages/Pbs/Spe/Math/Analyse",
+                route: "/Pbs/Spe/Math/Analyse",
                 component: <PbMSA />,
               },
               {
                 name: "",
-                route: "/pages/Pbs/Spe/Math/Proba",
+                route: "/Pbs/Spe/Math/Proba",
                 component: <PbMSP />,
               },
             ],
@@ -3386,37 +4153,37 @@ const routes = [
       {
         name: "Pbs Physique",
         description: "",
-        route: "/pages/Pbs/Physique",
+        route: "/Pbs/Physique",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/Pbs/Sup/Physique",
+            route: "/Pbs/Sup/Physique",
             collapse: [
               {
                 name: "Sup",
-                route: "/pages/Pbs/Sup/Physique",
+                route: "/Pbs/Sup/Physique",
                 component: <PbPS />,
               },
               {
                 name: "",
-                route: "/pages/Pbs/Physique",
+                route: "/Pbs/Physique",
                 component: <PPBS />,
               },
             ],
           },
           {
             name: "Spe",
-            route: "/pages/Pbs/Spe/Physique",
+            route: "/Pbs/Spe/Physique",
             collapse: [
               {
                 name: "",
-                route: "/pages/Pbs/Spe/Physique",
+                route: "/Pbs/Spe/Physique",
                 component: <PbPSP />,
               },
               {
                 name: "",
-                route: "/pages/Pbs/Physique",
+                route: "/Pbs/Physique",
                 component: <PPBS />,
               },
             ],
@@ -3426,32 +4193,32 @@ const routes = [
       {
         name: "Pbs Chimie",
         description: "",
-        route: "/pages/Pbs/Chimie",
+        route: "/Pbs/Chimie",
         dropdown: true,
         collapse: [
           {
             name: "Sup",
-            route: "/pages/Pbs/Sup/Chimie",
+            route: "/Pbs/Sup/Chimie",
             collapse: [
               {
                 name: "",
-                route: "/pages/Pbs/Sup/Chimie",
+                route: "/Pbs/Sup/Chimie",
                 component: <CbPS />,
               },
               {
                 name: "",
-                route: "/pages/Pbs/Chimie",
+                route: "/Pbs/Chimie",
                 component: <CPBS />,
               },
             ],
           },
           {
             name: "Spe",
-            route: "/pages/Pbs/Spe/Chimie",
+            route: "/Pbs/Spe/Chimie",
             collapse: [
               {
                 name: "",
-                route: "/pages/Pbs/Spe/Chimie",
+                route: "/Pbs/Spe/Chimie",
                 component: <CbPSP />,
               },
             ],
@@ -3525,58 +4292,58 @@ const routes = [
       {
         name: "Math",
         //description: "Analyse, Algebre, Proba",
-        route: "/pages/Formations/Math",
+        route: "/Formations/Math",
         dropdown: true,
         collapse: [
           {
             name: "Abdellatif Ilham",
-            route: "/pages/Formations/Math/Ilham",
+            route: "/Formations/Math/Ilham",
             component: <IlhamP />,
             collapse: [
               {
                 name: "Analyse",
-                route: "/pages/Formations/Math/Ilham/Analyse",
+                route: "/Formations/Math/Ilham/Analyse",
                 component: <IlhamAnalyse />,
               },
               {
                 name: "Algebre",
-                route: "/pages/Formations/Math/Ilham/Algebre",
+                route: "/Formations/Math/Ilham/Algebre",
                 component: <IlhamAlgebre />,
               },
               {
                 name: "Proba",
-                route: "/pages/Formations/Math/Ilham/Proba",
+                route: "/Formations/Math/Ilham/Proba",
                 component: <IlhamProba />,
               },
               {
                 name: "Proba",
-                route: "/pages/Formations/Math/Ilham",
+                route: "/Formations/Math/Ilham",
                 component: <IlhamP />,
               },
             ],
           },
           {
             name: "Mohamed Benchama",
-            route: "/pages/Formations/Math/Benchama",
+            route: "/Formations/Math/Benchama",
             collapse: [
               {
                 name: "Analyse",
-                route: "/pages/Formations/Math/Benchama/Analyse",
+                route: "/Formations/Math/Benchama/Analyse",
                 component: <BenchamaAnalyse />,
               },
               {
                 name: "Algebre",
-                route: "/pages/Formations/Math/Benchama/Algebre",
+                route: "/Formations/Math/Benchama/Algebre",
                 component: <BenchamaAlgebre />,
               },
               {
                 name: "Proba",
-                route: "/pages/Formations/Math/Benchama/Proba",
+                route: "/Formations/Math/Benchama/Proba",
                 component: <BenchamaProba />,
               },
               {
                 name: "Proba",
-                route: "/pages/Formations/Math/Benchama",
+                route: "/Formations/Math/Benchama",
                 component: <BenchamaP />,
               },
               {
@@ -3591,53 +4358,53 @@ const routes = [
       {
         name: "Physiques",
         description: "",
-        route: "/pages/formation/physique",
+        route: "/formation/physique",
         dropdown: true,
         collapse: [
           {
             name: "M.Hinnaoui",
-            route: "/pages/formation/physique/Hinaoui",
+            route: "/formation/physique/Hinaoui",
             collapse: [
               {
                 name: "",
-                route: "/pages/formation/physique",
+                route: "/formation/physique",
                 component: <PhysiqueF />,
               },
               {
                 name: "",
-                route: "/pages/formation/physique/Hinaoui",
+                route: "/formation/physique/Hinaoui",
                 component: <HinaouiP />,
               },
               {
                 name: "",
-                route: "/pages/Formation/Physique/Hinaoui/Mecanique",
+                route: "/Formation/Physique/Hinaoui/Mecanique",
                 component: <MecH />,
               },
               {
                 name: "",
-                route: "/pages/Formation/Physique/Hinaoui/Thermo",
+                route: "/Formation/Physique/Hinaoui/Thermo",
                 component: <ThermoH />,
               },
               {
                 name: "",
-                route: "/pages/Formations/Physique/Hinaoui/Optique",
+                route: "/Formations/Physique/Hinaoui/Optique",
                 component: <OptH />,
               },
               {
                 name: "",
-                route: "/pages/Formations/Physique/Hinaoui/EM",
+                route: "/Formations/Physique/Hinaoui/EM",
                 component: <EMH />,
               },
             ],
           },
           {
             name: "R.Bouhamza",
-            route: "/pages/landing-pages/about-us",
+            route: "/landing-pages/about-us",
             component: <ContactUs />,
           },
           {
             name: "I.Ibraiken",
-            route: "/pages/landing-pages/about-us",
+            route: "/landing-pages/about-us",
             component: <ContactUs />,
           },
         ],
@@ -3645,53 +4412,53 @@ const routes = [
       {
         name: "Chimies",
         description: "",
-        route: "/pages/formation/Chimie",
+        route: "/formation/Chimie",
         dropdown: true,
         collapse: [
           {
             name: "M.Hinnaoui",
-            route: "/pages/formation/Chimie/Hinaoui",
+            route: "/formation/Chimie/Hinaoui",
             collapse: [
               {
                 name: "",
-                route: "/pages/formation/Chimie/Hinaoui",
+                route: "/formation/Chimie/Hinaoui",
                 component: <HinaouiC />,
               },
               {
                 name: "",
-                route: "/pages/formation/Chimie/Hinaoui/CDS",
+                route: "/formation/Chimie/Hinaoui/CDS",
                 component: <CDS />,
               },
               {
                 name: "",
-                route: "/pages/formation/Chimie/Hinaoui/CR",
+                route: "/formation/Chimie/Hinaoui/CR",
                 component: <CR />,
               },
               {
                 name: "",
-                route: "/pages/formation/Chimie/Hinaoui/CS",
+                route: "/formation/Chimie/Hinaoui/CS",
                 component: <CS />,
               },
               {
                 name: "",
-                route: "/pages/formation/Chimie/Hinaoui/TC",
+                route: "/formation/Chimie/Hinaoui/TC",
                 component: <TC />,
               },
               {
                 name: "",
-                route: "/pages/formation/Chimie",
+                route: "/formation/Chimie",
                 component: <ChimieF />,
               },
             ],
           },
           {
             name: "R.Bouhamza",
-            route: "/pages/landing-pages/about-us",
+            route: "/landing-pages/about-us",
             component: <ContactUs />,
           },
           {
             name: "I.Ibraiken",
-            route: "/pages/landing-pages/about-us",
+            route: "/landing-pages/about-us",
             component: <ContactUs />,
           },
         ],
@@ -3699,38 +4466,38 @@ const routes = [
       {
         name: "S2I",
         //description: "Mecanique - Asservissement",
-        route: "/pages/formation/SI",
+        route: "/formation/SI",
         dropdown: true,
         collapse: [
           {
             name: "Khalid Khouya",
-            route: "/pages/formation/SI/Khalid",
+            route: "/formation/SI/Khalid",
             collapse: [
               {
                 name: "",
-                route: "/pages/formation/SI",
+                route: "/formation/SI",
                 component: <SIF />,
               },
               {
                 name: "",
-                route: "/pages/formation/SI/Khalid",
+                route: "/formation/SI/Khalid",
                 component: <Khalid />,
               },
               {
                 name: "",
-                route: "/pages/formation/SI/Khalid/Mecanique",
+                route: "/formation/SI/Khalid/Mecanique",
                 component: <MecSK />,
               },
               {
                 name: "",
-                route: "/pages/formation/SI/Khalid/Asservissement",
+                route: "/formation/SI/Khalid/Asservissement",
                 component: <Ass />,
               },
             ],
           },
           {
             name: "Expertise",
-            route: "/pages/formation/SI",
+            route: "/formation/SI",
             component: <AboutUs />,
           },
         ],
@@ -3738,12 +4505,12 @@ const routes = [
       {
         name: "Informatiques",
         //description: "Python",
-        route: "/pages/formation/Info",
+        route: "/formation/Info",
         dropdown: true,
         collapse: [
           {
             name: "B.Chemlal",
-            route: "/pages/formation/Info",
+            route: "/formation/Info",
             component: <InfoF />,
           },
         ],

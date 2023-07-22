@@ -19,21 +19,21 @@ export default [
   {
     image: CDS,
     name: "Chimie des solutions",
-    route: "/pages/formation/Chimie/Hinaoui/CDS",
+    route: "/formation/Chimie/Hinaoui/CDS",
   },
   {
     image: CS,
     name: "Cinétique Chimie",
-    route: "/pages/formation/Chimie/Hinaoui/CS",
+    route: "/formation/Chimie/Hinaoui/CS",
   },
   {
     image: CR,
     name: "Cristallographie",
-    route: "/pages/formation/Chimie/Hinaoui/CR",
+    route: "/formation/Chimie/Hinaoui/CR",
   },
   {
     image: TC,
     name: "Thermochimie",
-    route: "/pages/formation/Chimie/Hinaoui/TC",
+    route: "/formation/Chimie/Hinaoui/TC",
   },
 ];

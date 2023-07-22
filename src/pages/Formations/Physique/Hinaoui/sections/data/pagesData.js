@@ -19,21 +19,21 @@ export default [
   {
     image: Mec,
     name: "Mecanique",
-    route: "/pages/Formation/Physique/Hinaoui/Mecanique",
+    route: "/Formation/Physique/Hinaoui/Mecanique",
   },
   {
     image: Th,
     name: "Thermodynaique",
-    route: "/pages/Formation/Physique/Hinaoui/Thermo",
+    route: "/Formation/Physique/Hinaoui/Thermo",
   },
   {
     image: opt,
     name: "Optique",
-    route: "/pages/Formations/Physique/Hinaoui/Optique",
+    route: "/Formations/Physique/Hinaoui/Optique",
   },
   {
     image: EM,
     name: "Electromagnétisme",
-    route: "/pages/Formations/Physique/Hinaoui/EM",
+    route: "/Formations/Physique/Hinaoui/EM",
   },
 ];

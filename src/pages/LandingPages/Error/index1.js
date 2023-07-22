@@ -26,7 +26,7 @@ function NotFound() {
         routes={routes}
         action={{
           type: "external",
-          route: "/pages/Contact",
+          route: "/Contact",
           label: "Contact us",
           color: "info",
         }}

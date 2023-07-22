@@ -17,11 +17,11 @@ export default [
   {
     image: Khalid,
     name: "Khalid Khouya",
-    route: "/pages/formation/SI/Khalid",
+    route: "/formation/SI/Khalid",
   },
   {
     image: Expertise,
     name: "Expertise",
-    route: "/pages/landing-pages/contact-us",
+    route: "/landing-pages/contact-us",
   },
 ];

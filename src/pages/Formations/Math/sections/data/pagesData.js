@@ -4,11 +4,11 @@ export default [
   {
     image: ilham,
     name: "Abdellatif Ilham",
-    route: "/pages/Formations/Math/Ilham",
+    route: "/Formations/Math/Ilham",
   },
   {
     image: Benchama,
     name: "Mohamed Benchama",
-    route: "/pages/Formations/Math/Benchama",
+    route: "/Formations/Math/Benchama",
   },
 ];

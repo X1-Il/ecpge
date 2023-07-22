@@ -5,16 +5,16 @@ export default [
   {
     image: Analyse,
     name: "Analyse",
-    route: "/pages/Formations/Math/Benchama/Analyse",
+    route: "/Formations/Math/Benchama/Analyse",
   },
   {
     image: Algébre,
     name: "Algébre",
-    route: "/pages/Formations/Math/Benchama/Algebre",
+    route: "/Formations/Math/Benchama/Algebre",
   },
   {
     image: Proba,
     name: "Proba",
-    route: "/pages/Formations/Math/Benchama/Proba",
+    route: "/Formations/Math/Benchama/Proba",
   },
 ];

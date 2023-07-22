@@ -16,6 +16,6 @@ export default [
   {
     image: Chemlal,
     name: "Ibrahim Chemlal",
-    route: "/pages/landing-pages/about-us",
+    route: "/landing-pages/about-us",
   },
 ];

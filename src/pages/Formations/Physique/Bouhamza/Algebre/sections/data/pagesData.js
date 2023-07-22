@@ -18,16 +18,16 @@ export default [
   {
     image: Analyse,
     name: "Analyse",
-    route: "/pages/landing-pages/about-us",
+    route: "/landing-pages/about-us",
   },
   {
     image: Algébre,
     name: "Algébre",
-    route: "/pages/landing-pages/contact-us",
+    route: "/landing-pages/contact-us",
   },
   {
     image: Proba,
     name: "Proba",
-    route: "/pages/landing-pages/contact-us",
+    route: "/landing-pages/contact-us",
   },
 ];

@@ -49,27 +49,28 @@ function Parts() {
                 position={{ color: "info", label: "Informatique" }}
                 description=""
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-M1">
-                <MKButton variant="contained" color="info" style={{ float: "center" }} size="small">
+              <br />
+              <Link to="/Cours/Info/Spe/C1">
+                <MKButton variant="contained" color="info" size="small" sx={{ mr: 2 }}>
                   Cours
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
-                <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
+              <Link to="/Cours/Info/Spe/R1">
+                <MKButton variant="outlined" color="info" size="small" sx={{ mr: 2 }}>
                   R
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T11">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T1
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T12">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T2
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T13">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T3
                 </MKButton>
@@ -84,47 +85,48 @@ function Parts() {
                 position={{ color: "info", label: "Informatique" }}
                 description=""
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
-                <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
+              <br />
+              <Link to="/Cours/Info/Spe/R2">
+                <MKButton variant="outlined" color="info" size="small" sx={{ mr: 2 }}>
                   R
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T21">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T1
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T22">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T2
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T23">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T3
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T24">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T4
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T25">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T5
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T26">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T6
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T27">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T7
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T28">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T8
                 </MKButton>
@@ -139,27 +141,28 @@ function Parts() {
                 position={{ color: "info", label: "Informatique" }}
                 description=""
               />
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
-                <MKButton variant="outlined" color="info" style={{ float: "centre" }} size="small">
+              <br />
+              <Link to="/Cours/Info/Spe/R3">
+                <MKButton variant="outlined" color="info" size="small" sx={{ mr: 2 }}>
                   R
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T31">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T1
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T32">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T2
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T33">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T3
                 </MKButton>
               </Link>
-              <Link to="/Cours/Sup/Math/Cours/Sup-T1">
+              <Link to="/Cours/Info/Spe/T34">
                 <MKButton variant="text" color="info" style={{ float: "centre" }} size="small">
                   T4
                 </MKButton>

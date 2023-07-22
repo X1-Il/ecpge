@@ -1,6 +1,7 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
+import { Link } from "react-router-dom";
 
 // e_ One_ components
 import MKBox from "../../../../../components/MKBox";
@@ -29,7 +30,7 @@ function CSup() {
         routes={routes}
         action={{
           type: "internal",
-          route: "/pages/Contact",
+          route: "/Contact",
           label: "Contact ",
           color: "default",
         }}
@@ -87,9 +88,11 @@ function CSup() {
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
               Les cours utiliser dans cette section sont importé depuis le prof Boukadid
             </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
-              Voir les problémes
-            </MKButton>
+            <Link to="/Pbs/Sup/Chimie">
+              <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
+                Voir les problémes
+              </MKButton>
+            </Link>
           </Grid>
         </Container>
       </MKBox>

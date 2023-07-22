@@ -1,5 +1,4 @@
-import Pr1 from "assets/images/Formation/Ilham/Pr1.png";
-import Pr2 from "assets/images/Formation/Ilham/Pr2.png";
+import Pr1 from "assets/images/pro.jpg";
 export default [
   {
     title: "Probabilités",
@@ -12,7 +11,7 @@ export default [
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: Pr2,
+        image: Pr1,
         name: "Stone_Weiestrass",
         count: 2,
         route: "/sections/page-sections/features",
@@ -24,7 +23,7 @@ export default [
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: Pr2,
+        image: Pr1,
         name: "Formule_de_Stirling",
         count: 4,
         route: "/sections/page-sections/features",
@@ -36,7 +35,7 @@ export default [
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: Pr2,
+        image: Pr1,
         name: "Var_Sous_Gau",
         count: 6,
         route: "/sections/page-sections/features",
@@ -48,13 +47,13 @@ export default [
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: Pr2,
+        image: Pr1,
         name: "Proba_stone_weierst",
         count: 8,
         route: "/sections/page-sections/features",
       },
       {
-        image: Pr2,
+        image: Pr1,
         name: "Stone_Weiestrass",
         count: 9,
         route: "/sections/page-sections/features",
@@ -66,7 +65,7 @@ export default [
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: Pr2,
+        image: Pr1,
         name: "Proba_For_stirling",
         count: 11,
         route: "/sections/page-sections/features",
@@ -78,7 +77,7 @@ export default [
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: Pr2,
+        image: Pr1,
         name: "Proba_convergence",
         count: 13,
         route: "/sections/page-sections/features",
@@ -90,7 +89,7 @@ export default [
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: Pr2,
+        image: Pr1,
         name: "Proba_min_max_quotient",
         count: 15,
         route: "/sections/page-sections/features",

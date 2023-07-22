@@ -1,16 +1,5 @@
-import Al1 from "assets/images/Formation/Ilham/Al1.png";
-import Al2 from "assets/images/Formation/Ilham/Al2.png";
-import Al3 from "assets/images/Formation/Ilham/Al3.png";
-import Al4 from "assets/images/Formation/Ilham/Al4.png";
-import Al5 from "assets/images/Formation/Ilham/Al5.png";
-import Ag1 from "assets/images/Formation/Ilham/Ag1.png";
-import Ag2 from "assets/images/Formation/Ilham/Ag2.png";
-import Ag3 from "assets/images/Formation/Ilham/Ag3.png";
-import R1 from "assets/images/Formation/Ilham/R1.png";
-import R2 from "assets/images/Formation/Ilham/R2.png";
-import R3 from "assets/images/Formation/Ilham/R3.png";
-import R4 from "assets/images/Formation/Ilham/R4.png";
-import R5 from "assets/images/Formation/Ilham/R5.png";
+import Al1 from "assets/images/alg.jpg";
+
 export default [
   {
     title: "Algébre générale",
@@ -23,23 +12,23 @@ export default [
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: Al2,
+        image: Al1,
         name: "Exposant d'un groupe",
         count: 2,
         route: "/sections/page-sections/features",
       },
       {
-        image: Al3,
+        image: Al1,
         name: "Les entiers de gauss",
         count: 3,
       },
       {
-        image: Al4,
+        image: Al1,
         name: "Sous groupes de (R,+)",
         count: 4,
       },
       {
-        image: Al5,
+        image: Al1,
         name: "TD",
         count: 5,
       },
@@ -50,42 +39,42 @@ export default [
     description: "",
     items: [
       {
-        image: Ag1,
+        image: Al1,
         name: "Automorphisme",
         count: 1,
       },
       {
-        image: Ag2,
+        image: Al1,
         name: "Classiques",
         count: 2,
       },
       {
-        image: Ag3,
+        image: Al1,
         name: "Dunford",
         count: 3,
       },
       {
-        image: Ag3,
+        image: Al1,
         name: "Matrice stockastique",
         count: 4,
       },
       {
-        image: Ag3,
+        image: Al1,
         name: "Noyaux_images",
         count: 5,
       },
       {
-        image: Ag3,
+        image: Al1,
         name: "Poly_minimal",
         count: 6,
       },
       {
-        image: Ag3,
+        image: Al1,
         name: "produit de kronecker",
         count: 7,
       },
       {
-        image: Ag3,
+        image: Al1,
         name: "Rang_1",
         count: 8,
       },
@@ -96,27 +85,27 @@ export default [
     description: "",
     items: [
       {
-        image: R1,
+        image: Al1,
         name: "calcul de distance par la norme de Schur",
         count: 1,
       },
       {
-        image: R2,
+        image: Al1,
         name: "classiques topologie Mn(K)",
         count: 2,
       },
       {
-        image: R3,
+        image: Al1,
         name: "Formes linéaires continues, hyperplans",
         count: 3,
       },
       {
-        image: R4,
+        image: Al1,
         name: "Normes subordonnées",
         count: 4,
       },
       {
-        image: R5,
+        image: Al1,
         name: "Suites définis par itération, point fixe",
         count: 5,
       },

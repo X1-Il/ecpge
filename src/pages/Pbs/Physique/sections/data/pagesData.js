@@ -17,11 +17,11 @@ export default [
   {
     image: Sup,
     name: "Sup",
-    route: "/pages/Pbs/Sup/Physique",
+    route: "/Pbs/Sup/Physique",
   },
   {
     image: Spe,
     name: "Spe",
-    route: "/pages/Pbs/Spe/Physique",
+    route: "/Pbs/Spe/Physique",
   },
 ];

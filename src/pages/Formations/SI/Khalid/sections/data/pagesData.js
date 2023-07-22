@@ -17,11 +17,11 @@ export default [
   {
     image: Mec,
     name: "Mecanique",
-    route: "/pages/formation/SI/Khalid/Mecanique",
+    route: "/formation/SI/Khalid/Mecanique",
   },
   {
     image: Ass,
     name: "Asservissement",
-    route: "/pages/formation/SI/Khalid/Asservissement",
+    route: "/formation/SI/Khalid/Asservissement",
   },
 ];

@@ -5,16 +5,16 @@ export default [
   {
     image: Analyse,
     name: "Analyse",
-    route: "/pages/Formations/Math/Ilham/Analyse",
+    route: "/Formations/Math/Ilham/Analyse",
   },
   {
     image: Algébre,
     name: "Algébre",
-    route: "/pages/Formations/Math/Ilham/Algebre",
+    route: "/Formations/Math/Ilham/Algebre",
   },
   {
     image: Proba,
     name: "Proba",
-    route: "/pages/Formations/Math/Ilham/Proba",
+    route: "/Formations/Math/Ilham/Proba",
   },
 ];

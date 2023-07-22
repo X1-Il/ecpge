@@ -1,19 +1,3 @@
-/*
-=========================================================
-* e_ One_ - v2.1.0
-=========================================================
-
-* Product Page:
-* Copyright 2023 X1-Il (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
@@ -76,7 +60,7 @@ function Information() {
               description=" Les mathématiques ne sont pas seulement une discipline de règles et de formules, mais aussi un domaine qui permet l'expression de la créativité. Cherchez des moyens originaux de résoudre les problèmes mathématiques et de faire des connexions avec d'autres domaines de la vie."
               action={{
                 type: "internal",
-                route: "pages/company/about-us",
+                route: "/404",
                 color: "info",
                 label: "Plus",
               }}

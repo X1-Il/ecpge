@@ -36,7 +36,7 @@ function SIC() {
         routes={routes}
         action={{
           type: "internal",
-          route: "/pages/Contact",
+          route: "/Contact",
           label: "Contact us",
           color: "info",
         }}

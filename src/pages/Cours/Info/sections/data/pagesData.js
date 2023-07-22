@@ -4,11 +4,11 @@ export default [
   {
     image: sup,
     name: "Sup",
-    route: "/pages/Cours/Info/Sup",
+    route: "/Cours/Info/Sup",
   },
   {
     image: spe,
     name: "Spe",
-    route: "/pages/Cours/Info/Spe",
+    route: "/Cours/Info/Spe",
   },
 ];
