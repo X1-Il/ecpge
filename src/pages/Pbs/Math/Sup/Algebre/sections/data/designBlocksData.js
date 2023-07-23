@@ -1,61 +1,50 @@
-import Al1 from "assets/images/Formation/Ilham/Al1.png";
-import Al2 from "assets/images/Formation/Ilham/Al2.png";
-import Al3 from "assets/images/Formation/Ilham/Al3.png";
-import Al4 from "assets/images/Formation/Ilham/Al4.png";
-import Al5 from "assets/images/Formation/Ilham/Al5.png";
-import Al6 from "assets/images/Formation/Ilham/Al6.png";
-import Al7 from "assets/images/Formation/Ilham/Al7.png";
-import Ag1 from "assets/images/Formation/Ilham/Ag1.png";
-import Ag2 from "assets/images/Formation/Ilham/Ag2.png";
-import Ag3 from "assets/images/Formation/Ilham/Ag3.png";
-import R1 from "assets/images/Formation/Ilham/R1.png";
-import R2 from "assets/images/Formation/Ilham/R2.png";
-import R3 from "assets/images/Formation/Ilham/R3.png";
-import R4 from "assets/images/Formation/Ilham/R4.png";
-import R5 from "assets/images/Formation/Ilham/R5.png";
-import EP1 from "assets/images/Formation/Ilham/EP1.png";
-import EP2 from "assets/images/Formation/Ilham/EP2.png";
+import A from "assets/images/MS.png";
 export default [
   {
     title: "Polynomes",
     description: "",
     items: [
       {
-        image: Al1,
+        image: A,
         name: "Bezout",
         count: 1,
-        route: "/sections/page-sections/page-headers",
+        route: "/Pbs/Sup/Math/P1",
       },
       {
-        image: Al2,
+        image: A,
         name: "Hilbert",
         count: 2,
-        route: "/sections/page-sections/features",
+        route: "/Pbs/Sup/Math/P2",
       },
       {
-        image: Al3,
+        image: A,
         name: "Legendre",
         count: 3,
+        route: "/Pbs/Sup/Math/P3",
       },
       {
-        image: Al4,
+        image: A,
         name: "Tchebychev",
         count: 4,
+        route: "/Pbs/Sup/Math/P4",
       },
       {
-        image: Al5,
+        image: A,
         name: "Polynomes irreductibles dans Q",
         count: 5,
+        route: "/Pbs/Sup/Math/P5",
       },
       {
-        image: Al6,
+        image: A,
         name: "Théorème de Tchébycheff",
         count: 6,
+        route: "/Pbs/Sup/Math/P6",
       },
       {
-        image: Al7,
+        image: A,
         name: "Theoreme de Wedderburn",
         count: 7,
+        route: "/Pbs/Sup/Math/P7",
       },
     ],
   },
@@ -64,24 +53,28 @@ export default [
     description: "",
     items: [
       {
-        image: Ag1,
+        image: A,
         name: "Calcul de determinant",
         count: 1,
+        route: "/Pbs/Sup/Math/P8",
       },
       {
-        image: Ag2,
+        image: A,
         name: "Det d'une matrice dependant d'un parametre",
         count: 2,
+        route: "/Pbs/Sup/Math/P9",
       },
       {
-        image: Ag3,
+        image: A,
         name: "Det de vandermonde et de cauchy",
         count: 3,
+        route: "/Pbs/Sup/Math/P10",
       },
       {
-        image: Ag3,
+        image: A,
         name: "Systeme tridiagonal symetrique",
         count: 4,
+        route: "/Pbs/Sup/Math/P11",
       },
     ],
   },
@@ -90,34 +83,40 @@ export default [
     description: "",
     items: [
       {
-        image: R1,
+        image: A,
         name: "Equation matricielle",
         count: 1,
+        route: "/Pbs/Sup/Math/P12",
       },
       {
-        image: R2,
+        image: A,
         name: "Hyperplans de Mn(K)",
         count: 2,
+        route: "/Pbs/Sup/Math/P13",
       },
       {
-        image: R3,
+        image: A,
         name: "Matrice productive",
         count: 3,
+        route: "/Pbs/Sup/Math/P14",
       },
       {
-        image: R4,
+        image: A,
         name: "Matrices magiques d'ordre 3",
         count: 4,
+        route: "/Pbs/Sup/Math/P15",
       },
       {
-        image: R5,
+        image: A,
         name: "Matrices semblables è son inverse",
         count: 5,
+        route: "/Pbs/Sup/Math/P16",
       },
       {
-        image: R5,
+        image: A,
         name: "Puissance d'une matrice",
         count: 6,
+        route: "/Pbs/Sup/Math/P17",
       },
     ],
   },
@@ -126,14 +125,16 @@ export default [
     description: "",
     items: [
       {
-        image: EP1,
+        image: A,
         name: "TD révision",
         count: 1,
+        route: "/Pbs/Sup/Math/P18",
       },
       {
-        image: EP2,
+        image: A,
         name: "Livre Mohamed HOUIMDI",
         count: 2,
+        route: "/Pbs/Sup/Math/P19",
       },
     ],
   },

@@ -5,7 +5,7 @@ export default [
   {
     image: Analyse,
     name: "Analyse",
-    route: "/Pbs/Math/Sup/Analyse",
+    route: "/404",
   },
   {
     image: Algébre,
@@ -15,6 +15,6 @@ export default [
   {
     image: Proba,
     name: "Proba",
-    route: "/Pbs/Math/Sup/Proba",
+    route: "/404",
   },
 ];
