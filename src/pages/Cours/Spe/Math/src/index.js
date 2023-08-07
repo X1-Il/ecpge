@@ -78,7 +78,7 @@ function MathSpe() {
               Les cours utiliser dans cette section sont importé depuis math-france ce qui un entre
               les meilleurs cours du math
             </MKTypography>
-            <Link to="Pbs/Spe/Math">
+            <Link to="/Pbs/Spe/Math">
               <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
                 Voir les problémes
               </MKButton>
